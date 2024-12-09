@@ -1,10 +1,28 @@
+
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@font-face {
+  font-family:'cd-r';
+  src: url('./fonts/OTF/ClashDisplay-Variable.ttf');
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+.menulist:hover .menu-item {
+  visibility: visible;
+  height: auto;
+}
+
+.menu-item {
+  visibility: hidden;
+  height: 0px;
+  padding: 0px !important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -12,10 +30,41 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+  .resp-col-md-3  .col-md-3{
+    width: 50%;
+  }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'ff-r' !important;
+  font-weight: 100 !important;
 }
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.passion-anim {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  animation: marquee_marquee__1 10s linear infinite;
+  width: 4826px;
+}
+
+
+@keyframes marquee_marquee__1 {
+  0% {
+    transform: translateX(0px)
+  }
+
+  to {
+    transform: translateX(-2413px);
+  }
+}
+
+

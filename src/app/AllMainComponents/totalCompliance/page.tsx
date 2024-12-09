@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-import Header from "./components/header";
-import FAQ from "./components/faq";
-import Footer from "./components/footer";
+import Header from "../../components/header";
+import FAQ from "../../components/faq";
+import Footer from "../../components/footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 export default function Home() {
@@ -20,15 +20,14 @@ export default function Home() {
             <div className="row">
               <div className="col-md-6 flex justify-center items-center">
                 <div className="col-md-12">
-                  <p className="sm:text-[53px] text-[30px] sm:leading-[60px] leading-[35px]  font-[600] ">
-                    Start your US business from anywhere and keep it 100%
-                    compliant
+                  <p className="sm:text-[55px] text-[30px] sm:leading-[30px] leading-[65px] sm:pe-8 font-[600]">
+                    We file your taxes.
                   </p>
-                  <p className="sm:text-[20px] sm:leading-[25px] leading-[22px] font-[400] pe-4">
-                    Formation, EIN, Registered Agent, Annual State Filings,
-                    Federal Tax Filings and a Dedicated Account Manager. Grow
-                    your business and let doola handle your business compliance
-                    needs.
+                  <p className="sm:text-[55px] text-[30px] sm:leading-[50px] leading-[15px] sm:pe-8 font-[600]">
+                    You run your business.
+                  </p>
+                  <p className="sm:text-[18px] sm:leading-[25px] leading-[22px] font-[400] pe-4">
+                    Global founders use doola Total Compliance to manage their US business with ease. We take care of the complicated stuff so you save stress and avoid $25,000+ in IRS penalties and state fees.
                   </p>
                   <div className="col-12 flex gap-3 mb-4">
                     <div>
@@ -47,7 +46,7 @@ export default function Home() {
               <div className="col-md-6 flex justify-center items-center">
                 <div className="col-md-12 flex justify-end items-center">
                   <Image
-                    src="/assets/images/Picture ⏵ comp-secreyary-vanessa-sg@1x.webp.png"
+                    src="/assets/images/Picture ⏵ comp-secreyary-vanessa-sg@1x.webp (1).png"
                     width={450}
                     height={350}
                     alt="no-img"
@@ -63,6 +62,15 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
+              <div className="col-12 flex justify-center items-center mb-4">
+                <div className="col-md-6">
+
+                  <p className="text-center text-[#898989] font-[400] text-[18px] leading-[20px]">Total Compliance</p>
+                  <p className="text-center sm:text-[35px] text-[28px] font-[600] sm:leading-[40px] leading-[35px]">The all-in-one bundle to form & manage your US business with ease</p>
+                </div>
+
+
+              </div>
               {/* Card 1 */}
               <div className="col-md-4 mb-4">
                 <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
@@ -90,9 +98,6 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                    <button className="rounded-[50px] w-full h-[45px] text-[15px] text-white bg-[#0073FD] mb-3">
-                      Incl, in Total Compliance
-                    </button>
                     <button className="rounded-[50px] w-full h-[45px] text-[15px] font-[500] border border-black flex items-center justify-center gap-2">
                       Learn more
                       <svg
@@ -182,9 +187,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                    <button className="rounded-[50px] w-full h-[45px] text-[15px] text-white bg-[#0073FD] mb-3">
-                      Incl, in Total Compliance
-                    </button>
+
                     <button className="rounded-[50px] w-full h-[45px] text-[15px] font-[500] border border-black flex items-center justify-center gap-2">
                       Learn more
                       <svg
@@ -203,105 +206,121 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <div className="col-md-4 mb-4">
+                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                  <div>
+                    <div className="col-12 py-3">
+                      <Image
+                        src="/assets/images/Vector.png"
+                        width={112}
+                        height={112}
+                        alt="no-img"
+                      />
+                    </div>
+                    <div>
+                      <p className="text-[28px] font-[500]">Expedited Processing</p>
+                      <p className="text-[18px] font-[500] leading-[22px]">
+                        Optimize your business launch with expedited processing.
+                      </p>
+                      <p className="text-[13px] font-[200] font-[400] text-[#656565]">
+                        Processing times are contingent upon factors like the availability of a US Social Security Number (SSN). With this service, doola guarantees the expedited submission of your application to the state, facilitating quicker processing.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-12">
+
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4 mb-4">
+                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                  <div>
+                    <div className="col-12 py-3">
+                      <Image
+                        src="/assets/images/image 56.png"
+                        width={128}
+                        height={112}
+                        alt="no-img"
+                      />
+                    </div>
+                    <div>
+                      <p className="text-[28px] font-[500]">CPA Consultation</p>
+                      <p className="text-[18px] font-[500] leading-[22px]">
+                        Elevate your financial strategy with our CPA consultations.
+                      </p>
+                      <p className="text-[13px] font-[200] font-[400] text-[#656565]">
+                        Unlock financial clarity with the 1:1 CPA consultation included in our Total Compliance package. Ask expert tax questions, get personalized advice, and navigate the complexities of taxes with confidence.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-12 mb-4 mt-4">
+                    <button className="rounded-[50px] w-full h-[45px] text-[15px] font-[500] border border-black flex items-center justify-center gap-2">
+                      Learn more
+                      <svg
+                        width="22"
+                        height="16"
+                        viewBox="0 0 22 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
+                          fill="black"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4 mb-4">
+                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                  <div>
+                    <div className="col-12 py-3">
+                      <Image
+                        src="/assets/images/Layer_2.png"
+                        width={112}
+                        height={112}
+                        alt="no-img"
+                      />
+                    </div>
+                    <div>
+                      <p className="text-[28px] font-[500]">Account Manager</p>
+                      <p className="text-[18px] font-[500] leading-[22px]">
+                        Your personal account manager for dedicated support.
+                      </p>
+                      <p className="text-[13px] font-[200] font-[400] text-[#656565]">
+                        Enjoy dedicated support, guidance, and comprehensive answers to all your queries. Seamlessly navigate the complexities of running and growing your business with personalized assistance.
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="overflow-hidden px-6 sm:px-20 pt-16 pb-10">
+      <section className="overflow-hidden px-6 sm:px-20 pt-0 pb-10">
         <div className="overflow-hidden">
           <div className="container-fluid">
-            {/* Heading Section */}
-            <div className="col-12 mb-5 pb-16">
-              <p className="text-[24px] sm:text-[34px] text-center font-[600]">
-                One-stop solution for busy
-              </p>
-              <p className="text-[24px] sm:text-[34px] text-center font-[600] leading-[1px]">
-                entrepreneurs
-              </p>
-            </div>
 
-            {/* First Content Section */}
-            <div className="col-12 flex flex-wrap sm:flex-nowrap mb-5">
-              <div className="w-full sm:w-1/2 flex items-center mb-5 sm:mb-0">
-                <div className="w-full px-4">
-                  <Image
-                    src="/assets/images/image 57.png"
-                    width={850}
-                    height={750}
-                    alt="no-img"
-                    className="w-full"
-                  />
-                </div>
-              </div>
-              <div className="w-full sm:w-1/2 flex justify-start items-center">
-                <div className="w-full px-4">
-                  <p className="text-[20px] sm:text-[26px] font-[600]">
-                    Kickstart your business
-                  </p>
-                  <p className="text-[16px] sm:text-[19px] text-[#404040]">
-                    From the formation of your company to BOI Reporting, we’re
-                    by your side every step, ensuring your business remains 100%
-                    compliant.
-                  </p>
-                  <div className="mt-4">
-                    <button className="w-[150px] h-[40px] rounded-[50px] bg-black text-white">
-                      Get Started
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            {/* Second Content Section */}
-            <div className="col-12 flex flex-wrap sm:flex-nowrap">
-              <div className="w-full sm:w-1/2 flex justify-start items-center mb-5 sm:mb-0">
-                <div className="w-full px-4">
-                  <p className="text-[20px] sm:text-[26px] font-[600]">
-                    Kickstart your business
-                  </p>
-                  <p className="text-[16px] sm:text-[19px] text-[#404040]">
-                    From the formation of your company to BOI Reporting, we’re
-                    by your side every step, ensuring your business remains 100%
-                    compliant.
-                  </p>
-                  <div className="mt-4">
-                    <button className="w-[150px] h-[40px] rounded-[50px] bg-black text-white">
-                      Get Started
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full sm:w-1/2 flex items-center">
-                <div className="w-full px-4">
-                  <Image
-                    src="/assets/images/image 58.png"
-                    width={850}
-                    height={750}
-                    alt="no-img"
-                    className="w-full"
-                  />
-                </div>
-              </div>
-            </div>
 
             {/* Final Heading Section */}
-            <div className="col-12 sm:mb-5 pt-20">
-              <p className="text-center text-[24px] sm:text-[32px] font-[600]">
+            <div className="col-12 sm:mb-5 sm:pt-10 pt-10">
+              <p className="text-center text-[24px] sm:text-[32px] font-[600] mb-0">
                 Unleash your success now
               </p>
-              <p className="text-center text-[14px] sm:text-[18px] font-[400] sm:leading-[1px] leading-[20px]">
-                Each state charges a one-time formation fee. Your state fee will
-                vary depending on the state you form in.
-              </p>
+
               <p className="text-center text-[14px] sm:text-[18px] font-[400] sm:pe-5">
-                Not sure which state to choose?{" "}
-                <span className="text-[#0073fd]"> Take our quiz →</span>
+
+                <span className="text-[#0073fd]">  Compare packages →</span>
               </p>
             </div>
 
             {/* Pricing Section */}
-            <div className="col-12 mb-5 pt-10 flex flex-wrap justify-center items-center gap-4">
+            <div className="col-12 sm:mb-2 sm:pt-10 flex flex-wrap justify-center items-center gap-4">
               <div className="w-full sm:w-[30%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[20px] px-6 py-6">
                 <p className="text-[20px] sm:text-[25px] font-[600] leading-[20px]">
                   Starter
@@ -353,7 +372,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="overflow-hidden sm:px-20 px-6 pt-24 sm:pb-10 bg-[#ccdfff]">
+      <section className="overflow-hidden sm:px-20 px-6 pt-14 sm:pb-10 bg-[#ccdfff]">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row items-center">
@@ -434,9 +453,9 @@ export default function Home() {
                   <input
                     type="email"
                     placeholder="Email address"
-                    className="w-full px-4 py-2 rounded-full text-black border border-gray-400 mb-4"
+                    className="w-full px-4 font-[400] py-2 rounded-full text-black border border-gray-400 mb-4"
                   />
-                  <button className="bg-white text-black font-medium px-6 py-2 rounded-full hover:bg-gray-100 mb-4 ">
+                  <button className="bg-white font-[400] text-black px-6 py-2 rounded-full hover:bg-gray-100 mb-4 ">
                     SUBSCRIBE
                   </button>
                 </div>
