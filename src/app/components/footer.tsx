@@ -7,138 +7,138 @@ export default function Footer() {
   return (
     <div>
 
-<section className="bg-[#212833] overflow-hidden sm:px-20 px-6 sm:py-5 py-16">
-  <div className="container-fluid p-0">
-    <div className="row justify-between mt-4">
-      <div className="col-md-3 mb-4 mb-md-0">
-        <h3 className="font-[cd-m] mb-3 text-[16px] text-[#939393]">
-          SOLUTIONS FOR BUSINESS
-        </h3>
-        <ul className="list-unstyled">
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              For Foreigners
-            </a>
-          </li>
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              For India & PRs
-            </a>
-          </li>
-        </ul>
-      </div>
+      <section className="bg-[#212833] overflow-hidden sm:px-20 px-6 sm:py-5 py-16">
+        <div className="container-fluid p-0">
+          <div className="row justify-between mt-4">
+            <div className="col-md-3 mb-4 mb-md-0">
+              <h3 className="font-[cd-m] mb-3 text-[16px] text-[#939393]">
+                SOLUTIONS FOR BUSINESS
+              </h3>
+              <ul className="list-unstyled">
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    For Foreigners
+                  </a>
+                </li>
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    For India & PRs
+                  </a>
+                </li>
+              </ul>
+            </div>
 
-      <div className="col-md-3  mb-4 mb-md-0">
-        <h3 className="font-[cd-m] mb-3 text-[16px] text-[#939393]">
-          FEATURES
-        </h3>
-        <ul className="list-unstyled">
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              Accounting & Tax
-            </a>
-          </li>
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              Ecommerce Accounting
-            </a>
-          </li>
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              Accounting for Amazon
-            </a>
-          </li>
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              GST Registration
-            </a>
-          </li>
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              Bookkeeping
-            </a>
-          </li>
-        </ul>
-      </div>
+            <div className="col-md-3  mb-4 mb-md-0">
+              <h3 className="font-[cd-m] mb-3 text-[16px] text-[#939393]">
+                FEATURES
+              </h3>
+              <ul className="list-unstyled">
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    Accounting & Tax
+                  </a>
+                </li>
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    Ecommerce Accounting
+                  </a>
+                </li>
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    Accounting for Amazon
+                  </a>
+                </li>
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    GST Registration
+                  </a>
+                </li>
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    Bookkeeping
+                  </a>
+                </li>
+              </ul>
+            </div>
 
-      <div className="col-md-3  mb-4 mb-md-0">
-        <h3 className="font-[cd-m] mb-3 text-[16px] text-[#939393]">
-          RESOURCES
-        </h3>
-        <ul className="list-unstyled">
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              Our Blog
-            </a>
-          </li>
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              Webinars
-            </a>
-          </li>
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              Company Name Search
-            </a>
-          </li>
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              SSIC Business Activity Code Search
-            </a>
-          </li>
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              Founder’s Career Test
-            </a>
-          </li>
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              Startup Name Generator
-            </a>
-          </li>
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              Margin Calculator
-            </a>
-          </li>
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              Ebay Fee Calculator
-            </a>
-          </li>
-        </ul>
-      </div>
+            <div className="col-md-3  mb-4 mb-md-0">
+              <h3 className="font-[cd-m] mb-3 text-[16px] text-[#939393]">
+                RESOURCES
+              </h3>
+              <ul className="list-unstyled">
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    Our Blog
+                  </a>
+                </li>
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    Webinars
+                  </a>
+                </li>
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    Company Name Search
+                  </a>
+                </li>
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    SSIC Business Activity Code Search
+                  </a>
+                </li>
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    Founder’s Career Test
+                  </a>
+                </li>
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    Startup Name Generator
+                  </a>
+                </li>
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    Margin Calculator
+                  </a>
+                </li>
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    Ebay Fee Calculator
+                  </a>
+                </li>
+              </ul>
+            </div>
 
-      <div className="col-md-3 col-6 mb-4 mb-md-0">
-        <h3 className="font-[cd-m] mb-3 text-[16px] text-[#939393]">
-          COMPANY
-        </h3>
-        <ul className="list-unstyled">
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              Our Partners
-            </a>
-          </li>
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              Ecommerce Insights
-            </a>
-          </li>
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              Aspire Business Account
-            </a>
-          </li>
-          <li className="font-[cd-r] mb-2 text-[14px]">
-            <a href="#" className="text-white no-underline hover:underline">
-              White Label Solutions
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
+            <div className="col-md-3 col-6 mb-4 mb-md-0">
+              <h3 className="font-[cd-m] mb-3 text-[16px] text-[#939393]">
+                COMPANY
+              </h3>
+              <ul className="list-unstyled">
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    Our Partners
+                  </a>
+                </li>
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    Ecommerce Insights
+                  </a>
+                </li>
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    Aspire Business Account
+                  </a>
+                </li>
+                <li className="font-[cd-r] mb-2 text-[15px]">
+                  <a href="#" className="text-white no-underline hover:underline">
+                    White Label Solutions
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="bg-[#212833] overflow-hidden sm:px-20 px-6 ">
         <div className="container-fluid p-0">
@@ -166,7 +166,7 @@ export default function Footer() {
                       </div>
                     </div>
                   </div>
-                  <p className="text-[#C1C1C1] text-[12px] pt-4 font-[cd-r]" >Copyright © 2023–2024 Cloud Bss. Pvt. Ltd., India. All rights reserved. Cloud Bss. Pvt. Ltd. has obtained waiver towards the The India Code on Take-overs and Mergers (Code) and is not subjected to the implications arising from the requirements of the Code. All the protections afforded by the Code do not apply to the shareholders of Cloud Bss, including the right to receive a minimum offer price from an offeror in a mandatory or voluntary offer. Here is further information.</p>
+                  <p className="text-[#C1C1C1] text-[13px] pt-4 font-[cd-r]" >Copyright © 2023–2024 Cloud Bss. Pvt. Ltd., India. All rights reserved. Cloud Bss. Pvt. Ltd. has obtained waiver towards the The India Code on Take-overs and Mergers (Code) and is not subjected to the implications arising from the requirements of the Code. All the protections afforded by the Code do not apply to the shareholders of Cloud Bss, including the right to receive a minimum offer price from an offeror in a mandatory or voluntary offer. Here is further information.</p>
                 </div>
                 <div className="col-md-6 mb-4 pt-4">
                   <div className="justify-content-end d-flex gap-4">

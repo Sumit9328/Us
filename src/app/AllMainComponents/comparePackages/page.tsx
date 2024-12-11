@@ -16,7 +16,7 @@ export default function Home() {
       </section>
 
 
-      <section className="overflow-hidden px-6 sm:px-20 pt-28 pb-10">
+      <section className="overflow-hidden px-6 sm:px-20 pt-28 pb-0">
         <div className="overflow-hidden">
           <div className="container-fluid">
 
@@ -27,7 +27,7 @@ export default function Home() {
                 <p className="text-center text-[38px] font-bold mb-0 leading-[45px]">
                   Simplified pricing for all your need
                 </p>
-                <p className="text-center text-[14px] sm:text-[18px] font-[400] leading-[50px] sm:pe-5">
+                <p className="text-center text-[15px] sm:text-[18px] font-[400] leading-[50px] sm:pe-5">
                   <span className="text-[#0073fd]">
                     {" "}
                     Compare packages →
@@ -47,7 +47,7 @@ export default function Home() {
                   <p className="text-[16px] sm:text-[18px] font-[500] leading-[20px]">
                     Start your business
                   </p>
-                  <p className="text-[14px] sm:text-[16px] font-[400] text-[#666666] leading-[20px]">
+                  <p className="text-[15px] sm:text-[16px] font-[400] text-[#666666] leading-[20px]">
                     Formation & EIN filings, RA service, Operating
                     Agreement, and regular compliance reminders.
                   </p>
@@ -56,11 +56,11 @@ export default function Home() {
                   <span className="text-[25px] sm:text-[30px]">$</span>{" "}
                   297/y
                 </p>
-                <p className="text-[12px] sm:text-[14px] font-[400] text-[#767676] leading-[1px]">
+                <p className="text-[13px] sm:text-[15px] font-[400] text-[#767676] leading-[1px]">
                   State fee not included.
                 </p>
                 <div className="col-12 mt-4">
-                  <button className="border border-black rounded-[50px] text-[14px] sm:text-[16px] text-white bg-black w-full h-[45px]">
+                  <button className="border border-black rounded-[50px] text-[15px] font-[400] sm:text-[16px] text-white bg-black w-full h-[45px]">
                     Formation
                   </button>
                 </div>
@@ -74,7 +74,7 @@ export default function Home() {
                   <p className="text-[16px] sm:text-[18px] font-[500] leading-[20px]">
                     Stay 100% compliant
                   </p>
-                  <p className="text-[14px] sm:text-[16px] font-[400] text-[#666666] leading-[20px]">
+                  <p className="text-[15px] sm:text-[16px] font-[400] text-[#666666] leading-[20px]">
                     Formation with Annual State filings, IRS Tax filings, a
                     dedicated Account Manager and a free CPA consultation.
                   </p>
@@ -83,11 +83,11 @@ export default function Home() {
                   <span className="text-[25px] sm:text-[30px]">$</span>{" "}
                   300/m
                 </p>
-                <p className="text-[12px] sm:text-[14px] font-[400] text-[#767676] leading-[1px]">
+                <p className="text-[13px] sm:text-[15px] font-[400] text-[#767676] leading-[1px]">
                   State fee not included.
                 </p>
                 <div className="col-12 mt-4">
-                  <button className="border border-black rounded-[50px] text-[14px] sm:text-[16px] text-white bg-black w-full h-[45px]">
+                  <button className="border border-black rounded-[50px] text-[15px] font-[400] sm:text-[16px] text-white bg-black w-full h-[45px]">
                     Total Compliance
                   </button>
                 </div>
@@ -99,7 +99,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="overflow-hidden sm:px-20 px-6  pt-10 pb-0 ">
+      <section className="overflow-hidden sm:px-20 px-6  pt-0 pb-0 ">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
@@ -116,7 +116,7 @@ export default function Home() {
               <div className="col-12 flex justify-center items-center mb-4">
                 <div className="col-md-6">
 
-                  <p className="text-center text-[#898989] text-[18px] leading-[20px]">TOTAL COMPLIANCE</p>
+                  <p className="text-center text-[#898989] font-[400] text-[18px] leading-[20px]">TOTAL COMPLIANCE</p>
                   <p className="text-center sm:text-[35px] text-[28px] font-[600] sm:leading-[40px] leading-[35px]">The all-in-one bundle to form & manage your US business with ease</p>
                 </div>
 
@@ -142,7 +142,7 @@ export default function Home() {
                           Form your US company from anywhere in the world.
                         </p>
                       </div>
-                      <p className="text-[14px] font-[400] text-[#656565]">
+                      <p className="text-[15px] font-[400] text-[#656565]">
                         Form your US company effortlessly with doola—no SSN required. We handle LLC, C-Corp, and DAO LLC formations. Our all-inclusive service covers Employer Identification Number (EIN), Registered Agent service, and Operating Agreement, all without hidden fees.
                       </p>
                     </div>
@@ -185,7 +185,7 @@ export default function Home() {
                           International transfers to 100+ countries.
                         </p>
                       </div>
-                      <p className="text-[14px] font-[400] text-[#656565]">
+                      <p className="text-[15px] font-[400] text-[#656565]">
                         Facilitate transactions in local currencies worldwide with the added convenience of deposits in $USD. No Social Security Number (SSN) is required to open an account, making it the ideal solution for founders around the globe.
                       </p>
                     </div>
@@ -229,7 +229,7 @@ export default function Home() {
                           Embrace worry-free tax filings.
                         </p>
                       </div>
-                      <p className="text-[14px] font-[400] text-[#656565]">
+                      <p className="text-[15px] font-[400] text-[#656565]">
                         Unlock financial clarity with the 1:1 CPA consultation included in our Total Compliance package. Ask expert tax questions, get personalized advice, and navigate the complexities of taxes with confidence.
                       </p>
                     </div>
@@ -270,7 +270,7 @@ export default function Home() {
                       <p className="text-[18px] font-[500] leading-[22px]">
                         Optimize your business launch with expedited processing.
                       </p>
-                      <p className="text-[14px] font-[400] text-[#656565]">
+                      <p className="text-[15px] font-[400] text-[#656565]">
                         Processing times are contingent upon factors like the availability of a US Social Security Number (SSN). With this service, doola guarantees the expedited submission of your application to the state, facilitating quicker processing.
                       </p>
                     </div>
@@ -296,7 +296,7 @@ export default function Home() {
                       <p className="text-[18px] font-[500] leading-[22px]">
                         Elevate your financial strategy with our CPA consultations.
                       </p>
-                      <p className="text-[14px] font-[400] text-[#656565]">
+                      <p className="text-[15px] font-[400] text-[#656565]">
                         Unlock financial clarity with the 1:1 CPA consultation included in our Total Compliance package. Ask expert tax questions, get personalized advice, and navigate the complexities of taxes with confidence.
                       </p>
                     </div>
@@ -336,7 +336,7 @@ export default function Home() {
                       <p className="text-[18px] font-[500] leading-[22px]">
                         Your personal account manager for dedicated support.
                       </p>
-                      <p className="text-[14px] font-[400] text-[#656565]">
+                      <p className="text-[15px] font-[400] text-[#656565]">
                         Enjoy dedicated support, guidance, and comprehensive answers to all your queries. Seamlessly navigate the complexities of running and growing your business with personalized assistance.
                       </p>
                     </div>
@@ -368,17 +368,17 @@ export default function Home() {
                     <div className="w-full sm:w-8/12">
                       <input
                         type="text"
-                        className="border rounded-[50px] px-6 h-[48px] w-full text-[14px] sm:text-[16px]"
+                        className="border rounded-[50px] px-6 h-[48px] w-full text-[15px] sm:text-[16px]"
                       />
                     </div>
                     <div className="w-full sm:w-4/12">
-                      <button className="bg-[#0061FE] text-white justify-center items-center rounded-[50px] px-6 sm:py-2 py-4 w-full flex text-[14px] h-[40px]">
+                      <button className="bg-[#0061FE] font-[400] text-white justify-center items-center rounded-[50px] px-6 sm:py-2 py-4 w-full flex text-[15px] h-[40px]">
                         Submit
                       </button>
                     </div>
                   </div>
                   <div className="col-12">
-                    <p className="text-[12px] font-[400] sm:leading-[15px] text-[#0061FE]">
+                    <p className="text-[13px] font-[400] sm:leading-[15px] text-[#0061FE]">
                       By clicking, you agree to our
                       <span className="underline">
                         Terms & Conditions, Privacy and Data Protection Policy
@@ -403,7 +403,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="overflow-hidden sm:px-20 px-6  pt-10 pb-10 bg-[#FAF8F6]">
+      <section className="overflow-hidden sm:px-20 px-6  pt-10 pb-10  bg-[#f3efe7]">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
@@ -421,7 +421,7 @@ export default function Home() {
                 <p className="font-[cd-m] text-[#fff] sm:text-[30px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0">
                   Get tips on how to run your business smarter
                 </p>
-                <p className="font-[cd-r] text-[#ABABAB] sm:text-[16px] text-[14px] pt-4 mb-0">
+                <p className="font-[cd-r] text-[#ABABAB] sm:text-[16px] text-[15px] pt-4 mb-0">
                   Learn crucial tips on how to save money and build a
                   flourishing business, with real entrepreneurs sharing their
                   own experiences.
@@ -436,7 +436,7 @@ export default function Home() {
                     SUBSCRIBE
                   </button>
                 </div>
-                <p className="text-[#fff] font-[400] text-[14px]">
+                <p className="text-[#fff] font-[400] text-[15px]">
                   <a className="no-underline font-[400] text-[#ABABAB] " href="#">
                     By clicking, you agree to our
                   </a>{" "}

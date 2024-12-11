@@ -23,18 +23,18 @@ export default function Home() {
                                     <p className="sm:text-[50px] text-[30px] sm:leading-[60px] leading-[35px]  font-[600] ">
                                         The ultimate bookkeeping solution for busy founders
                                     </p>
-                                    <p className="sm:text-[19px] sm:leading-[25px] leading-[22px]">
+                                    <p className="sm:text-[19px] sm:leading-[25px] font-[400] leading-[22px]">
                                         Say goodbye to the stress of managing your finances and spend more time focusing on what really matters – your core business.
 
                                     </p>
                                     <div className="col-12 flex gap-3 mb-4">
                                         <div>
-                                            <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[14px]">
+                                            <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                                                 Get Started
                                             </button>
                                         </div>
                                         <div>
-                                            <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-white bg-black text-[14px]">
+                                            <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-white bg-[#212833] text-[15px]">
                                                 Schedule a call
                                             </button>
                                         </div>
@@ -63,9 +63,9 @@ export default function Home() {
                             <div className="col-md-10 gap-3 sm:flex justify-center">
 
                                 <div className="col-md-5 mb-4">
-                                    <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[350px]">
+                                    <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff]">
                                         <div>
-                                            <div className="col-12 py-3">
+                                            <div className="col-12 py-3  h-[150px]">
                                                 <Image
                                                     src="/assets/images/Vector.png"
                                                     width={112}
@@ -74,11 +74,14 @@ export default function Home() {
                                                 />
                                             </div>
                                             <div>
-                                                <p className="text-[28px] font-[500] mb-1">Bookkeeping Software</p>
-                                                <p className="text-[18px] font-[500] leading-[18px]">
-                                                    Keep track of your money.
-                                                </p>
-                                                <p className="text-[13px] font-[200] font-[400] text-[#656565]">
+                                                <div className="h-[100px]">
+
+                                                    <p className="text-[28px] font-[500] mb-1">Bookkeeping Software</p>
+                                                    <p className="text-[18px] font-[500] leading-[18px]">
+                                                        Keep track of your money.
+                                                    </p>
+                                                </div>
+                                                <p className="text-[15px] font-[200] font-[400] leading-[25px] text-[#656565]">
                                                     Optimize your financial management with our intuitive bookkeeping software. Connect multiple bank accounts, send and track invoices effortlessly, categorize transactions with ease, and more.
                                                 </p>
                                             </div>
@@ -86,9 +89,9 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="col-md-5 mb-4">
-                                    <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[350px]">
+                                    <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff]">
                                         <div>
-                                            <div className="col-12 py-3">
+                                            <div className="col-12 py-3  h-[150px]">
                                                 <Image
                                                     src="/assets/images/image 56.png"
                                                     width={128}
@@ -97,11 +100,14 @@ export default function Home() {
                                                 />
                                             </div>
                                             <div>
-                                                <p className="text-[28px] font-[500] mb-1">Dedicated Bookkeeper</p>
-                                                <p className="text-[18px] font-[500] leading-[18px]">
-                                                    Gain peace of mind with a dedicated bookkeeper.
-                                                </p>
-                                                <p className="text-[13px] font-[200] font-[400] text-[#656565]">
+                                                <div className="h-[100px]">
+
+                                                    <p className="text-[28px] font-[500] mb-1">Dedicated Bookkeeper</p>
+                                                    <p className="text-[18px] font-[500] leading-[18px]">
+                                                        Gain peace of mind with a dedicated bookkeeper.
+                                                    </p>
+                                                </div>
+                                                <p className="text-[15px] leading-[25px] font-[200] font-[400] text-[#656565]">
                                                     While software solutions are valuable, nothing beats the expertise of a dedicated bookkeeper who understands your business. Benefit from expert CPA review, quarterly financial reports, and much more.
                                                 </p>
                                             </div>
@@ -119,7 +125,7 @@ export default function Home() {
                 <div className="overflow-hidden">
                     <div className="container-fluid">
                         {/* Final Heading Section */}
-                        <div className="col-12 sm:mb-5 pt-20">
+                        <div className="col-12 sm:mb-5 pt-12">
                             <p className="text-center text-[24px] sm:text-[32px] font-[600]">
                                 Designed for global founders
                             </p>
@@ -193,7 +199,7 @@ export default function Home() {
                                         <p className="text-[18px] font-[500] leading-[23px] sm:mb-[40px]">
                                             Manage client lists
                                         </p>
-                                        <p className="text-[14px] font-[400] text-[#656565] leading-[22px]">
+                                        <p className="text-[15px] font-[400] text-[#656565] leading-[22px]">
                                             Effortlessly organize & track outstanding client invoices and successful payments to simplify your accounting operations.
                                         </p>
                                     </div>
@@ -209,18 +215,18 @@ export default function Home() {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-12">
-                                <p className="text-center sm:text-[34px] text-[30px] font-[600] mt-5 sm:leading-[35px] leading-[35px]">
+                                <p className="text-center sm:text-[34px] text-[30px] font-[600] mt-0 sm:leading-[35px] leading-[35px]">
                                     Easily manage & grow your business
                                 </p>
-                                <p className="text-center sm:text-[16px] text-[16px] font-[400] leading-[20px] sm:mb-0 mb-4">
+                                <p className="text-center sm:text-[16px] text-[16px] font-[400] sm:leading-[1px] sm:mb-0 mb-4">
                                     Your taxes, compliance, and finances made simple.
                                 </p>
 
 
 
 
-                                <div className="col-12 sm:flex justify-center sm:mb-16">
-                                    <div className="col-md-9 sm:flex  mt-3 gap-3 sm:h-full ">
+                                <div className="col-12 sm:flex justify-center pt-8 sm:mb-8">
+                                    <div className="col-md-10 sm:flex  mt-3 gap-3 sm:h-full ">
 
                                         <div className="col-md-4 rounded-[30px] border-8 border-[#f3efe7] bg-[#fffdfa] sm:mb-0 mb-4">
                                             <div>
@@ -312,8 +318,8 @@ export default function Home() {
                                                         50/y
                                                     </p>
                                                     <div className="col-12 sm:mt-4 flex justify-center mb-4">
-                                                        <button className="border border-black rounded-[50px] text-[14px] sm:text-[16px] text-white bg-black sm:w-[280px] w-[260px] h-[40px]">
-                                                            Total Compliance
+                                                        <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] font-[400] text-white bg-[#212833] sm:w-[280px] w-[260px] h-[40px]">
+                                                            Get Software
                                                         </button>
                                                     </div>
                                                 </div>
@@ -409,8 +415,8 @@ export default function Home() {
                                                         300/y
                                                     </p>
                                                     <div className="col-12 sm:mt-4 flex justify-center mb-4">
-                                                        <button className="border border-black rounded-[50px] text-[14px] sm:text-[16px] text-white bg-black sm:w-[280px] w-[260px] h-[40px]">
-                                                            Total Compliance
+                                                        <button className="border font-[400] border-black rounded-[50px] text-[15px] sm:text-[16px] text-white bg-[#212833] sm:w-[280px] w-[260px] h-[40px]">
+                                                            Get Software
                                                         </button>
                                                     </div>
                                                 </div>
@@ -506,8 +512,8 @@ export default function Home() {
                                                         1500/y
                                                     </p>
                                                     <div className="col-12 sm:mt-4 flex justify-center mb-4">
-                                                        <button className="border border-black rounded-[50px] text-[14px] sm:text-[16px] text-white bg-black sm:w-[280px] w-[260px] h-[40px]">
-                                                            Total Compliance
+                                                        <button className="border font-[400] border-black rounded-[50px] text-[15px] sm:text-[16px] text-white bg-[#212833] sm:w-[280px] w-[260px] h-[40px]">
+                                                            Get a Human
                                                         </button>
                                                     </div>
                                                 </div>
@@ -546,17 +552,17 @@ export default function Home() {
                                         <div className="w-full sm:w-8/12">
                                             <input
                                                 type="text"
-                                                className="border rounded-[50px] px-6 h-[48px] w-full text-[14px] sm:text-[16px]"
+                                                className="border rounded-[50px] px-6 h-[48px] w-full text-[15px] sm:text-[16px]"
                                             />
                                         </div>
                                         <div className="w-full sm:w-4/12">
-                                            <button className="bg-[#0061FE] text-white justify-center items-center rounded-[50px] px-6 sm:py-2 py-4 w-full flex text-[14px] h-[40px]">
+                                            <button className="bg-[#0061FE] text-white justify-center items-center rounded-[50px] px-6 sm:py-2 py-4 w-full flex font-[400] text-[18px] h-[40px]">
                                                 Submit
                                             </button>
                                         </div>
                                     </div>
                                     <div className="col-12">
-                                        <p className="text-[12px] font-[400] sm:leading-[15px] text-[#0061FE]">
+                                        <p className="text-[13px] font-[400] sm:leading-[15px] text-[#0061FE]">
                                             By clicking, you agree to our
                                             <span className="underline">
                                                 Terms & Conditions, Privacy and Data Protection Policy
@@ -581,7 +587,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="overflow-hidden sm:px-20 px-6  pt-10 pb-10 bg-[#FAF8F6]">
+            <section className="overflow-hidden sm:px-20 px-6  pt-10 pb-10  bg-[#f3efe7]">
                 <div className="overflow-hidden">
                     <div className="container-fluid">
                         <div className="row">
@@ -620,7 +626,7 @@ export default function Home() {
                                         How to Deal with Inflation&apos;s Effects on Your Small
                                         Business
                                     </p>
-                                    <p className="font-[cd-r] sm:text-[15px] text-[14px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3">
+                                    <p className="font-[cd-r] sm:text-[15px] text-[15px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3">
                                         A year end package with everything you need to file comes
                                         standard with Cloud Inc. Upgrade your plan, and cross even
                                         more off your to-do list. With Premium, you get expert tax
@@ -629,7 +635,7 @@ export default function Home() {
 
                                     <div className="sm:py-6">
                                         <button
-                                            className="font-[cd-r] bg-[#fff] text-[14px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]"
+                                            className="font-[cd-r] bg-[#fff] text-[15px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]"
                                             type="button"
                                         >
                                             Learn More
@@ -654,7 +660,7 @@ export default function Home() {
                                         How to Deal with Inflation&apos;s Effects on Your Small
                                         Business
                                     </p>
-                                    <p className="font-[cd-r] sm:text-[15px] text-[14px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3">
+                                    <p className="font-[cd-r] sm:text-[15px] text-[15px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3">
                                         A year end package with everything you need to file comes
                                         standard with Cloud Inc. Upgrade your plan, and cross even
                                         more off your to-do list. With Premium, you get expert tax
@@ -663,7 +669,7 @@ export default function Home() {
 
                                     <div className="sm:py-6 py-3">
                                         <button
-                                            className="font-[cd-r] bg-[#fff] text-[14px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]"
+                                            className="font-[cd-r] bg-[#fff] text-[15px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]"
                                             type="button"
                                         >
                                             Learn More
@@ -688,7 +694,7 @@ export default function Home() {
                                         How to Deal with Inflation&apos;s Effects on Your Small
                                         Business
                                     </p>
-                                    <p className="font-[cd-r] sm:text-[15px] text-[14px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3">
+                                    <p className="font-[cd-r] sm:text-[15px] text-[15px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3">
                                         A year end package with everything you need to file comes
                                         standard with Cloud Inc. Upgrade your plan, and cross even
                                         more off your to-do list. With Premium, you get expert tax
@@ -697,7 +703,7 @@ export default function Home() {
 
                                     <div className="sm:py-6 py-3">
                                         <button
-                                            className="font-[cd-r] bg-[#fff] text-[14px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]"
+                                            className="font-[cd-r] bg-[#fff] text-[15px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]"
                                             type="button"
                                         >
                                             Learn More
@@ -717,7 +723,7 @@ export default function Home() {
                                 <p className="font-[cd-m] text-[#fff] sm:text-[30px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0">
                                     Get tips on how to run your business smarter
                                 </p>
-                                <p className="font-[cd-r] text-[#ABABAB] sm:text-[16px] text-[14px] pt-4 mb-0">
+                                <p className="font-[cd-r] text-[#ABABAB] sm:text-[16px] text-[15px] pt-4 mb-0">
                                     Learn crucial tips on how to save money and build a
                                     flourishing business, with real entrepreneurs sharing their
                                     own experiences.
@@ -726,14 +732,14 @@ export default function Home() {
                                     <input
                                         type="email"
                                         placeholder="Email address"
-                                        className="w-full px-4 py-2 rounded-full text-black border border-gray-400 mb-4"
+                                        className="w-full px-4 font-[400] py-2 rounded-full text-black border border-gray-400 mb-4"
                                     />
                                     <button className="bg-white text-black font-medium px-6 py-2 rounded-full hover:bg-gray-100 mb-4 ">
                                         SUBSCRIBE
                                     </button>
                                 </div>
-                                <p className="text-[#fff] text-[14px]">
-                                    <a className="no-underline text-[#ABABAB] " href="#">
+                                <p className="text-[#fff] text-[15px] font-[400]">
+                                    <a className="no-underline text-[#ABABAB]" href="#">
                                         By clicking, you agree to our
                                     </a>{" "}
                                     Terms & Conditions, Privacy and Data Protection Policy

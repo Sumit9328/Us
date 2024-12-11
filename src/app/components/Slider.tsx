@@ -304,30 +304,30 @@ const MySwiper = () => {
 
 
               <div>
-                <button className="text-[14px] font-[400] w-[180px] h-[50px] bg-[#212833] text-[#fff] rounded-[50px]">Get Started</button>
+                <button className="text-[15px] font-[400] w-[180px] h-[50px] bg-[#212833] text-[#fff] rounded-[50px]">Get Started</button>
               </div>
             </div>
           </div>
         </div>,
       </SwiperSlide>
       <div className="rotate-180 w-[50px] sm:w-[40px] absolute top-50 left-[-5] custom-prev z-[99]">
-  <Image
-    src="/assets/images/direction-sign.png"
-    width={100}
-    height={100}
-    alt="skillie"
-    className="w-[50px] sm:w-[40px] sm:h-[40px]"
-  />
-</div>
-<div className="rotate-30 w-[50px] sm:w-[40px] absolute top-50 right-[-5] custom-next z-[99]">
-  <Image
-    src="/assets/images/direction-sign.png"
-    width={50}
-    height={50}
-    alt="skillie"
-    className="w-[50px] sm:w-[40px] sm:h-[40px]"
-  />
-</div>
+        <Image
+          src="/assets/images/direction-sign.png"
+          width={100}
+          height={100}
+          alt="skillie"
+          className="w-[50px] sm:w-[40px] sm:h-[40px]"
+        />
+      </div>
+      <div className="rotate-30 w-[50px] sm:w-[40px] absolute top-50 right-[-5] custom-next z-[99]">
+        <Image
+          src="/assets/images/direction-sign.png"
+          width={50}
+          height={50}
+          alt="skillie"
+          className="w-[50px] sm:w-[40px] sm:h-[40px]"
+        />
+      </div>
 
     </Swiper>
   );

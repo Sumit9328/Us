@@ -37,7 +37,7 @@ const FAQ = () => {
   return (
     <div className="col-12">
 
-    <div className="flex flex-col items-center py-10">
+    <div className="flex flex-col items-center py-4">
       {/* Heading */}
       <h2 className="text-[50px] font-[600] text-black mb-4">Frequently Asked Questions</h2>
       <p className="underline text-[24px] font-[500] cursor-pointer leading-[1px]">More FAQs</p>

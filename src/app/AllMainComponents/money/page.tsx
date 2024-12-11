@@ -31,12 +31,12 @@ export default function Home() {
                                     </p>
                                     <div className="col-12 flex gap-3 mb-4">
                                         <div>
-                                            <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[14px]">
+                                            <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                                                 Get Started
                                             </button>
                                         </div>
                                         <div>
-                                            <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-white bg-black text-[14px]">
+                                            <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-white bg-black text-[15px]">
                                                 Schedule a call
                                             </button>
                                         </div>
@@ -66,7 +66,7 @@ export default function Home() {
                                 <p className="text-center sm:text-[34px] text-[30px] font-[600] mt-5 sm:leading-[35px] leading-[35px]">
                                     International transfers to 100+ countries.
                                 </p>
-                                <p className="text-center sm:text-[16px] text-[16px] font-[400] leading-[20px]">
+                                <p className="text-center sm:text-[16px] text-[16px] font-[400] sm:leading-[23px]">
                                     Introducing a powerful, low-cost solution for international
                                     money transfers. doola Money facilitates transactions in local
                                     currencies worldwide with the added convenience of deposits in
@@ -74,15 +74,15 @@ export default function Home() {
                                     account, making it the ideal solution for founders around the
                                     globe.
                                 </p>
-                                <div className="col-12 sm:flex justify-center items-center py-4 mb-3">
+                                <div className="col-12 sm:flex justify-center items-center py-2 sm:mb-0">
                                     <div className="col-md-5 sm:flex sm:justify-between justify-center">
-                                        <button className="rounded-[50px] font-[400] sm:w-[170px] w-[320px] sm:h-[40px] h-[50px] bg-black text-[#fff] text-[15px] sm:mb-0 mb-3">
+                                        <button className="rounded-[50px] font-[400] sm:w-[170px] w-[320px] sm:h-[40px] h-[50px] bg-black text-[#fff] text-[15px] sm:mb-0 mb-4">
                                             Overview
                                         </button>
-                                        <button className="rounded-[50px] font-[400] sm:w-[170px] w-[320px] sm:h-[40px] h-[50px] bg-[#fff] text-black text-[15px] sm:mb-0 mb-3">
+                                        <button className="rounded-[50px] font-[400] sm:w-[170px] w-[320px] sm:h-[40px] h-[50px] bg-[#fff] text-black text-[15px] sm:mb-0 mb-4">
                                             Transfer
                                         </button>
-                                        <button className="rounded-[50px] font-[400] sm:w-[170px] w-[320px] sm:h-[40px] h-[50px] bg-[#fff] text-black text-[15px] sm:mb-0 mb-3">
+                                        <button className="rounded-[50px] font-[400] sm:w-[170px] w-[320px] sm:h-[40px] h-[50px] bg-[#fff] text-black text-[15px] sm:mb-0 mb-4">
                                             Transactions
                                         </button>
                                     </div>
@@ -107,7 +107,7 @@ export default function Home() {
                 <div className="overflow-hidden">
                     <div className="container-fluid">
                         {/* Final Heading Section */}
-                        <div className="col-12 sm:mb-5 pt-10">
+                        <div className="col-12 sm:mb-5 pt-14">
                             <p className="text-center text-[24px] sm:text-[32px] font-[600]">
                                 Designed for global founders
                             </p>
@@ -127,7 +127,7 @@ export default function Home() {
                                         <p className="text-[16px] font-[500]">
                                             Fast & Easy Payouts
                                         </p>
-                                        <p className="text-[14px] font-[400] text-[#656565] leading-[22px]">
+                                        <p className="text-[15px] font-[400] text-[#656565] leading-[22px]">
                                             Quickly connect your Amazon, Stripe, Paypal accounts, and
                                             more to receive your payouts and then transfer anywhere.
                                         </p>
@@ -146,7 +146,7 @@ export default function Home() {
                                         <p className="text-[16px] font-[500]">
                                             Backed by U.S Security
                                         </p>
-                                        <p className="text-[14px] font-[400] text-[#656565] leading-[22px]">
+                                        <p className="text-[15px] font-[400] text-[#656565] leading-[22px]">
                                             FDIC-insured for balances up to $250,000. Focus on making money; we’ll keep it secure.
                                         </p>
                                     </div>
@@ -164,7 +164,7 @@ export default function Home() {
                                         <p className="text-[16px] font-[500]">
                                             No (or low) fees
                                         </p>
-                                        <p className="text-[14px] font-[400] text-[#656565] leading-[22px]">
+                                        <p className="text-[15px] font-[400] text-[#656565] leading-[22px]">
                                             The account and all $USD transfers are free! International transfers are as low as 1%  and transparent: we break it all down before you submit it.
                                         </p>
                                     </div>
@@ -182,7 +182,7 @@ export default function Home() {
                                         <p className="text-[16px] font-[500]">
                                             Quick Transfers
                                         </p>
-                                        <p className="text-[14px] font-[400] text-[#656565] leading-[22px]">
+                                        <p className="text-[15px] font-[400] text-[#656565] leading-[22px]">
                                             In 1 to 5 days, get your ACH, wire, or international transfers where you want them when you need them.
                                         </p>
                                     </div>
@@ -204,7 +204,7 @@ export default function Home() {
 
                                     <p className="text-[32px] font-[600] leading-[35px]">Easily move between local currencies in over 100 countries</p>
                                     <div className="flex sm:mb-0 mb-4 mt-4">
-                                        <button className="border border-black gap-1 flex justify-center items-center bg-[#212833] text-[#fff] rounded-[50px] sm:w-[155px] w-[320px] sm:h-[40px] h-[55px] text-[14px] font-[500]">See where<svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-math-greater mt-[4px]"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 18l14 -6l-14 -6" /></svg></button>
+                                        <button className="border border-black gap-1 flex justify-center items-center bg-[#212833] text-[#fff] rounded-[50px] sm:w-[155px] w-[320px] sm:h-[40px] h-[55px] text-[15px] font-[500]">See where<svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-math-greater mt-[4px]"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 18l14 -6l-14 -6" /></svg></button>
 
                                     </div>
                                 </div>
@@ -224,7 +224,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section className="overflow-hidden sm:px-20 px-6  pt-10 pb-10 bg-[#FAF8F6]">
+            <section className="overflow-hidden sm:px-20 px-6  pt-10 pb-10  bg-[#f3efe7]">
                 <div className="overflow-hidden">
                     <div className="container-fluid">
                         <div className="row">
@@ -263,7 +263,7 @@ export default function Home() {
                                         How to Deal with Inflation&apos;s Effects on Your Small
                                         Business
                                     </p>
-                                    <p className="font-[cd-r] sm:text-[15px] text-[14px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3">
+                                    <p className="font-[cd-r] sm:text-[15px] text-[15px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3">
                                         A year end package with everything you need to file comes
                                         standard with Cloud Inc. Upgrade your plan, and cross even
                                         more off your to-do list. With Premium, you get expert tax
@@ -272,7 +272,7 @@ export default function Home() {
 
                                     <div className="sm:py-6">
                                         <button
-                                            className="font-[cd-r] bg-[#fff] text-[14px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]"
+                                            className="font-[cd-r] bg-[#fff] text-[15px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]"
                                             type="button"
                                         >
                                             Learn More
@@ -297,7 +297,7 @@ export default function Home() {
                                         How to Deal with Inflation&apos;s Effects on Your Small
                                         Business
                                     </p>
-                                    <p className="font-[cd-r] sm:text-[15px] text-[14px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3">
+                                    <p className="font-[cd-r] sm:text-[15px] text-[15px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3">
                                         A year end package with everything you need to file comes
                                         standard with Cloud Inc. Upgrade your plan, and cross even
                                         more off your to-do list. With Premium, you get expert tax
@@ -306,7 +306,7 @@ export default function Home() {
 
                                     <div className="sm:py-6 py-3">
                                         <button
-                                            className="font-[cd-r] bg-[#fff] text-[14px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]"
+                                            className="font-[cd-r] bg-[#fff] text-[15px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]"
                                             type="button"
                                         >
                                             Learn More
@@ -331,7 +331,7 @@ export default function Home() {
                                         How to Deal with Inflation&apos;s Effects on Your Small
                                         Business
                                     </p>
-                                    <p className="font-[cd-r] sm:text-[15px] text-[14px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3">
+                                    <p className="font-[cd-r] sm:text-[15px] text-[15px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3">
                                         A year end package with everything you need to file comes
                                         standard with Cloud Inc. Upgrade your plan, and cross even
                                         more off your to-do list. With Premium, you get expert tax
@@ -340,7 +340,7 @@ export default function Home() {
 
                                     <div className="sm:py-6 py-3">
                                         <button
-                                            className="font-[cd-r] bg-[#fff] text-[14px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]"
+                                            className="font-[cd-r] bg-[#fff] text-[15px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]"
                                             type="button"
                                         >
                                             Learn More
@@ -360,7 +360,7 @@ export default function Home() {
                                 <p className="font-[cd-m] text-[#fff] sm:text-[30px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0">
                                     Get tips on how to run your business smarter
                                 </p>
-                                <p className="font-[cd-r] text-[#ABABAB] sm:text-[16px] text-[14px] pt-4 mb-0">
+                                <p className="font-[cd-r] text-[#ABABAB] sm:text-[16px] text-[15px] pt-4 mb-0">
                                     Learn crucial tips on how to save money and build a
                                     flourishing business, with real entrepreneurs sharing their
                                     own experiences.
@@ -375,7 +375,7 @@ export default function Home() {
                                         SUBSCRIBE
                                     </button>
                                 </div>
-                                <p className="text-[#fff] font-[400] text-[14px]">
+                                <p className="text-[#fff] font-[400] text-[15px]">
                                     <a className="no-underline font-[400] text-[#ABABAB] " href="#">
                                         By clicking, you agree to our
                                     </a>{" "}

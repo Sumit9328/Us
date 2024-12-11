@@ -5,6 +5,7 @@ import FAQ from "../../components/faq";
 import Footer from "../../components/footer";
 import Carousal from "@/app/components/Slider";
 
+
 import "bootstrap/dist/css/bootstrap.min.css";
 export default function Home() {
   return (
@@ -32,12 +33,12 @@ export default function Home() {
                   </p>
                   <div className="col-12 flex gap-3 mb-4">
                     <div>
-                      <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[14px]">
+                      <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                         Get Started
                       </button>
                     </div>
                     <div>
-                      <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-white bg-black text-[14px]">
+                      <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-white bg-black text-[15px]">
                         Schedule a call
                       </button>
                     </div>
@@ -395,17 +396,17 @@ export default function Home() {
                     <div className="w-full sm:w-8/12">
                       <input
                         type="text"
-                        className="border rounded-[50px] px-6 h-[48px] w-full text-[14px] sm:text-[16px]"
+                        className="border rounded-[50px] px-6 h-[48px] w-full text-[15px] sm:text-[16px]"
                       />
                     </div>
                     <div className="w-full sm:w-4/12">
-                      <button className="bg-[#0061FE] text-white justify-center items-center rounded-[50px] px-6 sm:py-2 py-4 w-full flex text-[14px] h-[40px]">
+                      <button className="bg-[#0061FE] text-white justify-center items-center rounded-[50px] px-6 sm:py-2 py-4 w-full flex text-[18px] h-[40px]">
                         Submit
                       </button>
                     </div>
                   </div>
                   <div className="col-12">
-                    <p className="text-[12px] font-[400] sm:leading-[15px] text-[#0061FE]">
+                    <p className="text-[13px] font-[400] sm:leading-[15px] text-[#0061FE]">
                       By clicking, you agree to our
                       <span className="underline">
                         Terms & Conditions, Privacy and Data Protection Policy
@@ -447,7 +448,7 @@ export default function Home() {
       <section className="overflow-hidden px-2 sm:px-10 pt-0 pb-0">
         <div className="overflow-hidden">
           <div className="container-fluid">
-            <Carousal/>
+            <Carousal />
 
           </div>
         </div>
@@ -470,49 +471,55 @@ export default function Home() {
 
             <div className="col-12 mb-5 pt-10 flex flex-wrap justify-center items-center gap-4">
               <div className="w-full sm:w-[30%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[20px] px-6 py-6">
-                <p className="text-[20px] sm:text-[25px] font-[600] leading-[20px]">
-                  Starter
-                </p>
-                <p className="text-[16px] sm:text-[18px] font-[500] leading-[20px]">
-                  Start your business
-                </p>
-                <p className="text-[14px] sm:text-[16px] font-[400] text-[#666666] leading-[20px]">
-                  Formation & EIN filings, RA service, Operating
-                  Agreement, and regular compliance reminders.
-                </p>
+                <div className="h-[135px]">
+
+                  <p className="text-[20px] sm:text-[25px] font-[600] leading-[20px]">
+                    Starter
+                  </p>
+                  <p className="text-[16px] sm:text-[18px] font-[500] leading-[20px]">
+                    Start your business
+                  </p>
+                  <p className="text-[15px] sm:text-[16px] font-[400] text-[#666666] leading-[20px]">
+                    Formation & EIN filings, RA service, Operating
+                    Agreement, and regular compliance reminders.
+                  </p>
+                </div>
                 <p className="text-[35px] sm:text-[45px] font-[600] leading-[50px]">
                   <span className="text-[25px] sm:text-[30px]">$</span>{" "}
                   297/y
                 </p>
-                <p className="text-[12px] sm:text-[14px] font-[400] text-[#767676] leading-[1px]">
+                <p className="text-[13px] sm:text-[15px] font-[400] text-[#767676] leading-[1px]">
                   State fee not included.
                 </p>
                 <div className="col-12 mt-4">
-                  <button className="border border-black font-[400] rounded-[50px] text-[14px] sm:text-[16px] text-white bg-black w-full h-[45px]">
+                  <button className="border border-black font-[400] rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black w-full h-[45px]">
                     Formation
                   </button>
                 </div>
               </div>
               <div className="w-full sm:w-[30%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[20px] px-6 py-6">
-                <p className="text-[20px] sm:text-[25px] font-[600] leading-[20px]">
-                  Total Compliance
-                </p>
-                <p className="text-[16px] sm:text-[18px] font-[500] leading-[20px]">
-                  Stay 100% compliant
-                </p>
-                <p className="text-[14px] sm:text-[16px] font-[400] text-[#666666] leading-[20px]">
-                  Formation with Annual State filings, IRS Tax filings, a
-                  dedicated Account Manager and a free CPA consultation.
-                </p>
+                <div className="h-[135px]">
+
+                  <p className="text-[20px] sm:text-[25px] font-[600] leading-[20px]">
+                    Total Compliance
+                  </p>
+                  <p className="text-[16px] sm:text-[18px] font-[500] leading-[20px]">
+                    Stay 100% compliant
+                  </p>
+                  <p className="text-[15px] sm:text-[16px] font-[400] text-[#666666] leading-[20px]">
+                    Formation with Annual State filings, IRS Tax filings, a
+                    dedicated Account Manager and a free CPA consultation.
+                  </p>
+                </div>
                 <p className="text-[35px] sm:text-[45px] font-[600] leading-[50px]">
                   <span className="text-[25px] sm:text-[30px]">$</span>{" "}
                   300/m
                 </p>
-                <p className="text-[12px] sm:text-[14px] font-[400] text-[#767676] leading-[1px]">
+                <p className="text-[13px] sm:text-[15px] font-[400] text-[#767676] leading-[1px]">
                   State fee not included.
                 </p>
                 <div className="col-12 mt-4">
-                  <button className="border border-black rounded-[50px] text-[14px] sm:text-[16px] text-white bg-black w-full h-[45px] font-[400]">
+                  <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black w-full h-[45px] font-[400]">
                     Total Compliance
                   </button>
                 </div>
@@ -523,7 +530,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="overflow-hidden sm:px-20 px-6  pt-10 pb-10 bg-[#FAF8F6]">
+      <section className="overflow-hidden sm:px-20 px-6  pt-10 pb-10  bg-[#f3efe7]">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
@@ -557,10 +564,10 @@ export default function Home() {
                 </div>
                 <div className="pt-6 sm:pb-0 pb-4">
                   <p className='font-[cd-m] text-[#0D0D0D] sm:text-[22px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0'>How to Deal with Inflation&apos;s Effects on Your Small Business</p>
-                  <p className='font-[cd-r] sm:text-[15px] text-[14px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3'>A year end package with everything you need to file comes standard with Cloud Inc. Upgrade your plan, and cross even more off your to-do list. With Premium, you get expert tax prep, filing, and year-round tax advisory support.</p>
+                  <p className='font-[cd-r] sm:text-[15px] text-[15px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3'>A year end package with everything you need to file comes standard with Cloud Inc. Upgrade your plan, and cross even more off your to-do list. With Premium, you get expert tax prep, filing, and year-round tax advisory support.</p>
 
                   <div className="sm:py-6">
-                    <button className="font-[cd-r] bg-[#fff] text-[14px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]" type="button">Learn More</button>
+                    <button className="font-[cd-r] bg-[#fff] text-[15px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]" type="button">Learn More</button>
                   </div>
 
                 </div>
@@ -579,10 +586,10 @@ export default function Home() {
                 </div>
                 <div className="pt-6 sm:pb-0 pb-4">
                   <p className='font-[cd-m] text-[#0D0D0D] sm:text-[22px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0'>How to Deal with Inflation&apos;s Effects on Your Small Business</p>
-                  <p className='font-[cd-r] sm:text-[15px] text-[14px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3'>A year end package with everything you need to file comes standard with Cloud Inc. Upgrade your plan, and cross even more off your to-do list. With Premium, you get expert tax prep, filing, and year-round tax advisory support.</p>
+                  <p className='font-[cd-r] sm:text-[15px] text-[15px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3'>A year end package with everything you need to file comes standard with Cloud Inc. Upgrade your plan, and cross even more off your to-do list. With Premium, you get expert tax prep, filing, and year-round tax advisory support.</p>
 
                   <div className="sm:py-6 py-3">
-                    <button className="font-[cd-r] bg-[#fff] text-[14px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]" type="button">Learn More</button>
+                    <button className="font-[cd-r] bg-[#fff] text-[15px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]" type="button">Learn More</button>
                   </div>
 
                 </div>
@@ -601,10 +608,10 @@ export default function Home() {
                 </div>
                 <div className="pt-6 sm:pb-0 pb-4">
                   <p className='font-[cd-m] text-[#0D0D0D] sm:text-[22px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0'>How to Deal with Inflation&apos;s Effects on Your Small Business</p>
-                  <p className='font-[cd-r] sm:text-[15px] text-[14px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3'>A year end package with everything you need to file comes standard with Cloud Inc. Upgrade your plan, and cross even more off your to-do list. With Premium, you get expert tax prep, filing, and year-round tax advisory support.</p>
+                  <p className='font-[cd-r] sm:text-[15px] text-[15px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3'>A year end package with everything you need to file comes standard with Cloud Inc. Upgrade your plan, and cross even more off your to-do list. With Premium, you get expert tax prep, filing, and year-round tax advisory support.</p>
 
                   <div className="sm:py-6 py-3">
-                    <button className="font-[cd-r] bg-[#fff] text-[14px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]" type="button">Learn More</button>
+                    <button className="font-[cd-r] bg-[#fff] text-[15px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]" type="button">Learn More</button>
                   </div>
 
                 </div>
@@ -624,7 +631,7 @@ export default function Home() {
                 <p className="font-[cd-m] text-[#fff] sm:text-[30px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0">
                   Get tips on how to run your business smarter
                 </p>
-                <p className="font-[cd-r] text-[#ABABAB] sm:text-[16px] text-[14px] pt-4 mb-0">
+                <p className="font-[cd-r] text-[#ABABAB] sm:text-[16px] text-[15px] pt-4 mb-0">
                   Learn crucial tips on how to save money and build a
                   flourishing business, with real entrepreneurs sharing their
                   own experiences.
@@ -639,7 +646,7 @@ export default function Home() {
                     SUBSCRIBE
                   </button>
                 </div>
-                <p className="text-[#fff] font-[400] text-[14px]">
+                <p className="text-[#fff] font-[400] text-[15px]">
                   <a className="no-underline font-[400] text-[#ABABAB] " href="#">
                     By clicking, you agree to our
                   </a>{" "}
