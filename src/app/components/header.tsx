@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +22,7 @@ const Header = () => {
     <header className="flex justify-between items-center py-4 px-6 bg-white shadow-md">
       {/* Logo Section */}
       <div className="flex items-center space-x-2">
-        <img src="/logo.png" alt="Cloud Logo" className="h-8 w-8" />
+        <Image src="/logo.png" alt="Cloud Logo" className="h-8 w-8" />
         <span className="text-xl font-semibold">Cloud</span>
       </div>
 

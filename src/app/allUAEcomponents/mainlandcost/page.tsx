@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Header from "../../components/header";
-import FAQ from "../../components/faq";
 import Footer from "../../components/footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
