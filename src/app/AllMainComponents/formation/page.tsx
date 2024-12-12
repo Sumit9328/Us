@@ -400,7 +400,7 @@ export default function Home() {
                       />
                     </div>
                     <div className="w-full sm:w-4/12">
-                      <button className="bg-[#0061FE] text-white justify-center items-center rounded-[50px] px-6 sm:py-2 py-4 w-full flex text-[18px] h-[40px]">
+                      <button className="bg-[#0061FE] font-[400] text-white justify-center items-center rounded-[50px] px-6 sm:py-2 py-4 w-full flex text-[18px] h-[40px]">
                         Submit
                       </button>
                     </div>

@@ -14,7 +14,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="overflow-hidden sm:px-20 px-6  pt-32 pb-10">
+      <section className="overflow-hidden sm:px-20 px-6  pt-24 pb-10">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
@@ -90,7 +90,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                    <button className="rounded-[50px] w-full h-[45px] text-[15px] text-white bg-[#0073FD] mb-3">
+                    <button className="rounded-[50px] font-[400] w-full h-[45px] text-[15px] text-white bg-[#0073FD] mb-3">
                       Incl, in Total Compliance
                     </button>
                     <button className="rounded-[50px] w-full h-[45px] text-[15px] font-[500] border border-black flex items-center justify-center gap-2">
@@ -182,7 +182,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                    <button className="rounded-[50px] w-full h-[45px] text-[15px] text-white bg-[#0073FD] mb-3">
+                    <button className="rounded-[50px] w-full font-[400] h-[45px] text-[15px] text-white bg-[#0073FD] mb-3">
                       Incl, in Total Compliance
                     </button>
                     <button className="rounded-[50px] w-full h-[45px] text-[15px] font-[500] border border-black flex items-center justify-center gap-2">
@@ -239,13 +239,13 @@ export default function Home() {
                   <p className="text-[20px] sm:text-[26px] font-[600]">
                     Kickstart your business
                   </p>
-                  <p className="text-[16px] sm:text-[19px] text-[#404040]">
+                  <p className="text-[16px] font-[400] sm:text-[19px] text-[#404040]">
                     From the formation of your company to BOI Reporting, we’re
                     by your side every step, ensuring your business remains 100%
                     compliant.
                   </p>
                   <div className="mt-4">
-                    <button className="w-[150px] h-[40px] rounded-[50px] bg-black text-white">
+                    <button className="w-[150px] h-[40px] font-[400] rounded-[50px] bg-black text-white">
                       Get Started
                     </button>
                   </div>
@@ -260,13 +260,13 @@ export default function Home() {
                   <p className="text-[20px] sm:text-[26px] font-[600]">
                     Kickstart your business
                   </p>
-                  <p className="text-[16px] sm:text-[19px] text-[#404040]">
+                  <p className="text-[16px] font-[400] sm:text-[19px] text-[#404040]">
                     From the formation of your company to BOI Reporting, we’re
                     by your side every step, ensuring your business remains 100%
                     compliant.
                   </p>
                   <div className="mt-4">
-                    <button className="w-[150px] h-[40px] rounded-[50px] bg-black text-white">
+                    <button className="w-[150px] h-[40px] font-[400] rounded-[50px] bg-black text-white">
                       Get Started
                     </button>
                   </div>
@@ -320,7 +320,7 @@ export default function Home() {
                   State fee not included.
                 </p>
                 <div className="col-12 mt-4">
-                  <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black w-full h-[45px]">
+                  <button className="border font-[400] border-black rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black w-full h-[45px]">
                     Formation
                   </button>
                 </div>
@@ -343,7 +343,7 @@ export default function Home() {
                   State fee not included.
                 </p>
                 <div className="col-12 mt-4">
-                  <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black w-full h-[45px]">
+                  <button className="border font-[400] border-black rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black w-full h-[45px]">
                     Total Compliance
                   </button>
                 </div>
@@ -353,7 +353,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="overflow-hidden sm:px-20 px-6 pt-24 sm:pb-10 bg-[#ccdfff]">
+      <section className="overflow-hidden sm:px-20 px-6 pt-14 sm:pb-10 bg-[#ccdfff]">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row items-center">
@@ -376,7 +376,7 @@ export default function Home() {
                       />
                     </div>
                     <div className="w-full sm:w-4/12">
-                      <button className="bg-[#0061FE] text-white justify-center items-center rounded-[50px] px-6 sm:py-2 py-4 w-full flex text-[18px] h-[40px]">
+                      <button className="bg-[#0061FE] text-white justify-center items-center rounded-[50px] px-6 sm:py-2 py-4 w-full flex text-[18px] font-[400] h-[40px]">
                         Submit
                       </button>
                     </div>
@@ -434,7 +434,7 @@ export default function Home() {
                   <input
                     type="email"
                     placeholder="Email address"
-                    className="w-full px-4 py-2 rounded-full text-black border border-gray-400 mb-4"
+                    className="w-full px-4 font-[400] py-2 rounded-full text-black border border-gray-400 mb-4"
                   />
                   <button className="bg-white text-black font-medium px-6 py-2 rounded-full hover:bg-gray-100 mb-4 ">
                     SUBSCRIBE

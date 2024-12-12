@@ -14,16 +14,16 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="overflow-hidden sm:px-20 px-6  pt-32 pb-10">
+      <section className="overflow-hidden sm:px-20 px-6  pt-24 pb-10">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-6 flex justify-center items-center">
                 <div className="col-md-12">
-                  <p className="sm:text-[55px] text-[30px] sm:leading-[30px] leading-[65px] sm:pe-8 font-[600]">
+                  <p className="sm:text-[55px] text-[35px] sm:leading-[55px] mb-0 leading-[35px] sm:pe-8 font-[600]">
                     We file your taxes.
                   </p>
-                  <p className="sm:text-[55px] text-[30px] sm:leading-[50px] leading-[15px] sm:pe-8 font-[600]">
+                  <p className="sm:text-[55px] text-[35px] sm:leading-[50px] leading-[35px] sm:pe-8 font-[600]">
                     You run your business.
                   </p>
                   <p className="sm:text-[18px] sm:leading-[25px] leading-[22px] font-[400] pe-4">

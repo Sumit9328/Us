@@ -1,6 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
-import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -31,7 +30,7 @@ const MySwiper = () => {
     >
       {/* Slide 1 */}
       <SwiperSlide>
-        <div className="sm:mb-0 sm:col-12">
+        <div className="sm:mb-0 col-11">
           <div className="sm:mb-0 w-full sm:w-[100%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[32px] px-6 py-6">
             <div>
               <div className="h-[386px]">
@@ -129,7 +128,7 @@ const MySwiper = () => {
 
       {/* Slide 2 */}
       <SwiperSlide>
-        <div className="sm:mb-0 col-12 ">
+        <div className="sm:mb-0 col-11">
           <div className="sm:mb-0 w-full sm:w-[100%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[32px] px-6 py-6">
             <div>
               <div className="sm:h-[340px]">
@@ -237,7 +236,7 @@ const MySwiper = () => {
 
       {/* Slide 3 */}
       <SwiperSlide>
-        <div className="sm:mb-0 col-12">
+        <div className="sm:mb-0 col-11">
           <div className="sm:mb-0 w-full sm:w-[100%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[32px] px-6 py-6">
             <div>
               <div className="h-[378px]">
@@ -284,7 +283,7 @@ const MySwiper = () => {
 
       {/* Slide 4 */}
       <SwiperSlide>
-        <div className="sm:mb-0 col-12">
+        <div className="sm:mb-0 col-11">
           <div className="sm:mb-0 w-full sm:w-[100%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[32px] px-6 py-6">
             <div>
               <div className="h-[425px]">
@@ -310,24 +309,7 @@ const MySwiper = () => {
           </div>
         </div>,
       </SwiperSlide>
-      <div className="rotate-180 w-[50px] sm:w-[40px] absolute top-50 left-[-5] custom-prev z-[99]">
-        <Image
-          src="/assets/images/direction-sign.png"
-          width={100}
-          height={100}
-          alt="skillie"
-          className="w-[50px] sm:w-[40px] sm:h-[40px]"
-        />
-      </div>
-      <div className="rotate-30 w-[50px] sm:w-[40px] absolute top-50 right-[-5] custom-next z-[99]">
-        <Image
-          src="/assets/images/direction-sign.png"
-          width={50}
-          height={50}
-          alt="skillie"
-          className="w-[50px] sm:w-[40px] sm:h-[40px]"
-        />
-      </div>
+      
 
     </Swiper>
   );

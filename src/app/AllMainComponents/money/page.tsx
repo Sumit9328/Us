@@ -14,7 +14,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="overflow-hidden sm:px-20 px-6  pt-32 pb-10">
+            <section className="overflow-hidden sm:px-20 px-6  pt-24 pb-10">
                 <div className="overflow-hidden">
                     <div className="container-fluid">
                         <div className="row">
@@ -23,9 +23,9 @@ export default function Home() {
                                     <p className="sm:text-[50px] text-[30px] sm:leading-[60px] leading-[35px] font-[600]">
                                         Unlock borderless banking with a U.S.-based account
                                     </p>
-                                    <p className="sm:text-[20px] font-[400] sm:leading-[25px] leading-[22px]">
+                                    <p className="sm:text-[20px] font-[400]  sm:leading-[25px] leading-[22px]">
                                         Coming soon, with early access now.
-                                        <span className="text-[#266ef1] underline">
+                                        <span className="text-[#266ef1] pl-2 underline">
                                             See if you qualify for early access.
                                         </span>
                                     </p>
@@ -204,7 +204,7 @@ export default function Home() {
 
                                     <p className="text-[32px] font-[600] leading-[35px]">Easily move between local currencies in over 100 countries</p>
                                     <div className="flex sm:mb-0 mb-4 mt-4">
-                                        <button className="border border-black gap-1 flex justify-center items-center bg-[#212833] text-[#fff] rounded-[50px] sm:w-[155px] w-[320px] sm:h-[40px] h-[55px] text-[15px] font-[500]">See where<svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-math-greater mt-[4px]"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 18l14 -6l-14 -6" /></svg></button>
+                                        <button className="border border-black gap-1 flex justify-center items-center bg-[#212833] text-[#fff] rounded-[50px] sm:w-[155px] w-[320px] sm:h-[40px] h-[55px] text-[15px] font-[500]">See where<svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-math-greater mt-[4px]"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 18l14 -6l-14 -6" /></svg></button>
 
                                     </div>
                                 </div>
