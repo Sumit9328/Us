@@ -15,7 +15,7 @@ export default function Home() {
           <Header />
         </div>
       </section>
-      <section className="overflow-hidden sm:px-20 px-6 pt-32 pb-10">
+      <section className="overflow-hidden sm:px-20 px-6 sm:pt-32 pb-10">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
@@ -454,7 +454,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="overflow-hidden px-6 sm:px-1 pt-0 pb-10">
+      <section className="overflow-hidden px-6 sm:px-1 pt-2 pb-3">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="col-12 sm:mb-5 sm:pt-0 sm:pt-8 ">
@@ -469,7 +469,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="col-12 mb-5 pt-10 flex flex-wrap justify-center items-center gap-4">
+            <div className="col-12 mb-5 pt-4 flex flex-wrap justify-center items-center gap-4">
               <div className="w-full sm:w-[30%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[20px] px-6 py-6">
                 <div className="h-[135px]">
 

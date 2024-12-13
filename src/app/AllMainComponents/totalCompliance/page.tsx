@@ -14,7 +14,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="overflow-hidden sm:px-20 px-6  pt-24 pb-10">
+      <section className="overflow-hidden sm:px-20 px-6 sm:pt-24 pb-10">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
@@ -320,7 +320,7 @@ export default function Home() {
             </div>
 
             {/* Pricing Section */}
-            <div className="col-12 sm:mb-2 sm:pt-10 flex flex-wrap justify-center items-center gap-4">
+            <div className="col-12 sm:mb-2 sm:pt-4 flex flex-wrap justify-center items-center gap-4">
               <div className="w-full sm:w-[30%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[20px] px-6 py-6">
                 <p className="text-[20px] sm:text-[25px] font-[600] leading-[20px]">
                   Starter
@@ -339,7 +339,7 @@ export default function Home() {
                   State fee not included.
                 </p>
                 <div className="col-12 mt-4">
-                  <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black w-full h-[45px]">
+                  <button className="border font-[400] border-black rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black w-full h-[45px]">
                     Formation
                   </button>
                 </div>
@@ -362,7 +362,7 @@ export default function Home() {
                   State fee not included.
                 </p>
                 <div className="col-12 mt-4">
-                  <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black w-full h-[45px]">
+                  <button className="border font-[400] border-black rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black w-full h-[45px]">
                     Total Compliance
                   </button>
                 </div>

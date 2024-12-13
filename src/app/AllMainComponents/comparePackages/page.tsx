@@ -16,7 +16,7 @@ export default function Home() {
       </section>
 
 
-      <section className="overflow-hidden px-6 sm:px-20 pt-16 pb-0">
+      <section className="overflow-hidden px-6 sm:px-20 sm:pt-16 pb-0">
         <div className="overflow-hidden">
           <div className="container-fluid">
 
@@ -99,7 +99,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="overflow-hidden sm:px-20 px-6  pt-0 pb-0 ">
+      <section className="overflow-hidden sm:px-20 px-6 pt-0 pb-0 ">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
@@ -109,7 +109,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="overflow-hidden sm:px-20 px-6 py-12 pb-10  bg-[#F3EFE7]">
+      <section className="overflow-hidden sm:px-20 px-6 py-12 pb-10 bg-[#F3EFE7]">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">

@@ -14,7 +14,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="overflow-hidden sm:px-20 px-6  pt-24 pb-10">
+            <section className="overflow-hidden sm:px-20 px-6 sm:pt-24 pb-10">
                 <div className="overflow-hidden">
                     <div className="container-fluid">
                         <div className="row">
@@ -226,9 +226,11 @@ export default function Home() {
 
 
                                 <div className="col-12 sm:flex justify-center pt-8 sm:mb-8">
-                                    <div className="col-md-10 sm:flex  mt-3 gap-3 sm:h-full ">
+                                    <div className="col-md-12 sm:flex  mt-3 gap-3 sm:h-full ">
 
-                                        <div className="col-md-4 rounded-[30px] border-8 border-[#f3efe7] bg-[#fffdfa] sm:mb-0 mb-4">
+                                        <div className="grid grid-cols-3 gap-4">
+
+                                        <div className="rounded-[30px] border-8 border-[#f3efe7] bg-[#fffdfa] sm:mb-0 mb-4">
                                             <div>
                                                 <div className="mb-4 mt-4 ">
                                                     <span className="text-[16px] ml-3 bg-[#F6F6F6] rounded-[40px] font-[600] px-4 py-2 text-black">
@@ -325,7 +327,7 @@ export default function Home() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-4 rounded-[30px] border-8 border-[#f3efe7] bg-[#fffdfa] sm:mb-0 mb-4">
+                                        <div className="rounded-[30px] border-8 border-[#f3efe7] bg-[#fffdfa] sm:mb-0 mb-4">
                                             <div>
                                                 <div className="mb-4 mt-4">
                                                     <span className="text-[16px] ml-3 bg-[#F6F6F6] rounded-[40px] font-[600] px-4 py-2 text-black">
@@ -422,7 +424,7 @@ export default function Home() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-4 rounded-[30px] border-8 border-[#f3efe7] bg-[#fffdfa] sm:mb-0 mb-4">
+                                        <div className="rounded-[30px] border-8 border-[#f3efe7] bg-[#fffdfa] sm:mb-0 mb-4">
                                             <div>
                                                 <div className="mb-4 mt-4">
                                                     <span className="text-[16px] ml-3 rounded-[40px] font-[600] px-4 py-2 text-black">
@@ -519,6 +521,8 @@ export default function Home() {
                                                 </div>
                                             </div>
                                         </div>
+                                        </div>
+
                                     </div>
                                 </div>
                                 <div className="col-12 flex justify-center sm:mb-10">
@@ -533,7 +537,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="overflow-hidden sm:px-20 px-6 pt-24 sm:pb-10 bg-[#ccdfff]">
+            <section className="overflow-hidden sm:px-20 px-6 pt-14 sm:pb-10 bg-[#ccdfff]">
                 <div className="overflow-hidden">
                     <div className="container-fluid">
                         <div className="row items-center">
@@ -715,7 +719,8 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section className="bg-[#000] overflow-hidden sm:px-20 px-6 sm:py-5 py-5">
+            
+            <section className="bg-[#000] overflow-hidden sm:px-12 px-6 sm:py-5 py-5">
                 <div className="container-fluid p-0">
                     <div className="row align-items-center">
                         <div className="col-md-6 mb-4">
