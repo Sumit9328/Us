@@ -182,7 +182,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                    <button className="rounded-[50px] w-full font-[400] h-[45px] text-[15px] text-white bg-[#0073FD] mb-3">
+                    <button className="rounded-[50px] w-full hover:bg-[#0073FD] hover:text-[#fff] font-[400] h-[45px] text-black text-[15px] border-1 border-black bg-[#fff] hover:border-none mb-3">
                       Incl, in Total Compliance
                     </button>
                     <button className="rounded-[50px] w-full h-[45px] text-[15px] font-[500] border border-black flex items-center justify-center gap-2">

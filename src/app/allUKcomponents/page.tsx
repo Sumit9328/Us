@@ -13,7 +13,7 @@ export default function Home() {
         <>
             <div className="bg-[#f3efe7]">
                 <Header />
-                <section className="overflow-hidden sm:px-20 px-6  pt-32 pb-4">
+                <section className="overflow-hidden sm:px-20 px-6  sm:pt-20 pb-4">
                     <div className="flex items-center justify-center">
                         <div className="flex items-center px-4 py-2 border rounded-full border-black">
                             <div className="flex-space-x-2">
@@ -87,13 +87,13 @@ export default function Home() {
                         <div className="col-md-4 mb-4">
                             <div className="bg-white p-4 rounded-[20px] h-full flex flex-col">
                                 <p className="text-[#000] font-[500] text-[22px] leading-[25px] m-0 p-0">
-                                Accounting<p className="text-[#0073FD] font-[500]"> from  £65 </p>
+                                    Accounting<p className="text-[#0073FD] font-[500]"> from  £65 </p>
                                 </p>
                                 <div className="h-[80px]">
 
-                                <p className="text-[#616161] font-[400] text-[16px] pb-3 leading-[20px]">
-                                Get an expert accountant, accounting software and bookkeeping in one plan.
-                                </p>
+                                    <p className="text-[#616161] font-[400] text-[16px] pb-3 leading-[20px]">
+                                        Get an expert accountant, accounting software and bookkeeping in one plan.
+                                    </p>
                                 </div>
 
 
@@ -124,13 +124,13 @@ export default function Home() {
                         <div className="col-md-4 mb-4">
                             <div className="bg-white p-4 rounded-[20px] h-full flex flex-col">
                                 <p className="text-[#000] font-[500] text-[22px] leading-[25px] m-0 p-0">
-                                Accounting for  <p className="text-[#0073FD] font-[500]">Ecommerce from £65</p>
+                                    Accounting for  <p className="text-[#0073FD] font-[500]">Ecommerce from £65</p>
                                 </p>
                                 <div className="h-[80px]">
 
-                                <p className="text-[#616161] font-[400] text-[16px] pb-3 leading-[20px]">
-                                Access ecommerce accountants, sales platform integrations and international VAT returns.
-                                </p>
+                                    <p className="text-[#616161] font-[400] text-[16px] pb-3 leading-[20px]">
+                                        Access ecommerce accountants, sales platform integrations and international VAT returns.
+                                    </p>
                                 </div>
 
 
@@ -161,13 +161,13 @@ export default function Home() {
                         <div className="col-md-4 mb-4">
                             <div className="bg-white p-4 rounded-[20px] h-full flex flex-col">
                                 <p className="text-[#000] font-[500] text-[22px] leading-[25px] m-0 p-0">
-                                Company formation<p className="text-[#0073FD]"> from £50 </p>
+                                    Company formation<p className="text-[#0073FD]"> from £50 </p>
                                 </p>
                                 <div className="h-[80px]">
 
-                                <p className="text-[#616161] font-[400] text-[16px] pb-3 leading-[20px]">
-                                Start your business the right way with incorporation, bank account and registered address.
-                                </p>
+                                    <p className="text-[#616161] font-[400] text-[16px] pb-3 leading-[20px]">
+                                        Start your business the right way with incorporation, bank account and registered address.
+                                    </p>
                                 </div>
 
 
@@ -225,7 +225,7 @@ export default function Home() {
                                 </div>
                                 <div className="col-md-5 mb-4">
                                     <div className="" >
-                                    
+
                                         <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">
                                             <span className="text-center sm:text-left">Solopreneurs who want their weekends back from financial admin</span>
                                         </p>
@@ -262,7 +262,7 @@ export default function Home() {
                 <div className="overflow-hidden">
                     <div className="container-fluid p-0">
                         <div className="row  sm:pt-5 pt-4 sm:pb-5 pb-4 justify-content-center  ">
-                            <div className="col-md-6">
+                            <div className="col-md-7">
                                 <p className="font-[400]   text-[16px]  text-[#353535] text-center">WHY CHOOSE US</p>
                                 <p className="font-[cd-se]  sm:text-[40px] text-[30px]  text-[#000] text-center sm:leading-[40px] leading-[30px]">From founding to filing and beyond, we’re with you</p>
                             </div>
@@ -272,64 +272,73 @@ export default function Home() {
                             <div className="col-md-10">
                                 <div className="row justify-between">
                                     <div className="col-md-6">
-                                    <Image
-                                    src="/assets/image 24 (1).png"
-                                    alt="Person 1"
+                                        <Image
+                                            src="/assets/images/image 24 (1).png"
+                                            alt="Person 1"
 
-                                    width='5550'
-                                    height='550'
-                                    className="w-full"
+                                            width='5550'
+                                            height='550'
+                                            className="w-full rounded-[15px]"
 
-                                />
-                                <div className="pt-4 pb-4">
-                                  <div   className="sm:h-[180] ">
-                                <p className="font-[cd-se] text-[22px] text-[#000] leading-[24px]">Dedicated in-house  team of experts</p>
-                                <p className="font-[400] text-[16px]">All of our experts advising you are full-time company employees. We don&apos;t use call centres, out staffing or outsourcing. Our team helps you set up a company, pay the right tax, track deadlines and manage filing.</p>
+                                        />
+                                        <div className="pt-4 pb-4">
+                                        <div className="">
+                                                <div className="h-[80px]  w-[350px]">
+                                                    <p className="font-[cd-se] sm:text-[32px] text-[#000] sm:leading-[35px]">Accountants that know your business</p>
+                                                </div>
+                                                <div className="h-[200px] w-[400px]">
 
-                                  </div>
-                                <Link href='/'>
-                                            <button className="font-[500] font-[500]  text-[14px] border border-dark text-[#000] px-5 py-[10px] rounded-[30px] text-center ">Schedule a call</button>
-                                        </Link>
+                                                <p className="font-[400] text-[16px]">Your personal accountant is a small business specialist. We take a proactive approach to help you make informed financial decisions to grow revenue.
 
-                                </div>
+                                                </p>
+                                                <p className="font-[400] text-[16px]">
+                                                Our team helps you stay on top of tax payments, track deadlines, and manage filing with HMRC and Companies House.</p>
+
+                                                </div>
+
+                                            </div>
+                                            <Link href='/'>
+                                                <button className="font-[500] font-[500]  text-[14px] border border-dark text-[#000] px-5 py-[10px] rounded-[30px] text-center ">Schedule a call</button>
+                                            </Link>
+
+                                        </div>
 
                                     </div>
                                     <div className="col-md-6">
-                                    <Image
-                                    src="/assets/image 25 (1).png"
-                                    alt="Person 1"
+                                        <Image
+                                            src="/assets/images/image 25.png"
+                                            alt="Person 1"
+                                            width='5550'
+                                            height='550'
+                                            className="w-full"
 
-                                    width='5550'
-                                    height='550'
-                                    className="w-full"
+                                        />
+                                        <div className="pt-4 pb-4 ">
+                                            <div className="">
+                                                <div className="h-[80px]  w-[350px]">
+                                                    <p className="font-[cd-se] sm:text-[32px] text-[#000] sm:leading-[35px]">Smart software made for business owners</p>
+                                                </div>
+                                                <div className="h-[200px] w-[400px]">
 
-                                />
-                                <div className="pt-4 pb-4 ">
-                                    <div className="sm:h-[180] ">
-                                <p className="font-[cd-se] text-[22px] text-[#000] leading-[24px]">Smart software made for business owners</p>
-                                <p className="font-[400] text-[16px]">Our success formula: top-notch accountants combined with user-friendly tools, providing the clarity needed for informed business decisions.</p>
-                                <p  className="font-[400] text-[16px]">
-                                Our proprietary software streamlines bookkeeping, taxes, compliance, and more. It&apos;s your financial data, all in one place..</p>
+                                                <p className="font-[400] text-[16px]">Our formula for success: expert accountants plus easy-to-use tools. Together, they give you cash flow clarity to make informed business decisions.
 
+                                                </p>
+                                                <p className="font-[400] text-[16px]">
+                                                    Our in-house software helps manage bookkeeping, invoicing, payments and much more. It&apos;s your financial data, in real-time, all in one place.</p>
+
+                                                </div>
+
+                                            </div>
+                                            <Link href='/'>
+                                                <button className="font-[500] font-[500]  text-[14px] border border-dark text-[#000] px-5 py-[10px] rounded-[30px] text-center ">Schedule a call</button>
+                                            </Link>
+
+                                        </div>
                                     </div>
-                                <Link href='/'>
-                                            <button className="font-[500] font-[500]  text-[14px] border border-dark text-[#000] px-5 py-[10px] rounded-[30px] text-center ">Schedule a call</button>
-                                        </Link>
-
                                 </div>
-
-                                    </div>
-
-
-                                </div>
-                               
                             </div>
-
                         </div>
-
-
                     </div>
-
                 </div>
 
             </section>

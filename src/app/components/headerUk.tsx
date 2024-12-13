@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const Header = () => {
+const HeaderUK = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState<string | null>(null); // Type annotation for openMenu
 
@@ -26,7 +26,7 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const [selectedCountry, setSelectedCountry] = useState<string>("US"); // Type annotation for selectedCountry
+  const [selectedCountry, setSelectedCountry] = useState<string>("UK"); // Type annotation for selectedCountry
 
   // Handle country selection
   const handleCountrySelect = (country: string) => {
@@ -229,17 +229,20 @@ const Header = () => {
                 onMouseLeave={handleMouseLeave}
               >
                 <div className="flex items-center text-gray-600 cursor-pointer">
-                <Image
-                            src="/assets/images/united-states (1).png"
-                            width={25}
-                            height={10}
-                            alt="no-img"
-                            className="rounded-[50px]"
-                          />
+                  <span className="text-lg">
+                   <Image
+                                               src="/assets/images/united-kingdom.png"
+                                               width={25}
+                                               height={10}
+                                               alt="no-img"
+                                               className="rounded-[50px]"
+                                             />
+                      
+                  </span>
                   <span className="ml-2 font-[400]">{selectedCountry}</span>
                 </div>
                 {openMenu === "countryDropdown" && (
-                  <ul className="absolute font-[400] pr-14 bg-white shadow-md rounded-md top-[20px] right-[-15px] mt-1 py-1">
+                  <ul className="absolute font-[400] pr-14 bg-white shadow-md rounded-md top-[20px] right-[-5px] mt-1 py-1">
                     <li className="px-1 py-2 hover:text-[#0073fd] cursor-pointer">
                       <Link href="/allUAEcomponents" className="no-underline hover:text-black">
                         <span className="text-inherit flex gap-3  text-[16px] font-[400]">
@@ -254,29 +257,21 @@ const Header = () => {
                       </Link>
                     </li>
                     <li className="px-1 py-2 hover:text-[#0073fd] cursor-pointer">
-                      <Link href="/" className="no-underline hover:text-black">
+                      <Link href="/usa" className="no-underline hover:text-black">
                         <span className="text-inherit flex gap-3 ">
                           <Image
-                            src="/assets/images/united-states (1).png"
+                            src="/assets/images/united-states.png"
                             width={25}
                             height={10}
                             alt="no-img"
                             className="rounded-[50px]"
                           />  
-                          US</span>
+                          USA</span>
                       </Link>
                     </li>
                     <li className="px-1 py-2 hover:text-[#0073fd] cursor-pointer">
-                      <Link href="/allUKcomponents" className="no-underline hover:text-black">
-                        <span className="text-inherit flex gap-3">
-                        <Image
-                            src="/assets/images/united-kingdom.png"
-                            width={25}
-                            height={10}
-                            alt="no-img"
-                            className="rounded-[50px]"
-                          /> 
-                          UK</span>
+                      <Link href="/china" className="no-underline hover:text-black">
+                        <span className="text-inherit">Singapore</span>
                       </Link>
                     </li>
                     
@@ -437,4 +432,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderUK;

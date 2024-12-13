@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const Header = () => {
+const HeaderUAE = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState<string | null>(null); // Type annotation for openMenu
 
@@ -26,7 +26,7 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const [selectedCountry, setSelectedCountry] = useState<string>("US"); // Type annotation for selectedCountry
+  const [selectedCountry, setSelectedCountry] = useState<string>("UAE"); // Type annotation for selectedCountry
 
   // Handle country selection
   const handleCountrySelect = (country: string) => {
@@ -228,9 +228,9 @@ const Header = () => {
                 onMouseEnter={() => handleMouseEnter("countryDropdown")}
                 onMouseLeave={handleMouseLeave}
               >
-                <div className="flex items-center text-gray-600 cursor-pointer">
+                <div className="flex text-gray-600 cursor-pointer">
                 <Image
-                            src="/assets/images/united-states (1).png"
+                            src="/assets/images/dubai-flag.png"
                             width={25}
                             height={10}
                             alt="no-img"
@@ -437,4 +437,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderUAE;
