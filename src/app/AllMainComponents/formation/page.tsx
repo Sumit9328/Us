@@ -15,7 +15,7 @@ export default function Home() {
           <Header />
         </div>
       </section>
-      <section className="overflow-hidden sm:px-20 px-6 sm:pt-32 pb-10">
+      <section className="overflow-hidden sm:px-20 px-6 sm:pt-32 pt-0 pb-10">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
