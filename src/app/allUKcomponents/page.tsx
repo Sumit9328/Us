@@ -4,6 +4,7 @@ import Image from "next/image";
 import Header from '../components/header';
 import Link from "next/link";
 import Footer from '../components/footer'
+import HeaderUK from "../components/headerUk";
 
 import "../globals.css";
 
@@ -12,7 +13,7 @@ export default function Home() {
     return (
         <>
             <div className="bg-[#f3efe7]">
-                <Header />
+                <HeaderUK />
                 <section className="overflow-hidden sm:px-20 px-6  sm:pt-20 pb-4">
                     <div className="flex items-center justify-center">
                         <div className="flex items-center px-4 py-2 border rounded-full border-black">
