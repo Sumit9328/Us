@@ -62,7 +62,7 @@ const HeaderUK = () => {
                 <div className="menuValue">
                   <button className="flex items-center text-[16px] text-black group">
                     About
-                    <span className="ml-1 text-sm icon icon-tabler icons-tabler-filled icon-tabler-caret-down transform transition-transform duration-300 group-hover:rotate-180">  
+                    <span className="ml-1 text-sm icon icon-tabler icons-tabler-filled icon-tabler-caret-down transform transition-transform duration-300 group-hover:rotate-180">
                     </span>
                   </button>
                 </div>
@@ -186,7 +186,7 @@ const HeaderUK = () => {
                       <Link href="/allUAEcomponents" className="no-underline hover:text-black">
                         <span className="text-inherit flex gap-3  text-[16px] font-[400]">
                           <Image
-                            src="/assets/images/dubai-flag.png"
+                            src="/assets/images/UAE.svg"
                             width={25}
                             height={10}
                             alt="no-img"
@@ -199,7 +199,7 @@ const HeaderUK = () => {
                       <Link href="/" className="no-underline hover:text-black">
                         <span className="text-inherit flex gap-3 ">
                           <Image
-                            src="/assets/images/united-states (1).png"
+                            src="/assets/images/United States (US).svg"
                             width={25}
                             height={10}
                             alt="no-img"
@@ -212,7 +212,7 @@ const HeaderUK = () => {
                       <Link href="/allUKcomponents" className="no-underline hover:text-black">
                         <span className="text-inherit flex gap-3">
                           <Image
-                            src="/assets/images/united-kingdom.png"
+                            src="/assets/images/United Kingdom (UK).svg"
                             width={25}
                             height={10}
                             alt="no-img"

@@ -103,10 +103,10 @@ const HeaderUAE = () => {
                               <div className="border menuItem absolute top-[25px] left-[330px] w-[180px] py-1 rounded-[12px]">
                                 <ul className="">
                                   <Link href="/allUAEcomponents/mainlandcost" className="no-underline">
-                                  <li className="text-[#000] hover:text-[#0462f2] mb-3 text-[15px] mt-2 text-[15px]">Mainland Cost</li>
+                                    <li className="text-[#000] hover:text-[#0462f2] mb-3 text-[15px] mt-2 text-[15px]">Mainland Cost</li>
                                   </Link>
                                   <Link href="/allUAEcomponents/companyformationcosts" className="no-underline">
-                                  <li className="text-[#000] hover:text-[#0462f2] mb-3 text-[15px]">Free Zone Cost</li>
+                                    <li className="text-[#000] hover:text-[#0462f2] mb-3 text-[15px]">Free Zone Cost</li>
                                   </Link>
                                   <li className="text-[#000] hover:text-[#0462f2] mb-3 text-[15px]">Abu Dhabi Cost</li>
                                 </ul>
@@ -359,7 +359,7 @@ const HeaderUAE = () => {
                       <Link href="/allUAEcomponents" className="no-underline hover:text-black">
                         <span className="text-inherit flex gap-3  text-[17px] font-[400]">
                           <Image
-                            src="/assets/images/dubai-flag.png"
+                            src="/assets/images/UAE.svg"
                             width={25}
                             height={10}
                             alt="no-img"
@@ -372,7 +372,7 @@ const HeaderUAE = () => {
                       <Link href="/" className="no-underline hover:text-black">
                         <span className="text-inherit flex gap-3 ">
                           <Image
-                            src="/assets/images/united-states (1).png"
+                            src="/assets/images/United States (US).svg"
                             width={25}
                             height={10}
                             alt="no-img"
@@ -385,7 +385,7 @@ const HeaderUAE = () => {
                       <Link href="/allUKcomponents" className="no-underline hover:text-black">
                         <span className="text-inherit flex gap-3">
                           <Image
-                            src="/assets/images/united-kingdom.png"
+                            src="/assets/images/United Kingdom (UK).svg"
                             width={25}
                             height={10}
                             alt="no-img"

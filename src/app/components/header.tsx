@@ -229,13 +229,13 @@ const Header = () => {
                 onMouseLeave={handleMouseLeave}
               >
                 <div className="flex items-center text-gray-600 cursor-pointer">
-                <Image
-                            src="/assets/images/united-states (1).png"
-                            width={25}
-                            height={10}
-                            alt="no-img"
-                            className="rounded-[50px]"
-                          />
+                  <Image
+                    src="/assets/images/United States (US).svg"
+                    width={25}
+                    height={10}
+                    alt="no-img"
+                    className="rounded-[50px]"
+                  />
                   <span className="ml-2 font-[400]">{selectedCountry}</span>
                 </div>
                 {openMenu === "countryDropdown" && (
@@ -243,13 +243,13 @@ const Header = () => {
                     <li className="px-1 py-2 hover:text-[#0073fd] cursor-pointer">
                       <Link href="/allUAEcomponents" className="no-underline hover:text-black">
                         <span className="text-inherit flex gap-3  text-[16px] font-[400]">
-                        <Image
-                            src="/assets/images/dubai-flag.png"
+                          <Image
+                            src="/assets/images/UAE.svg"
                             width={25}
                             height={10}
                             alt="no-img"
                             className="rounded-[50px]"
-                          />  
+                          />
                           UAE</span>
                       </Link>
                     </li>
@@ -257,29 +257,29 @@ const Header = () => {
                       <Link href="/" className="no-underline hover:text-black">
                         <span className="text-inherit flex gap-3 ">
                           <Image
-                            src="/assets/images/united-states (1).png"
+                            src="/assets/images/United States (US).svg"
                             width={25}
                             height={10}
                             alt="no-img"
                             className="rounded-[50px]"
-                          />  
+                          />
                           US</span>
                       </Link>
                     </li>
                     <li className="px-1 py-2 hover:text-[#0073fd] cursor-pointer">
                       <Link href="/allUKcomponents" className="no-underline hover:text-black">
                         <span className="text-inherit flex gap-3">
-                        <Image
-                            src="/assets/images/united-kingdom.png"
+                          <Image
+                            src="/assets/images/United Kingdom (UK).svg"
                             width={25}
                             height={10}
                             alt="no-img"
                             className="rounded-[50px]"
-                          /> 
+                          />
                           UK</span>
                       </Link>
                     </li>
-                    
+
                   </ul>
                 )}
               </div>
