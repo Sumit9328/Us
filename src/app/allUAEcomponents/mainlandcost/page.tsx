@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Header from "../../components/header";
+import HeaderUAE from "@/app/components/headerUAE";
 import Footer from "../../components/footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,7 +9,7 @@ export default function Home() {
         <>
             <section>
                 <div className="bg-[#f3efe7]">
-                    <Header />
+                    <HeaderUAE />
                 </div>
             </section>
 

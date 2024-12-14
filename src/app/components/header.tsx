@@ -95,7 +95,7 @@ const Header = () => {
                           href="/AllMainComponents/totalCompliance"
                           className=" no-underline"
                         >
-                          <li className="mb-3 leading-[18px] text-[16px] font-[500] hover:text-[#000]">
+                          <li className="mb-3 leading-[18px] text-[16px] font-[500] text-[#000] hover:text-[#0073fd]">
                             Total Compliance <br />
                             <span className="text-[14px] font-[400] text-[#949494]">
                               Everything you need in one package
@@ -106,7 +106,7 @@ const Header = () => {
                           href="/AllMainComponents/money"
                           className=" no-underline"
                         >
-                          <li className="mb-3 leading-[18px] text-[16px] font-[500] hover:text-[#000]">
+                          <li className="mb-3 leading-[18px] text-[16px] font-[500] text-[#000] hover:text-[#0073fd]">
                             Cloud BSS Money
                             <br />
                             <span className="text-[14px] font-[400] text-[#949494]">
@@ -118,7 +118,7 @@ const Header = () => {
                           href="/AllMainComponents/bookKeeping"
                           className=" no-underline"
                         >
-                          <li className="mb-3 leading-[18px] text-[16px] font-[500] hover:text-[#000]">
+                          <li className="mb-3 leading-[18px] text-[16px] font-[500] text-[#000] hover:text-[#0073fd]">
                             Cloud BSS Bookkeeping
                             <br />
                             <span className="text-[14px] font-[400] text-[#949494]">
@@ -130,7 +130,7 @@ const Header = () => {
                           href="/AllMainComponents/taxes"
                           className=" no-underline"
                         >
-                          <li className="mb-3 leading-[18px] text-[16px] font-[500] hover:text-[#000]">
+                          <li className="mb-3 leading-[18px] text-[16px] font-[500] text-[#000] hover:text-[#0073fd]">
                             Cloud BSS Taxes
                             <br />
                             <span className="text-[14px] font-[400] text-[#949494]">

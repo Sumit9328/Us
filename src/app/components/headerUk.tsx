@@ -56,166 +56,105 @@ const HeaderUK = () => {
           </div>
           <div className="col-md-6 flex justify-center items-center">
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex space-x-6 gap-4 text-black font-medium">
-              <a
-                href="#about"
-                className="hover:text-gray-900 text-black text-lg no-underline"
-              >
-                About
-              </a>
+            <nav className="hidden md:flex gap-3 space-x-6  text-black font-medium">
+              <div className="relative flex space-x-8">
+                {/* Dropdown 1 */}
+                <div className="menuValue">
+                  <button className="flex items-center text-[16px] text-black group">
+                    About
+                    <span className="ml-1 text-sm icon icon-tabler icons-tabler-filled icon-tabler-caret-down transform transition-transform duration-300 group-hover:rotate-180">  
+                    </span>
+                  </button>
+                </div>
+
+
+
+              </div>
 
               <Link
                 href="/AllMainComponents/formation"
                 className="no-underline"
               >
-                <span className="hover:text-gray-900 text-lg text-black no-underline">
-                  Formation
+                <span className="hover:text-gray-900 text-[16px] text-black no-underline">
+                  Register a Company
                 </span>
               </Link>
 
               {/* Business Setup Services Dropdown */}
               <div className="relative flex space-x-8">
                 {/* Dropdown 1 */}
-                <div
-                  className="relative"
-                  onMouseEnter={() => handleMouseEnter("products")}
-                  onMouseLeave={handleMouseLeave}
-                >
-                  <button className="flex items-center text-lg hover:text-gray-900 group">
-                    Products
+                <div className="menuValue">
+                  <button className="flex items-center text-[16px] text-black group">
+                    Accounting
                     <span className="ml-1 text-sm icon icon-tabler icons-tabler-filled icon-tabler-caret-down transform transition-transform duration-300 group-hover:rotate-180">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" className="icon icon-tabler icons-tabler-filled icon-tabler-caret-up"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M11.293 7.293a1 1 0 0 1 1.32 -.083l.094 .083l6 6l.083 .094l.054 .077l.054 .096l.017 .036l.027 .067l.032 .108l.01 .053l.01 .06l.004 .057l.002 .059l-.002 .059l-.005 .058l-.009 .06l-.01 .052l-.032 .108l-.027 .067l-.07 .132l-.065 .09l-.073 .081l-.094 .083l-.077 .054l-.096 .054l-.036 .017l-.067 .027l-.108 .032l-.053 .01l-.06 .01l-.057 .004l-.059 .002h-12c-.852 0 -1.297 -.986 -.783 -1.623l.076 -.084l6 -6z" /></svg>
+
+                      <Image
+                        src="/assets/images/caret-up.svg"
+                        width={14}
+                        height={14}
+                        alt="no-img"
+                      />
                     </span>
                   </button>
 
-                  {openMenu === "products" && (
-                    <div className="absolute left-[-2] top-[20px] py-1 mt-2 w-[280px] bg-white shadow-md rounded-md transition-all ease-in-out">
-                      <ul className="pl-5 py-0 space-y-2 mt-4">
-                        <Link
-                          href="/AllMainComponents/totalCompliance"
-                          className=" no-underline"
-                        >
-                          <li className="mb-3 leading-[18px] text-[16px] font-[500] hover:text-[#000]">
-                            Total Compliance <br />
-                            <span className="text-[14px] font-[400] text-[#949494]">
-                              Everything you need in one package
-                            </span>
-                          </li>
-                        </Link>
-                        <Link
-                          href="/AllMainComponents/money"
-                          className=" no-underline"
-                        >
-                          <li className="mb-3 leading-[18px] text-[16px] font-[500] hover:text-[#000]">
-                            Cloud BSS Money
-                            <br />
-                            <span className="text-[14px] font-[400] text-[#949494]">
-                              Move money internationally
-                            </span>
-                          </li>
-                        </Link>
-                        <Link
-                          href="/AllMainComponents/bookKeeping"
-                          className=" no-underline"
-                        >
-                          <li className="mb-3 leading-[18px] text-[16px] font-[500] hover:text-[#000]">
-                            Cloud BSS Bookkeeping
-                            <br />
-                            <span className="text-[14px] font-[400] text-[#949494]">
-                              The ultimate bookkeeping solution
-                            </span>
-                          </li>
-                        </Link>
-                        <Link
-                          href="/AllMainComponents/taxes"
-                          className=" no-underline"
-                        >
-                          <li className="mb-3 leading-[18px] text-[16px] font-[500] hover:text-[#000]">
-                            Cloud BSS Taxes
-                            <br />
-                            <span className="text-[14px] font-[400] text-[#949494]">
-                              Embrace worry-free tax filings
-                            </span>
-                          </li>
-                        </Link>
-                      </ul>
-                    </div>
-                  )}
+                  <ul className="border rounded-[12px] shadow-md w-[245px] absolute menuItem py-3">
+                    <span className="text-[#868686] text-[16px]">GET STARTED</span>
+                    <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px] mt-2 text-[15px]">Accounting Services</li>
+                    <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">Ecommerce Accounting</li>
+                    <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">Bookkeeping</li>
+                    <li className="text-[#000] hover:text-[#0462f2] mb-4 text-[15px]">Property Accountants</li>
+
+                    <span className="text-[#868686] text-[16px] ">Explore More</span>
+                    <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px] mt-2 text-[15px]">Invoicing</li>
+                    <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">Ecommerce Integrations</li>
+                    <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">Reporting</li>
+                    <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">Personal Expenses</li>
+                    <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">Payments</li>
+                    <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">Demo</li>
+
+
+
+                  </ul>
+
                 </div>
 
                 {/* Dropdown 2 */}
-                <div
-                  className="relative"
-                  onMouseEnter={() => handleMouseEnter("services")}
-                  onMouseLeave={handleMouseLeave}
+                <Link
+                  href="/AllMainComponents/comparePackages"
+                  className=" no-underline"
                 >
-                  <button className="flex items-center text-lg hover:text-gray-900 group">
-                    Products
-                    <span className="ml-1 text-sm icon icon-tabler icons-tabler-filled icon-tabler-caret-down transform transition-transform duration-300 group-hover:rotate-180">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" className="icon icon-tabler icons-tabler-filled icon-tabler-caret-up"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M11.293 7.293a1 1 0 0 1 1.32 -.083l.094 .083l6 6l.083 .094l.054 .077l.054 .096l.017 .036l.027 .067l.032 .108l.01 .053l.01 .06l.004 .057l.002 .059l-.002 .059l-.005 .058l-.009 .06l-.01 .052l-.032 .108l-.027 .067l-.07 .132l-.065 .09l-.073 .081l-.094 .083l-.077 .054l-.096 .054l-.036 .017l-.067 .027l-.108 .032l-.053 .01l-.06 .01l-.057 .004l-.059 .002h-12c-.852 0 -1.297 -.986 -.783 -1.623l.076 -.084l6 -6z" /></svg>
-                    </span>
-                  </button>
+                  <span className="hover:text-gray-900 no-underline text-black text-[16px]">
+                    <div className="menuValue">
+                      <button className="flex items-center text-[16px] text-black group">
+                        Pricing
+                        <span className="ml-1 text-sm icon icon-tabler icons-tabler-filled icon-tabler-caret-down transform transition-transform duration-300 group-hover:rotate-180">
 
-                  {openMenu === "services" && (
-                    <div className="absolute left-0 mt-2 w-[280px] bg-white shadow-md rounded-md transition-all ease-in-out">
-                      <ul className="pl-5 py-2 space-y-2 mt-4">
-                        <li className="hover:bg-gray-100 mb-3 leading-[18px] text-[16px] font-[500] text-black">
-                          Cloud BSS Bookkeeping <br />
-                          <span className="text-[14px] font-[400] text-[#949494]">
-                            The ultimate bookkeeping solution
-                          </span>
-                        </li>
-                        <li className="hover:bg-gray-100 mb-3 leading-[18px] text-[16px] text-black font-[500]">
-                          Cloud BSS Taxes
-                          <br />
-                          <span className="text-[14px] font-[400] text-[#949494]">
-                            Embrace worry-free tax filings
-                          </span>
-                        </li>
+                          <Image
+                            src="/assets/images/caret-up.svg"
+                            width={14}
+                            height={14}
+                            alt="no-img"
+                          />
+                        </span>
+                      </button>
+
+                      <ul className="border rounded-[12px] shadow-md w-[265px] absolute menuItem py-2">
+                        <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px] mt-2 text-[15px]">Company Registration Prices</li>
+                        <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">Accounting Prices</li>
                       </ul>
+
                     </div>
-                  )}
-                </div>
+                  </span>
+                </Link>
 
-                {/* Dropdown 3 */}
-                {/* <div
-        className="relative"
-        onMouseEnter={() => handleMouseEnter("about")}
-        onMouseLeave={handleMouseLeave}
-      >
-        <button className="flex items-center text-lg hover:text-gray-900">
-          About Us
-          <span className="ml-1 text-sm">▼</span>
-        </button>
-        {openMenu === "about" && (
-          <div className="absolute left-0 mt-2 w-[280px] bg-white shadow-md rounded-md transition-all ease-in-out">
-            <ul className="pl-5 py-2 space-y-2 mt-4">
-              <li className="hover:bg-gray-100 mb-3 leading-[18px] text-[16px] font-[500] text-black">
-                Our Story <br />
-                <span className="text-[14px] font-[400] text-[#949494]">
-                  Learn more about us
-                </span>
-              </li>
-              <li className="hover:bg-gray-100 mb-3 leading-[18px] text-[16px] text-black font-[500]">
-                Contact Us
-                <br />
-                <span className="text-[14px] font-[400] text-[#949494]">
-                  Get in touch with our team
-                </span>
-              </li>
-            </ul>
-          </div>
-        )}
-      </div> */}
+
               </div>
-
-
               <Link
                 href="/AllMainComponents/comparePackages"
                 className=" no-underline"
               >
-                <span className="hover:text-gray-900 no-underline text-black text-lg">
-                  Pricing
+                <span className="hover:text-gray-900 no-underline text-black text-[16px]">
+                  Resources
                 </span>
               </Link>
             </nav>
@@ -229,61 +168,61 @@ const HeaderUK = () => {
                 onMouseLeave={handleMouseLeave}
               >
                 <div className="flex items-center text-gray-600 cursor-pointer">
-                  <span className="text-lg">
-                   <Image
-                                               src="/assets/images/united-kingdom.png"
-                                               width={25}
-                                               height={10}
-                                               alt="no-img"
-                                               className="rounded-[50px]"
-                                             />
-                      
+                  <span className="text-[16px]">
+                    <Image
+                      src="/assets/images/united-kingdom.png"
+                      width={25}
+                      height={10}
+                      alt="no-img"
+                      className="rounded-[50px]"
+                    />
+
                   </span>
                   <span className="ml-2 font-[400]">{selectedCountry}</span>
                 </div>
                 {openMenu === "countryDropdown" && (
-                   <ul className="absolute font-[400] pr-14 bg-white shadow-md rounded-md top-[20px] right-[-15px] mt-1 py-1">
-                   <li className="px-1 py-2 hover:text-[#0073fd] cursor-pointer">
-                     <Link href="/allUAEcomponents" className="no-underline hover:text-black">
-                       <span className="text-inherit flex gap-3  text-[16px] font-[400]">
-                       <Image
-                           src="/assets/images/dubai-flag.png"
-                           width={25}
-                           height={10}
-                           alt="no-img"
-                           className="rounded-[50px]"
-                         />  
-                         UAE</span>
-                     </Link>
-                   </li>
-                   <li className="px-1 py-2 hover:text-[#0073fd] cursor-pointer">
-                     <Link href="/" className="no-underline hover:text-black">
-                       <span className="text-inherit flex gap-3 ">
-                         <Image
-                           src="/assets/images/united-states (1).png"
-                           width={25}
-                           height={10}
-                           alt="no-img"
-                           className="rounded-[50px]"
-                         />  
-                         US</span>
-                     </Link>
-                   </li>
-                   <li className="px-1 py-2 hover:text-[#0073fd] cursor-pointer">
-                     <Link href="/allUKcomponents" className="no-underline hover:text-black">
-                       <span className="text-inherit flex gap-3">
-                       <Image
-                           src="/assets/images/united-kingdom.png"
-                           width={25}
-                           height={10}
-                           alt="no-img"
-                           className="rounded-[50px]"
-                         /> 
-                         UK</span>
-                     </Link>
-                   </li>
-                   
-                 </ul>
+                  <ul className="absolute font-[400] pr-14 bg-white shadow-md border rounded-md top-[22px] right-[-15px] mt-1 py-1">
+                    <li className="px-1 py-2 hover:text-[#0073fd] cursor-pointer">
+                      <Link href="/allUAEcomponents" className="no-underline hover:text-black">
+                        <span className="text-inherit flex gap-3  text-[16px] font-[400]">
+                          <Image
+                            src="/assets/images/dubai-flag.png"
+                            width={25}
+                            height={10}
+                            alt="no-img"
+                            className="rounded-[50px]"
+                          />
+                          UAE</span>
+                      </Link>
+                    </li>
+                    <li className="px-1 py-2 hover:text-[#0073fd] cursor-pointer">
+                      <Link href="/" className="no-underline hover:text-black">
+                        <span className="text-inherit flex gap-3 ">
+                          <Image
+                            src="/assets/images/united-states (1).png"
+                            width={25}
+                            height={10}
+                            alt="no-img"
+                            className="rounded-[50px]"
+                          />
+                          US</span>
+                      </Link>
+                    </li>
+                    <li className="px-1 py-2 hover:text-[#0073fd] cursor-pointer">
+                      <Link href="/allUKcomponents" className="no-underline hover:text-black">
+                        <span className="text-inherit flex gap-3">
+                          <Image
+                            src="/assets/images/united-kingdom.png"
+                            width={25}
+                            height={10}
+                            alt="no-img"
+                            className="rounded-[50px]"
+                          />
+                          UK</span>
+                      </Link>
+                    </li>
+
+                  </ul>
                 )}
               </div>
               <button className="px-4 py-1 bg-gray-800 font-[400] text-white w-[150px] rounded-[50px] hover:bg-gray-700">
@@ -317,13 +256,13 @@ const HeaderUK = () => {
           <nav className="flex flex-col items-start justify-start pl-6 pt-12 space-y-4 text-gray-600 font-medium">
             <a
               href="#about"
-              className="hover:text-gray-900 text-lg text-black no-underline"
+              className="hover:text-gray-900 text-[16px] text-black no-underline"
             >
               About
             </a>
 
             <Link href="/AllMainComponents/formation" className="no-underline">
-              <span className="hover:text-gray-900 text-lg text-black no-underline">
+              <span className="hover:text-gray-900 text-[16px] text-black no-underline">
                 Formation
               </span>
             </Link>
@@ -333,7 +272,7 @@ const HeaderUK = () => {
               {/* Dropdown 1 */}
               <div className="relative">
                 <button
-                  className="flex items-center text-lg text-black"
+                  className="flex items-center text-[16px] text-black"
                   onClick={() => handleMenuClick("products")} // Mobile: Toggle dropdown
                 >
                   Products
@@ -399,7 +338,7 @@ const HeaderUK = () => {
               href="/AllMainComponents/comparePackages"
               className=" no-underline"
             >
-              <span className="hover:text-gray-900 text-lg text-black no-underline">
+              <span className="hover:text-gray-900 text-[16px] text-black no-underline">
                 Pricing
               </span>
             </Link>
