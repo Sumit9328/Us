@@ -92,20 +92,20 @@ const HeaderUAE = () => {
                   {openMenu === "products" && (
                     <div className="absolute left-[-2] top-[20px] py-1 mt-2 w-[330px] bg-white shadow-md rounded-md transition-all ease-in-out">
                       <ul className="pl-5 py-0 space-y-2 mt-4">
-                        <Link
-                          href="/AllMainComponents/totalCompliance"
+                        {/* <Link
+                          href="/US/totalCompliance"
                           className="no-underline menuValue"
-                        >
-                          <div className="flex justify-between items-center mb-3">
+                        > */}
+                          <div className="flex menuValue justify-between items-center mb-3">
 
                             <li className=" leading-[18px] text-[17px] text-[#000] hover:text-[#0462f2] font-[500]">
                               Company Formation Costs
                               <div className="border menuItem absolute top-[25px] left-[330px] w-[180px] py-1 rounded-[12px]">
                                 <ul className="">
-                                  <Link href="/allUAEcomponents/mainlandcost" className="no-underline">
+                                  <Link href="/UAE/mainlandcost" className="no-underline">
                                     <li className="text-[#000] hover:text-[#0462f2] mb-3 text-[15px] mt-2 text-[15px]">Mainland Cost</li>
                                   </Link>
-                                  <Link href="/allUAEcomponents/companyformationcosts" className="no-underline">
+                                  <Link href="/UAE/companyformationcosts" className="no-underline">
                                     <li className="text-[#000] hover:text-[#0462f2] mb-3 text-[15px]">Free Zone Cost</li>
                                   </Link>
                                   <li className="text-[#000] hover:text-[#0462f2] mb-3 text-[15px]">Abu Dhabi Cost</li>
@@ -121,12 +121,9 @@ const HeaderUAE = () => {
                               />
                             </span>
                           </div>
-                        </Link>
-                        <Link
-                          href="/AllMainComponents/totalCompliance"
-                          className="no-underline menuValue"
-                        >
-                          <div className="flex justify-between items-center mb-3">
+                     
+                       
+                          <div className="flex menuValue justify-between items-center mb-3">
 
                             <li className=" leading-[18px] text-[17px] text-[#000] hover:text-[#0462f2] font-[500]">
                               Business License in Dubai
@@ -149,12 +146,9 @@ const HeaderUAE = () => {
                               />
                             </span>
                           </div>
-                        </Link>
-                        <Link
-                          href="/AllMainComponents/totalCompliance"
-                          className="no-underline menuValue"
-                        >
-                          <div className="flex justify-between items-center mb-3">
+                      
+                       
+                          <div className="flex justify-between menuValue items-center mb-3">
 
                             <li className=" leading-[18px] text-[17px] text-[#000] hover:text-[#0462f2] font-[500]">
                               Visa Services in Dubai
@@ -176,12 +170,9 @@ const HeaderUAE = () => {
                               />
                             </span>
                           </div>
-                        </Link>
-                        <Link
-                          href="/AllMainComponents/totalCompliance"
-                          className="no-underline menuValue"
-                        >
-                          <div className="flex justify-between items-center mb-3">
+                    
+                        
+                          <div className="flex menuValue justify-between items-center mb-3">
 
                             <li className=" leading-[18px] text-[17px] text-[#000] hover:text-[#0462f2] font-[500]">
                               Company Formation Services
@@ -207,21 +198,15 @@ const HeaderUAE = () => {
                               />
                             </span>
                           </div>
-                        </Link>
-                        <Link
-                          href="/AllMainComponents/taxes"
-                          className=" no-underline"
-                        >
-                          <li className="mb-3 leading-[18px] text-[17px] text-[#000] font-[500] hover:text-[#0462f2]">
+                       
+                       
+                          <li className="mb-3 menuValue leading-[18px] text-[17px] text-[#000] font-[500] hover:text-[#0462f2]">
                             Investor Visa Services
 
                           </li>
-                        </Link>
-                        <Link
-                          href="/AllMainComponents/totalCompliance"
-                          className="no-underline menuValue"
-                        >
-                          <div className="flex justify-between items-center mb-3">
+                       
+                        
+                          <div className="flex menuValue justify-between items-center mb-3">
 
                             <li className=" leading-[18px] text-[17px] text-[#000] hover:text-[#0462f2] font-[500]">
                               Mainland Company Formation
@@ -242,43 +227,30 @@ const HeaderUAE = () => {
                               />
                             </span>
                           </div>
-                        </Link>
-                        <Link
-                          href="/AllMainComponents/taxes"
-                          className=" no-underline"
-                        >
-                          <li className="mb-3 leading-[18px] text-[17px] text-[#000] font-[500] hover:text-[#0462f2]">
+                        
+                        
+                          <li className="mb-3 leading-[18px] text-[17px] text-[#000] font-[500] menuValue hover:text-[#0462f2]">
                             Rental Office/Business Centers
 
                           </li>
-                        </Link>
-                        <Link
-                          href="/AllMainComponents/taxes"
-                          className=" no-underline"
-                        >
-                          <li className="mb-3 leading-[18px] text-[17px] text-[#000] font-[500] hover:text-[#0462f2]">
+                      
+                          <li className="mb-3 leading-[18px] text-[17px] text-[#000] font-[500] menuValue hover:text-[#0462f2]">
                             Taxation & Vat Services
 
                           </li>
-                        </Link>
-                        <Link
-                          href="/AllMainComponents/taxes"
-                          className=" no-underline"
-                        >
-                          <li className="mb-3 leading-[18px] text-[17px] text-[#000] font-[500] hover:text-[#0462f2]">
+                     
+                        
+                          <li className="mb-3 leading-[18px] text-[17px] text-[#000] font-[500] menuValue hover:text-[#0462f2]">
                             Company Registration in Dubai
 
                           </li>
-                        </Link>
-                        <Link
-                          href="/AllMainComponents/taxes"
-                          className=" no-underline"
-                        >
-                          <li className="mb-3 leading-[18px] text-[17px] text-[#000] font-[500] hover:text-[#0462f2]">
+                        
+                       
+                          <li className="mb-3 leading-[18px] text-[17px] text-[#000] font-[500] menuValue hover:text-[#0462f2]">
                             LLC Company
 
                           </li>
-                        </Link>
+                      
 
 
                       </ul>
@@ -326,7 +298,7 @@ const HeaderUAE = () => {
 
 
               <Link
-                href="/AllMainComponents/comparePackages"
+                href="/US/comparePackages"
                 className=" no-underline"
               >
                 <span className="hover:text-gray-900 no-underline text-black text-lg">
@@ -356,7 +328,7 @@ const HeaderUAE = () => {
                 {openMenu === "countryDropdown" && (
                   <ul className="absolute font-[400] pr-14 bg-white shadow-md rounded-md top-[20px] right-[-15px] mt-1 py-1">
                     <li className="px-1 py-2 hover:text-[#0073fd] cursor-pointer">
-                      <Link href="/allUAEcomponents" className="no-underline hover:text-black">
+                      <Link href="/UAE" className="no-underline hover:text-black">
                         <span className="text-inherit flex gap-3  text-[17px] font-[400]">
                           <Image
                             src="/assets/images/UAE.svg"
@@ -382,7 +354,7 @@ const HeaderUAE = () => {
                       </Link>
                     </li>
                     <li className="px-1 py-2 hover:text-[#0073fd] cursor-pointer">
-                      <Link href="/allUKcomponents" className="no-underline hover:text-black">
+                      <Link href="/UK" className="no-underline hover:text-black">
                         <span className="text-inherit flex gap-3">
                           <Image
                             src="/assets/images/United Kingdom (UK).svg"
@@ -434,7 +406,7 @@ const HeaderUAE = () => {
               About
             </a>
 
-            <Link href="/AllMainComponents/formation" className="no-underline">
+            <Link href="/US/formation" className="no-underline">
               <span className="hover:text-gray-900 text-lg text-black no-underline">
                 Formation
               </span>
@@ -462,7 +434,7 @@ const HeaderUAE = () => {
                   >
                     <ul className="pl-5 py-0 space-y-2 mt-4">
                       <Link
-                        href="/AllMainComponents/totalCompliance"
+                        href="/US/totalCompliance"
                         className=" no-underline"
                       >
                         <li className="hover:bg-gray-100 mb-3 leading-[18px] text-[17px] font-[500] text-black">
@@ -472,7 +444,7 @@ const HeaderUAE = () => {
                           </span>
                         </li>
                       </Link>
-                      <Link href="/AllMainComponents/money" className=" no-underline">
+                      <Link href="/US/money" className=" no-underline">
                         <li className="hover:bg-gray-100 mb-3 leading-[18px] text-[17px] text-black font-[500]">
                           Cloud BSS Money
                           <br />
@@ -481,7 +453,7 @@ const HeaderUAE = () => {
                           </span>
                         </li>
                       </Link>
-                      <Link href="/AllMainComponents/bookKeeping" className=" no-underline">
+                      <Link href="/US/bookKeeping" className=" no-underline">
                         <li className="hover:bg-gray-100 mb-3 leading-[18px] text-[17px] text-black font-[500]">
                           Cloud BSS Bookkeeping
                           <br />
@@ -490,7 +462,7 @@ const HeaderUAE = () => {
                           </span>
                         </li>
                       </Link>
-                      <Link href="/AllMainComponents/taxes" className=" no-underline">
+                      <Link href="/US/taxes" className=" no-underline">
                         <li className="hover:bg-gray-100 mb-3 leading-[18px] text-black text-[17px] font-[500]">
                           Cloud BSS Taxes
                           <br />
@@ -508,7 +480,7 @@ const HeaderUAE = () => {
 
             </div>
             <Link
-              href="/AllMainComponents/comparePackages"
+              href="/US/comparePackages"
               className=" no-underline"
             >
               <span className="hover:text-gray-900 text-lg text-black no-underline">
