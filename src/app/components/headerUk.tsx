@@ -41,7 +41,7 @@ const HeaderUK = () => {
 
   return (
     <section className="">
-      <header className="sm:px-24 px-6 flex justify-between items-center py-4 px-6 bg-white ">
+      <header className="sm:px-24 px-6 flex justify-between items-center py-4 px-6 ">
         {/* Logo Section */}
         <div className="col-12 flex justify-between">
           <div className="col-md-3">
