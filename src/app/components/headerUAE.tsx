@@ -297,14 +297,10 @@ const HeaderUAE = () => {
               </div>
 
 
-              <Link
-                href="/US/comparePackages"
-                className=" no-underline"
-              >
                 <span className="hover:text-gray-900 no-underline text-black text-lg">
                   Contacts
                 </span>
-              </Link>
+          
             </nav>
           </div>
           <div className="col-md-3 flex justify-end">
