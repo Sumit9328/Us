@@ -40,7 +40,7 @@ const HeaderUK = () => {
   };
 
   return (
-    <section className="">
+    <section className="bg-white">
       <header className="sm:px-24 px-6 flex justify-between items-center py-4 px-6 ">
         {/* Logo Section */}
         <div className="col-12 flex justify-between">
@@ -79,9 +79,11 @@ const HeaderUK = () => {
                 </div>
               </div>
 
+<Link href="/UK/registercompany" className="no-underline">
               <span className="hover:text-gray-900 text-[16px] text-black no-underline">
                 Register a Company
               </span>
+</Link>
 
               {/* Business Setup Services Dropdown */}
               <div className="relative flex space-x-8">

@@ -47,12 +47,12 @@ export default function Home() {
                                 </div>
                                 <div className="col-md-8  pb-5 pt-2">
                                     <div className="text-center" >
-                                        <Link href="/">
+                                      
                                             <button className="font-[500] font-[400] text-[14px] text-[#000] bg-[#fff] opacity-100 px-5 py-[10px] rounded-[30px] text-center">Login</button>
-                                        </Link>
-                                        <Link href='/'>
+                                     
+                                      
                                             <button className="font-[500] font-[400] ms-[15px] text-[14px] text-[#fff] bg-[#000] px-5 py-[10px] rounded-[30px] text-center ">Schedule a call</button>
-                                        </Link>
+                                     
 
 
                                     </div>
