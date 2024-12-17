@@ -4,6 +4,7 @@ import Image from "next/image";
 import FAQ from "../components/faq";
 import Footer from "../components/footer";
 import HeaderUAE from "../components/headerUAE";
+import BusinessStarterText from "../components/businesstartertext";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 export default function Home() {
@@ -28,14 +29,14 @@ export default function Home() {
                                         23+ Years of bringing dreams to Life | Over 50,000
                                         Companies Setup
                                     </p>
-                                    <div className="col-12 sm:flex gap-3 mb-4">
+                                    <div className="col-12 flex gap-3 mb-4">
                                         <div>
-                                            <button className="border-1 font-[400] border-[black] sm:w-[150px] w-[325px] sm:h-[40px] sm:py-0 py-[13px] rounded-[50px] text-[15px] sm:mb-0 mb-3">
+                                            <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                                                 Get Started
                                             </button>
                                         </div>
                                         <div>
-                                            <button className="border-1 font-[400] border-[black] sm:w-[150px] w-[325px] sm:h-[40px] sm:py-0 py-[13px] rounded-[50px] text-white bg-[#212833] text-[15px]">
+                                            <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                                                 Schedule a call
                                             </button>
                                         </div>
@@ -96,7 +97,7 @@ export default function Home() {
                                                     </p>
                                                 </div>
                                                 <div className="mb-4">
-                                                    <button className="w-[150px] py-2 font-[400] text-center text-[16px] rounded-[50px] border border-black">
+                                                    <button className="w-[150px] py-2 font-[400] text-center text-[16px] rounded-[50px] border border-black hover:bg-[#000] hover:text-[#fff] hover:bg-[#000] hover:text-[#fff]">
                                                         Learn more
                                                     </button>
                                                 </div>
@@ -129,7 +130,7 @@ export default function Home() {
                                                     </p>
                                                 </div>
                                                 <div className="mb-4">
-                                                    <button className="w-[150px] py-2 font-[400] text-center text-[16px] rounded-[50px] border border-black">
+                                                    <button className="w-[150px] py-2 font-[400] text-center text-[16px] rounded-[50px] border border-black hover:bg-[#000] hover:text-[#fff]">
                                                         Learn more
                                                     </button>
                                                 </div>
@@ -163,7 +164,7 @@ export default function Home() {
                                                     </p>
                                                 </div>
                                                 <div className="mb-4">
-                                                    <button className="w-[150px] py-2 font-[400] text-center text-[16px] rounded-[50px] border border-black">
+                                                    <button className="w-[150px] py-2 font-[400] text-center text-[16px] rounded-[50px] border border-black hover:bg-[#000] hover:text-[#fff]">
                                                         Learn more
                                                     </button>
                                                 </div>
@@ -200,7 +201,7 @@ export default function Home() {
                                                     </p>
                                                 </div>
                                                 <div className="mb-4">
-                                                    <button className="w-[150px] py-2 font-[400] text-center text-[16px] rounded-[50px] border border-black">
+                                                    <button className="w-[150px] py-2 font-[400] text-center text-[16px] rounded-[50px] border border-black hover:bg-[#000] hover:text-[#fff]">
                                                         Learn more
                                                     </button>
                                                 </div>
@@ -232,7 +233,7 @@ export default function Home() {
                                                     </p>
                                                 </div>
                                                 <div className="mb-4">
-                                                    <button className="w-[150px] py-2 font-[400] text-center text-[16px] rounded-[50px] border border-black">
+                                                    <button className="w-[150px] py-2 font-[400] text-center text-[16px] rounded-[50px] border border-black hover:bg-[#000] hover:text-[#fff]">
                                                         Learn more
                                                     </button>
                                                 </div>
@@ -265,7 +266,7 @@ export default function Home() {
                                                     </p>
                                                 </div>
                                                 <div className="mb-4">
-                                                    <button className="w-[150px] py-2 font-[400] text-center text-[16px] rounded-[50px] border border-black">
+                                                    <button className="w-[150px] py-2 font-[400] text-center text-[16px] rounded-[50px] border border-black hover:bg-[#000] hover:text-[#fff]">
                                                         Learn more
                                                     </button>
                                                 </div>
@@ -549,45 +550,7 @@ export default function Home() {
             </section>
             <section className="bg-[#000] overflow-hidden sm:px-20 px-6 sm:py-5 py-5">
                 <div className="container-fluid p-0">
-                    <div className="row align-items-center">
-                        <div className="col-md-6 mb-4">
-                            <div className="col-md-8">
-                                <p className="font-[cd-m] text-[#fff] sm:text-[30px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0">
-                                    Get tips on how to run your business smarter
-                                </p>
-                                <p className="font-[cd-r] text-[#ABABAB] sm:text-[16px] text-[15px] pt-4 mb-0">
-                                    Learn crucial tips on how to save money and build a
-                                    flourishing business, with real entrepreneurs sharing their
-                                    own experiences.
-                                </p>
-                                <div className="sm:flex justify-center items-center gap-4 max-w-lg mx-auto pt-4">
-                                    <input
-                                        type="email"
-                                        placeholder="Email address"
-                                        className="w-full px-4 font-[400] py-2 rounded-full text-black border border-gray-400 mb-4"
-                                    />
-                                    <button className="bg-white text-black font-medium px-6 py-2 rounded-full hover:bg-gray-100 mb-4 ">
-                                        SUBSCRIBE
-                                    </button>
-                                </div>
-                                <p className="text-[#fff] text-[15px] font-[400]">
-                                    <a className="no-underline text-[#ABABAB]" href="#">
-                                        By clicking, you agree to our
-                                    </a>{" "}
-                                    Terms & Conditions, Privacy and Data Protection Policy
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-md-6 ">
-                            <Image
-                                src="/assets/images/original-4703d0ba72b72f87fa49a618a24a1f6d 3.png"
-                                className="w-full"
-                                width={1080}
-                                height={1080}
-                                alt="no-img"
-                            />
-                        </div>
-                    </div>
+                <BusinessStarterText/>
                 </div>
             </section>
 

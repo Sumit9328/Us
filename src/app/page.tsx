@@ -3,6 +3,8 @@ import Image from "next/image";
 import Header from "./components/header";
 import FAQ from "./components/faq";
 import Footer from "./components/footer";
+import DownloadText from "./components/downloadtext";
+import BusinessStarterText from "./components/businesstartertext";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 export default function Home() {
@@ -32,13 +34,14 @@ export default function Home() {
                   </p>
                   <div className="col-12 flex gap-3 mb-4">
                     <div>
-                      <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                         Get Started
                       </button>
                     </div>
                     <div>
-                      <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-white bg-black text-[15px]">
-                        Schedule a call
+                     
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                      Schedule a call
                       </button>
                     </div>
                   </div>
@@ -90,24 +93,39 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                    <button className="rounded-[50px] font-[400] w-full h-[45px] text-[15px] text-white bg-[#0073FD] mb-3">
-                      Incl, in Total Compliance
-                    </button>
-                    <button className="rounded-[50px] w-full h-[45px] text-[15px] font-[500] border border-black flex items-center justify-center gap-2">
-                      Learn more
-                      <svg
-                        width="22"
-                        height="16"
-                        viewBox="0 0 22 16"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
-                          fill="black"
-                        />
-                      </svg>
-                    </button>
+                   
+                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                    Incl, in Total Compliance
+                                        <svg
+                                            width="22"
+                                            height="16"
+                                            viewBox="0 0 22 16"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="fill-black group-hover:fill-white "
+                                        >
+                                            <path
+                                                d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
+                                            />
+                                        </svg>
+                                    </button>
+
+
+                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                    Learn more
+                                        <svg
+                                            width="22"
+                                            height="16"
+                                            viewBox="0 0 22 16"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="fill-black group-hover:fill-white "
+                                        >
+                                            <path
+                                                d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
+                                            />
+                                        </svg>
+                                    </button>
                   </div>
                 </div>
               </div>
@@ -139,21 +157,21 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                    <button className="rounded-[50px] w-full h-[45px] text-[15px] font-[500] border border-black flex items-center justify-center gap-2">
-                      Learn more
-                      <svg
-                        width="22"
-                        height="16"
-                        viewBox="0 0 22 16"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
-                          fill="black"
-                        />
-                      </svg>
-                    </button>
+                  <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                    Learn more
+                                        <svg
+                                            width="22"
+                                            height="16"
+                                            viewBox="0 0 22 16"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="fill-black group-hover:fill-white "
+                                        >
+                                            <path
+                                                d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
+                                            />
+                                        </svg>
+                                    </button>
                   </div>
                 </div>
               </div>
@@ -182,24 +200,38 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                    <button className="rounded-[50px] w-full hover:bg-[#0073FD] hover:text-[#fff] font-[400] h-[45px] text-black text-[15px] border-1 border-black bg-[#fff] hover:border-none mb-3">
-                      Incl, in Total Compliance
-                    </button>
-                    <button className="rounded-[50px] w-full h-[45px] text-[15px] font-[500] border border-black flex items-center justify-center gap-2">
-                      Learn more
-                      <svg
-                        width="22"
-                        height="16"
-                        viewBox="0 0 22 16"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
-                          fill="black"
-                        />
-                      </svg>
-                    </button>
+                  <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                    Incl, in Total Compliance
+                                        <svg
+                                            width="22"
+                                            height="16"
+                                            viewBox="0 0 22 16"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="fill-black group-hover:fill-white "
+                                        >
+                                            <path
+                                                d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
+                                            />
+                                        </svg>
+                                    </button>
+
+
+                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                    Learn more
+                                        <svg
+                                            width="22"
+                                            height="16"
+                                            viewBox="0 0 22 16"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="fill-black group-hover:fill-white "
+                                        >
+                                            <path
+                                                d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
+                                            />
+                                        </svg>
+                                    </button>
                   </div>
                 </div>
               </div>
@@ -245,7 +277,7 @@ export default function Home() {
                     compliant.
                   </p>
                   <div className="mt-4">
-                    <button className="w-[150px] h-[40px] font-[400] rounded-[50px] bg-black text-white">
+                    <button className="w-[150px] h-[40px] font-[400] rounded-[50px] border border-black bg-[#fff] text-[#000] hover:bg-[#000] hover:text-[#fff]">
                       Get Started
                     </button>
                   </div>
@@ -266,7 +298,7 @@ export default function Home() {
                     compliant.
                   </p>
                   <div className="mt-4">
-                    <button className="w-[150px] h-[40px] font-[400] rounded-[50px] bg-black text-white">
+                  <button className="w-[150px] h-[40px] font-[400] rounded-[50px] border border-black bg-[#fff] text-[#000] hover:bg-[#000] hover:text-[#fff]">
                       Get Started
                     </button>
                   </div>
@@ -320,7 +352,7 @@ export default function Home() {
                   State fee not included.
                 </p>
                 <div className="col-12 mt-4">
-                  <button className="border font-[400] border-black rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black w-full h-[45px]">
+                  <button className="border font-[400] border-black rounded-[50px] text-[15px] sm:text-[16px] text-[#000] bg-[#fff] w-full h-[45px] hover:text-[#fff] hover:bg-[#000]">
                     Formation
                   </button>
                 </div>
@@ -343,8 +375,9 @@ export default function Home() {
                   State fee not included.
                 </p>
                 <div className="col-12 mt-4">
-                  <button className="border font-[400] border-black rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black w-full h-[45px]">
-                    Total Compliance
+                  
+                  <button className="border font-[400] border-black rounded-[50px] text-[15px] sm:text-[16px] text-[#000] bg-[#fff] w-full h-[45px] hover:text-[#fff] hover:bg-[#000]">
+                  Total Compliance
                   </button>
                 </div>
               </div>
@@ -356,53 +389,7 @@ export default function Home() {
       <section className="overflow-hidden sm:px-20 px-6 pt-14 sm:pb-10 bg-[#ccdfff]">
         <div className="overflow-hidden">
           <div className="container-fluid">
-            <div className="row items-center">
-              <div className="col-md-6 flex items-end">
-                <div className="col-md-10 w-full">
-                  <div className="col-12 mb-4">
-                    <p className="text-[57px] font-[500] leading-[55px] text-[#0061FE]">
-                      Download free guide on how to set up business in the US
-                    </p>
-                    <p className="text-[16px] font-[400] leading-[20px] text-[#0061FE]">
-                      We’ve put together all of the documents and details you
-                      need to figure out before you open a company
-                    </p>
-                  </div>
-                  <div className="flex flex-col sm:flex-row col-12 items-center mb-4 gap-3">
-                    <div className="w-full sm:w-8/12">
-                      <input
-                        type="text"
-                        className="border rounded-[50px] px-6 h-[48px] w-full text-[15px] sm:text-[16px]"
-                      />
-                    </div>
-                    <div className="w-full sm:w-4/12">
-                      <button className="bg-[#0061FE] text-white justify-center items-center rounded-[50px] px-6 sm:py-2 py-4 w-full flex text-[18px] font-[400] h-[40px]">
-                        Submit
-                      </button>
-                    </div>
-                  </div>
-                  <div className="col-12">
-                    <p className="text-[13px] font-[400] sm:leading-[15px] text-[#0061FE]">
-                      By clicking, you agree to our
-                      <span className="underline">
-                        Terms & Conditions, Privacy and Data Protection Policy
-                      </span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 flex justify-end mb-5">
-                <div className="col-md-10 w-full">
-                  <Image
-                    src="/assets/images/image 46.png"
-                    width="630"
-                    height="430"
-                    alt="no-img"
-                    className="w-full h-auto"
-                  />
-                </div>
-              </div>
-            </div>
+         <DownloadText/>
           </div>
         </div>
       </section>
@@ -419,45 +406,7 @@ export default function Home() {
 
       <section className="bg-[#000] overflow-hidden sm:px-20 px-6 sm:py-5 py-5">
         <div className="container-fluid p-0">
-          <div className="row align-items-center">
-            <div className="col-md-6 mb-4">
-              <div className="col-md-8">
-                <p className="font-[cd-m] text-[#fff] sm:text-[30px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0">
-                  Get tips on how to run your business smarter
-                </p>
-                <p className="font-[cd-r] text-[#ABABAB] sm:text-[16px] text-[15px] pt-4 mb-0">
-                  Learn crucial tips on how to save money and build a
-                  flourishing business, with real entrepreneurs sharing their
-                  own experiences.
-                </p>
-                <div className="sm:flex justify-center items-center gap-4 max-w-lg mx-auto pt-4">
-                  <input
-                    type="email"
-                    placeholder="Email address"
-                    className="w-full px-4 font-[400] py-2 rounded-full text-black border border-gray-400 mb-4"
-                  />
-                  <button className="bg-white text-black font-medium px-6 py-2 rounded-full hover:bg-gray-100 mb-4 ">
-                    SUBSCRIBE
-                  </button>
-                </div>
-                <p className="text-[#fff] font-[400] text-[15px]">
-                  <a className="no-underline font-[400] text-[#ABABAB] " href="#">
-                    By clicking, you agree to our
-                  </a>{" "}
-                  Terms & Conditions, Privacy and Data Protection Policy
-                </p>
-              </div>
-            </div>
-            <div className="col-md-6 ">
-              <Image
-                src="/assets/images/original-4703d0ba72b72f87fa49a618a24a1f6d 3.png"
-                className="w-full"
-                width={1080}
-                height={1080}
-                alt="no-img"
-              />
-            </div>
-          </div>
+        <BusinessStarterText/>
         </div>
       </section>
 

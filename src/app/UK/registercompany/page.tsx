@@ -3,7 +3,7 @@ import Image from "next/image";
 import HeaderUK from "@/app/components/headerUk";
 import FAQ from "../../components/faq";
 import Footer from "../../components/footer";
-import Carousal from "@/app/components/Slider";
+import DownloadText from "@/app/components/downloadtext";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 export default function Home() {
@@ -31,12 +31,12 @@ export default function Home() {
                   </p>
                   <div className="col-12 flex gap-3 mb-4">
                     <div>
-                      <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                         Get Started
                       </button>
                     </div>
                     <div>
-                      <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-white bg-black text-[15px]">
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                         Schedule a call
                       </button>
                     </div>
@@ -211,7 +211,7 @@ export default function Home() {
                         + VAT
                       </p>
                       <div className="flex justify-center">
-                        <button className="bg-[#212833] rounded-[50px] text-[#fff] w-[430px] font-[400] h-[45px]">
+                      <button className="bg-[#fff] rounded-[50px] border border-dark text-[#000] hover:bg-[#212833] hover:text-[#fff] w-[430px] font-[400] h-[45px]">
                           Get this Plan
                         </button>
                       </div>
@@ -316,13 +316,13 @@ export default function Home() {
                         paperwork
                       </p>
                       <p className="text-[40px] font-[400] leading-[50px]">
-                        £<span className="text-[50px] font-[500] pl-1">50</span>
+                        £<span className="text-[50px] font-[500] pl-1">289</span>
                       </p>
                       <p className="text-[23px] font-[500] leading-[20px] text-[#767676]">
                         + VAT
                       </p>
                       <div className="flex justify-center">
-                        <button className="bg-[#212833] rounded-[50px] text-[#fff] w-[430px] font-[400] h-[45px]">
+                        <button className="bg-[#fff] rounded-[50px] border border-dark text-[#000] hover:bg-[#212833] hover:text-[#fff] w-[430px] font-[400] h-[45px]">
                           Get this Plan
                         </button>
                       </div>
@@ -412,228 +412,182 @@ export default function Home() {
       <section className="overflow-hidden sm:px-20 px-6 pt-14 sm:pb-10 bg-[#ccdfff]">
         <div className="overflow-hidden">
           <div className="container-fluid">
-            <div className="row items-center">
-              <div className="col-md-6 flex items-end">
-                <div className="col-md-10 w-full">
-                  <div className="col-12 mb-4">
-                    <p className="text-[57px] font-[500] leading-[55px] text-[#0061FE]">
-                      Download free guide on how to set up business in the US
-                    </p>
-                    <p className="text-[16px] font-[400] leading-[20px] text-[#0061FE]">
-                      We’ve put together all of the documents and details you
-                      need to figure out before you open a company
-                    </p>
-                  </div>
-                  <div className="flex flex-col sm:flex-row col-12 items-center mb-4 gap-3">
-                    <div className="w-full sm:w-8/12">
-                      <input
-                        type="text"
-                        placeholder="Enter your Email"
-                        className="rounded-[50px] outline-none px-6 h-[48px] w-full text-[15px] sm:text-[16px]"
-                      />
-                    </div>
-                    <div className="w-full sm:w-4/12">
-                      <button className="bg-[#0061FE] font-[400] text-white justify-center items-center rounded-[50px] px-6 sm:py-2 py-4 w-full flex text-[18px] h-[40px]">
-                        Submit
-                      </button>
-                    </div>
-                  </div>
-                  <div className="col-12">
-                    <p className="text-[13px] font-[400] sm:leading-[15px] text-[#0061FE]">
-                      By clicking, you agree to our
-                      <span className="underline">
-                        Terms & Conditions, Privacy and Data Protection Policy
-                      </span>
-                    </p>
-                  </div>
-                </div>
+           <DownloadText/>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#fff] overflow-hidden sm:px-20 px-6 sm:py-10 py-10">
+        <div className="container-fluid p-0">
+          <div className="row justify-center">
+            <div className="col-md-6 sm:pb-4">
+              <div className="text-center ">
+                <p className="text-[#353535] font-[400] text-[16px]">HOW IT WORKS</p>
+                <p className="font-[cd-se]  sm:text-[35px] text-[30px]  text-[#000] text-center sm:leading-[38px] leading-[35px]">The company registration process in the United Kingdom</p>
               </div>
-              <div className="col-md-6 flex justify-end mb-5">
-                <div className="col-md-10 w-full">
+            </div>
+          </div>
+
+          <div className="flex justify-center">
+            <div className="col-md-10 pt-4">
+              <div className="row align-items-center justify-between">
+                <div className="col-md-5 mb-4">
                   <Image
-                    src="/assets/images/image 46.png"
-                    width="630"
-                    height="430"
+                    src="/assets/images/Rectangle 4630.svg"
+                    className="w-full"
+                    width={1080}
+                    height={1080}
                     alt="no-img"
-                    className="w-full h-auto"
+                  />
+
+                </div>
+                <div className="col-md-5 mb-4">
+                  <div className="col-md-10" >
+                    <p className="text-[38px] font-[600] leading-[40px]">Choose a new company name</p>
+                    <p className="text-[16px] text-[#000] font-[400]  leading-[25px] ">
+                      Your name must be unique and meet government standards. To prevent your name from being rejected by Companies House, here are a few general rules to follow.
+                    </p>
+
+                  </div>
+                  <button className="text-[14px] font-[400] rounded-[50px] h-[40px] w-[350px] border-black border bg-[#fff] text-[#000] hover:">Check your company name</button>
+                </div>
+
+              </div>
+              <div className="row align-items-center justify-between">
+                <div className="col-md-5 order-md-2 order-1 mb-4">
+                  <Image src="/assets/images/Rectangle 4631.svg" className="w-full" width={1080} height={1080} alt="no-img"
                   />
                 </div>
+                <div className="col-md-5 mb-4 order-md-1 order-2">
+                  <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Solopreneurs who want their weekends back from financial admin</p>
+                </div>
+              </div>
+              <div className="row align-items-center justify-between">
+                <div className="col-md-5 mb-4 ">
+                  <Image src="/assets/images/Rectangle 4639.svg" className="w-full" width={1080} height={1080} alt="no-img"
+                  />
+                </div>
+                <div className="col-md-5 ">
+                  <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Ecommerce sellers seeking accountants that understand their business</p>
+                </div>
+
+              </div>
+              <div className="row align-items-center justify-between">
+                <div className="col-md-5 order-md-2 order-1 mb-4">
+                  <Image src="/assets/images/Rectangle 4631 (1).svg" className="w-full" width={1080} height={1080} alt="no-img"
+                  />
+                </div>
+                <div className="col-md-5 mb-4 order-md-1 order-2">
+                  <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Solopreneurs who want their weekends back from financial admin</p>
+                </div>
+              </div>
+              <div className="row align-items-center justify-between">
+                <div className="col-md-5 mb-4 ">
+                  <Image src="/assets/images/Rectangle 4655.svg" className="w-full" width={1080} height={1080} alt="no-img"
+                  />
+                </div>
+                <div className="col-md-5 ">
+                  <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Ecommerce sellers seeking accountants that understand their business</p>
+                </div>
+
               </div>
             </div>
           </div>
         </div>
       </section>
 
-                  <section className="bg-[#fff] overflow-hidden sm:px-20 px-6 sm:py-10 py-10">
-                      <div className="container-fluid p-0">
-                          <div className="row justify-center">
-                              <div className="col-md-8 sm:pb-4">
-                                  <div className="text-center ">
-                                      <p className="text-[#353535] font-[400] text-[16px]">WHO WE HELP</p>
-                                      <p className="font-[cd-se]  sm:text-[35px] text-[30px]  text-[#000] text-center sm:leading-[38px] leading-[35px]">For founders ready to ditch the books and do business</p>
-                                  </div>
-                              </div>
-                          </div>
-      
-                          <div className="flex justify-center">
-                              <div className="col-md-10 pt-4">
-                                  <div className="row align-items-center justify-between">
-                                      <div className="col-md-5 mb-4">
-                                          <Image
-                                              src="/assets/images/group-people-working-out-business-plan-office 2.png"
-                                              className="w-full"
-                                              width={1080}
-                                              height={1080}
-                                              alt="no-img"
-                                          />
-      
-                                      </div>
-                                      <div className="col-md-5 mb-4">
-                                          <div className="" >
-      
-                                              <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">
-                                                  <span className="text-center sm:text-left">Solopreneurs who want their weekends back from financial admin</span>
-                                              </p>
-      
-                                          </div>
-                                      </div>
-      
-                                  </div>
-                                  <div className="row align-items-center justify-between">
-                                      <div className="col-md-5 order-md-2 order-1 mb-4">
-                                          <Image src="/assets/images/brunette-businesswoman-posing 2.png" className="w-full" width={1080} height={1080} alt="no-img"
-                                          />
-                                      </div>
-                                      <div className="col-md-5 mb-4 order-md-1 order-2">
-                                          <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Solopreneurs who want their weekends back from financial admin</p>
-                                      </div>
-                                  </div>
-                                  <div className="row align-items-center justify-between">
-                                      <div className="col-md-5 mb-4 ">
-                                          <Image src="/assets/images/group-people-working-out-business-plan-office 3.png" className="w-full" width={1080} height={1080} alt="no-img"
-                                          />
-                                      </div>
-                                      <div className="col-md-5 ">
-                                          <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Ecommerce sellers seeking accountants that understand their business</p>
-                                      </div>
-      
-                                  </div>
-                                  <div className="row align-items-center justify-between">
-                                      <div className="col-md-5 order-md-2 order-1 mb-4">
-                                          <Image src="/assets/images/brunette-businesswoman-posing 2.png" className="w-full" width={1080} height={1080} alt="no-img"
-                                          />
-                                      </div>
-                                      <div className="col-md-5 mb-4 order-md-1 order-2">
-                                          <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Solopreneurs who want their weekends back from financial admin</p>
-                                      </div>
-                                  </div>
-                                  <div className="row align-items-center justify-between">
-                                      <div className="col-md-5 mb-4 ">
-                                          <Image src="/assets/images/group-people-working-out-business-plan-office 3.png" className="w-full" width={1080} height={1080} alt="no-img"
-                                          />
-                                      </div>
-                                      <div className="col-md-5 ">
-                                          <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Ecommerce sellers seeking accountants that understand their business</p>
-                                      </div>
-      
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </section>
-
-                     
 
 
-                  <section className="overflow-hidden sm:px-20 px-6 py-14 pb-10  bg-[#F3EFE7]">
-                          <div className="overflow-hidden">
-                            <div className="container-fluid">
-                              <div className="row">
-                                {/* Card 1 */}
-                                <div className="col-md-4 mb-4">
-                                  <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
-                                    <div>
-                                      <div className="col-12 py-3">
-                                        <Image
-                                          src="/assets/images/image 30.svg"
-                                          width={112}
-                                          height={112}
-                                          alt="no-img"
-                                        />
-                                      </div>
-                                      <div>
-                                        <p className="text-[28px] font-[500]">Choose your package</p>
-                                        
-                                        <p className="text-[13px] font-[200] font-[400] text-[#656565]">
-                                          A Limited Liability Company merges partnership
-                                          flexibility with corporate liability protection. It
-                                          shields your personal assets from business debts,
-                                          simplifies management, and allows for pass-through
-                                          taxation, making it a popular choice for small
-                                          businesses.
-                                        </p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div className="col-md-4 mb-4">
-                                  <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
-                                    <div>
-                                      <div className="col-12 py-3">
-                                        <Image
-                                          src="/assets/images/image 30.svg"
-                                          width={128}
-                                          height={112}
-                                          alt="no-img"
-                                        />
-                                      </div>
-                                      <div>
-                                        <p className="text-[28px] font-[500]">C-Corp</p>
-                                        <p className="text-[18px] font-[500] leading-[22px]">
-                                          Establish a C-Corp for global growth.
-                                        </p>
-                                        <p className="text-[13px] font-[200] font-[400] text-[#656565]">
-                                          Empower your startup with a C-Corporation—crafted for
-                                          growth and attracting investors. Offering liability
-                                          protection and diverse funding options, it’s ideal for
-                                          entrepreneurs aiming at significant expansion and
-                                          actively seeking external investments.
-                                        </p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div className="col-md-4 mb-4">
-                                  <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
-                                    <div>
-                                      <div className="col-12 py-3">
-                                        <Image
-                                          src="/assets/images/image 38.svg"
-                                          width={112}
-                                          height={112}
-                                          alt="no-img"
-                                        />
-                                      </div>
-                                      <div>
-                                        <p className="text-[28px] font-[500]">DAO LLC</p>
-                                        <p className="text-[18px] font-[500] leading-[22px]">
-                                          Forge the future with a DAO LLC.
-                                        </p>
-                                        <p className="text-[13px] font-[200] font-[400] text-[#656565]">
-                                          Step into the future with a DAO LLC, merging LLC
-                                          flexibility with blockchain tech. Transform governance
-                                          for transparency, autonomy, and innovation—an ideal
-                                          option for shaping decentralized structures and
-                                          revolutionizing decision-making processes.
-                                        </p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </section>
+
+      <section className="overflow-hidden sm:px-20 px-6 py-14 pb-10  bg-[#F3EFE7]">
+        <div className="overflow-hidden">
+          <div className="container-fluid">
+            <div className="row">
+              {/* Card 1 */}
+              <div className="col-md-4 mb-4">
+                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                  <div>
+                    <div className="col-12 py-3">
+                      <Image
+                        src="/assets/images/image 30.svg"
+                        width={112}
+                        height={112}
+                        alt="no-img"
+                      />
+                    </div>
+                    <div>
+                      <p className="text-[28px] font-[500]">Choose your package</p>
+
+                      <p className="text-[13px] font-[200] font-[400] text-[#656565]">
+                        A Limited Liability Company merges partnership
+                        flexibility with corporate liability protection. It
+                        shields your personal assets from business debts,
+                        simplifies management, and allows for pass-through
+                        taxation, making it a popular choice for small
+                        businesses.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4 mb-4">
+                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                  <div>
+                    <div className="col-12 py-3">
+                      <Image
+                        src="/assets/images/image 30.svg"
+                        width={128}
+                        height={112}
+                        alt="no-img"
+                      />
+                    </div>
+                    <div>
+                      <p className="text-[28px] font-[500]">C-Corp</p>
+                      <p className="text-[18px] font-[500] leading-[22px]">
+                        Establish a C-Corp for global growth.
+                      </p>
+                      <p className="text-[13px] font-[200] font-[400] text-[#656565]">
+                        Empower your startup with a C-Corporation—crafted for
+                        growth and attracting investors. Offering liability
+                        protection and diverse funding options, it’s ideal for
+                        entrepreneurs aiming at significant expansion and
+                        actively seeking external investments.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4 mb-4">
+                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                  <div>
+                    <div className="col-12 py-3">
+                      <Image
+                        src="/assets/images/image 38.svg"
+                        width={112}
+                        height={112}
+                        alt="no-img"
+                      />
+                    </div>
+                    <div>
+                      <p className="text-[28px] font-[500]">DAO LLC</p>
+                      <p className="text-[18px] font-[500] leading-[22px]">
+                        Forge the future with a DAO LLC.
+                      </p>
+                      <p className="text-[13px] font-[200] font-[400] text-[#656565]">
+                        Step into the future with a DAO LLC, merging LLC
+                        flexibility with blockchain tech. Transform governance
+                        for transparency, autonomy, and innovation—an ideal
+                        option for shaping decentralized structures and
+                        revolutionizing decision-making processes.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
 

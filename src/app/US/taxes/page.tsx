@@ -3,6 +3,7 @@ import Image from "next/image";
 import Header from "@/app/components/header";
 import FAQ from "../../components/faq";
 import Footer from "../../components/footer";
+import BusinessStarterText from "@/app/components/businesstartertext";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 export default function Home() {
@@ -26,12 +27,12 @@ export default function Home() {
 
                   <div className="col-12 flex gap-3 mb-4">
                     <div>
-                      <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                         Get Started
                       </button>
                     </div>
                     <div>
-                      <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-white bg-black text-[15px]">
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                         Schedule a call
                       </button>
                     </div>
@@ -76,18 +77,18 @@ export default function Home() {
                           contractors, freelancers, startups, e-commerce owners,
                           and service vendors, ensuring a worry-free experience.
                         </p>
-                        <div className="col-12 sm:flex gap-3 mb-4">
-                          <div>
-                            <button className="border-1 font-[400] bg-[#fff] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
-                              Get Started
-                            </button>
-                          </div>
-                          <div>
-                            <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-white bg-black text-[15px]">
-                              Schedule a call
-                            </button>
-                          </div>
-                        </div>
+                  <div className="col-12 flex gap-3 mb-4">
+                    <div>
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                        Get Started
+                      </button>
+                    </div>
+                    <div>
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                        Schedule a call
+                      </button>
+                    </div>
+                  </div>
                       </div>
                     </div>
                     <div className="col-md-5 sm:flex justify-end">
@@ -149,9 +150,21 @@ export default function Home() {
                           Seamless tax filings unlocking simplicity with a
                           single price
                         </p>
-                        <button className="bg-[#0073fd] font-[400] text-[#fff] rounded-[50px] mb-4 sm:w-[280px] w-[320px] sm:h-[35px] h-[45px]">
-                          Incl, in Total Compliance
-                        </button>
+                        <button className="w-[350px] h-[40px] rounded-full font-[500] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                        Incl, in Total Compliance
+                                        <svg
+                                            width="22"
+                                            height="16"
+                                            viewBox="0 0 22 16"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="fill-black group-hover:fill-white"
+                                        >
+                                            <path
+                                                d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
+                                            />
+                                        </svg>
+                                    </button>
                       </div>
                     </div>
                     <div className="col-md-5 rounded-[30px] border-8 border-[#f3efe7] bg-[#fffdfa] ">
@@ -237,7 +250,7 @@ export default function Home() {
                             297/y
                           </p>
                           <div className="col-12 sm:mt-4 flex justify-center mb-4">
-                            <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black sm:w-[350px] font-[400] w-[260px] h-[40px]">
+                            <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-[#000] bg-[#fff] sm:w-[350px] font-[400] w-[260px] h-[40px] hover:bg-[#000] hover:text-[#fff]">
                               Total Compliance
                             </button>
                           </div>
@@ -284,9 +297,9 @@ export default function Home() {
                         State fee not included.
                       </p>
                       <div className="col-12 mt-4">
-                        <button className="border font-[400] border-black rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black w-full h-[45px]">
-                          Formation
-                        </button>
+                      <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-[#000] bg-[#fff] sm:w-[335px] font-[400] w-[260px] h-[40px] hover:bg-[#000] hover:text-[#fff]">
+                              Formation
+                            </button>
                       </div>
                     </div>
                     <div className="w-full sm:w-[30%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[20px] px-6 py-6">
@@ -308,9 +321,11 @@ export default function Home() {
                         State fee not included.
                       </p>
                       <div className="col-12 mt-4">
-                        <button className="border border-black font-[400] rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black w-full h-[45px]">
-                          Total Compliance
-                        </button>
+                      
+                        <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-[#000] bg-[#fff] sm:w-[335px] font-[400] w-[260px] h-[40px] hover:bg-[#000] hover:text-[#fff]">
+                        Total Compliance
+
+                            </button>
                       </div>
                     </div>
                   </div>
@@ -451,45 +466,7 @@ export default function Home() {
       </section>
       <section className="bg-[#000] overflow-hidden sm:px-20 px-6 sm:py-5 py-5">
         <div className="container-fluid p-0">
-          <div className="row align-items-center">
-            <div className="col-md-6 mb-4">
-              <div className="col-md-8">
-                <p className="font-[cd-m] text-[#fff] sm:text-[30px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0">
-                  Get tips on how to run your business smarter
-                </p>
-                <p className="font-[cd-r] text-[#ABABAB] sm:text-[16px] text-[15px] pt-4 mb-0">
-                  Learn crucial tips on how to save money and build a
-                  flourishing business, with real entrepreneurs sharing their
-                  own experiences.
-                </p>
-                <div className="sm:flex justify-center items-center gap-4 max-w-lg mx-auto pt-4">
-                  <input
-                    type="email"
-                    placeholder="Email address"
-                    className="w-full px-4 py-2 font-[400] rounded-full text-black border border-gray-400 mb-4"
-                  />
-                  <button className="bg-white text-black font-medium px-6 py-2 rounded-full hover:bg-gray-100 mb-4 ">
-                    SUBSCRIBE
-                  </button>
-                </div>
-                <p className="text-[#fff] font-[400] text-[15px]">
-                  <a className="no-underline font-[400] text-[#ABABAB] " href="#">
-                    By clicking, you agree to our
-                  </a>{" "}
-                  Terms & Conditions, Privacy and Data Protection Policy
-                </p>
-              </div>
-            </div>
-            <div className="col-md-6 ">
-              <Image
-                src="/assets/images/original-4703d0ba72b72f87fa49a618a24a1f6d 3.png"
-                className="w-full"
-                width={1080}
-                height={1080}
-                alt="no-img"
-              />
-            </div>
-          </div>
+          <BusinessStarterText/>
         </div>
       </section>
 

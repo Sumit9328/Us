@@ -4,7 +4,8 @@ import Header from "../../components/header";
 import FAQ from "../../components/faq";
 import Footer from "../../components/footer";
 import Carousal from "@/app/components/Slider";
-
+import DownloadText from "@/app/components/downloadtext";
+import BusinessStarterText from "@/app/components/businesstartertext";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 export default function Home() {
@@ -33,12 +34,12 @@ export default function Home() {
                   </p>
                   <div className="col-12 flex gap-3 mb-4">
                     <div>
-                      <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                         Get Started
                       </button>
                     </div>
                     <div>
-                      <button className="border-1 font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-white bg-black text-[15px]">
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                         Schedule a call
                       </button>
                     </div>
@@ -176,17 +177,21 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="sm:h-[280px]">
-
                     <ul className="space-y-4">
                       {[
-                        { content: "Great for small businesses due to more flexibility", status: "tick" },
+                        {
+                          content:
+                            "Great for small businesses due to more flexibility",
+                          status: "tick",
+                        },
                         {
                           content:
                             "Simple management structure and easier to operate",
                           status: "tick",
                         },
                         {
-                          content: "Less paperwork, corporate restrictions, no meeting requirements",
+                          content:
+                            "Less paperwork, corporate restrictions, no meeting requirements",
                           status: "tick",
                         },
                         {
@@ -229,7 +234,9 @@ export default function Home() {
                               />
                             </svg>
                           )}
-                          <span className="text-[15px] font-[500]">{item.content}</span>
+                          <span className="text-[15px] font-[500]">
+                            {item.content}
+                          </span>
                         </li>
                       ))}
                     </ul>
@@ -246,14 +253,19 @@ export default function Home() {
                   <div className="sm:h-[280px]">
                     <ul className="space-y-4">
                       {[
-                        { content: "Great for startups fundraising from investors", status: "tick" },
+                        {
+                          content:
+                            "Great for startups fundraising from investors",
+                          status: "tick",
+                        },
                         {
                           content:
                             "Ability to raise capital by issuing stock; ownership represented by shareholders",
                           status: "tick",
                         },
                         {
-                          content: "Management structure with more operating requirements",
+                          content:
+                            "Management structure with more operating requirements",
                           status: "tick",
                         },
                         {
@@ -296,12 +308,13 @@ export default function Home() {
                               />
                             </svg>
                           )}
-                          <span className="text-[15px] font-[500]">{item.content}</span>
+                          <span className="text-[15px] font-[500]">
+                            {item.content}
+                          </span>
                         </li>
                       ))}
                     </ul>
                   </div>
-
                 </div>
               </div>
               <div className="sm:mb-0 col-md-4 mb-4 w-full bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[30px] px-6 py-6">
@@ -312,17 +325,21 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="sm:h-[280px]">
-
                     <ul className="space-y-4">
                       {[
-                        { content: "Great for companies that primarily operate on-chain under a Decentralized Autonomous Network", status: "tick" },
+                        {
+                          content:
+                            "Great for companies that primarily operate on-chain under a Decentralized Autonomous Network",
+                          status: "tick",
+                        },
                         {
                           content:
                             "Simple management structure and easy to operate via smart contracts",
                           status: "tick",
                         },
                         {
-                          content: "Legal Protection for the owners from lawsuits or legal procedures",
+                          content:
+                            "Legal Protection for the owners from lawsuits or legal procedures",
                           status: "tick",
                         },
                         {
@@ -365,7 +382,9 @@ export default function Home() {
                               />
                             </svg>
                           )}
-                          <span className="text-[15px] font-[500]">{item.content}</span>
+                          <span className="text-[15px] font-[500]">
+                            {item.content}
+                          </span>
                         </li>
                       ))}
                     </ul>
@@ -379,55 +398,7 @@ export default function Home() {
 
       <section className="overflow-hidden sm:px-20 px-6 pt-14 sm:pb-10 bg-[#ccdfff]">
         <div className="overflow-hidden">
-          <div className="container-fluid">
-            <div className="row items-center">
-              <div className="col-md-6 flex items-end">
-                <div className="col-md-10 w-full">
-                  <div className="col-12 mb-4">
-                    <p className="text-[57px] font-[500] leading-[55px] text-[#0061FE]">
-                      Download free guide on how to set up business in the US
-                    </p>
-                    <p className="text-[16px] font-[400] leading-[20px] text-[#0061FE]">
-                      We’ve put together all of the documents and details you
-                      need to figure out before you open a company
-                    </p>
-                  </div>
-                  <div className="flex flex-col sm:flex-row col-12 items-center mb-4 gap-3">
-                    <div className="w-full sm:w-8/12">
-                      <input
-                        type="text"
-                        className="border rounded-[50px] px-6 h-[48px] w-full text-[15px] sm:text-[16px]"
-                      />
-                    </div>
-                    <div className="w-full sm:w-4/12">
-                      <button className="bg-[#0061FE] font-[400] text-white justify-center items-center rounded-[50px] px-6 sm:py-2 py-4 w-full flex text-[18px] h-[40px]">
-                        Submit
-                      </button>
-                    </div>
-                  </div>
-                  <div className="col-12">
-                    <p className="text-[13px] font-[400] sm:leading-[15px] text-[#0061FE]">
-                      By clicking, you agree to our
-                      <span className="underline">
-                        Terms & Conditions, Privacy and Data Protection Policy
-                      </span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 flex justify-end mb-5">
-                <div className="col-md-10 w-full">
-                  <Image
-                    src="/assets/images/image 46.png"
-                    width="630"
-                    height="430"
-                    alt="no-img"
-                    className="w-full h-auto"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
+          <DownloadText />
         </div>
       </section>
 
@@ -440,7 +411,6 @@ export default function Home() {
                 Getting started is easy
               </p>
             </div>
-
           </div>
         </div>
       </section>
@@ -449,7 +419,6 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             <Carousal />
-
           </div>
         </div>
       </section>
@@ -472,7 +441,6 @@ export default function Home() {
             <div className="col-12 mb-5 pt-4 flex flex-wrap justify-center items-center gap-4">
               <div className="w-full sm:w-[30%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[20px] px-6 py-6">
                 <div className="h-[135px]">
-
                   <p className="text-[20px] sm:text-[25px] font-[600] leading-[20px]">
                     Starter
                   </p>
@@ -480,26 +448,24 @@ export default function Home() {
                     Start your business
                   </p>
                   <p className="text-[15px] sm:text-[16px] font-[400] text-[#666666] leading-[20px]">
-                    Formation & EIN filings, RA service, Operating
-                    Agreement, and regular compliance reminders.
+                    Formation & EIN filings, RA service, Operating Agreement,
+                    and regular compliance reminders.
                   </p>
                 </div>
                 <p className="text-[35px] sm:text-[45px] font-[600] leading-[50px]">
-                  <span className="text-[25px] sm:text-[30px]">$</span>{" "}
-                  297/y
+                  <span className="text-[25px] sm:text-[30px]">$</span> 297/y
                 </p>
                 <p className="text-[13px] sm:text-[15px] font-[400] text-[#767676] leading-[1px]">
                   State fee not included.
                 </p>
                 <div className="col-12 mt-4">
-                  <button className="border border-black font-[400] rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black w-full h-[45px]">
+                  <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-[#000] bg-[#fff] w-full h-[45px] font-[400] hover:bg-[#000] hover:text-[#fff]">
                     Formation
                   </button>
                 </div>
               </div>
               <div className="w-full sm:w-[30%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[20px] px-6 py-6">
                 <div className="h-[135px]">
-
                   <p className="text-[20px] sm:text-[25px] font-[600] leading-[20px]">
                     Total Compliance
                   </p>
@@ -512,20 +478,18 @@ export default function Home() {
                   </p>
                 </div>
                 <p className="text-[35px] sm:text-[45px] font-[600] leading-[50px]">
-                  <span className="text-[25px] sm:text-[30px]">$</span>{" "}
-                  300/m
+                  <span className="text-[25px] sm:text-[30px]">$</span> 300/m
                 </p>
                 <p className="text-[13px] sm:text-[15px] font-[400] text-[#767676] leading-[1px]">
                   State fee not included.
                 </p>
                 <div className="col-12 mt-4">
-                  <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-white bg-black w-full h-[45px] font-[400]">
+                  <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-[#000] bg-[#fff] w-full h-[45px] font-[400] hover:bg-[#000] hover:text-[#fff]">
                     Total Compliance
                   </button>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </section>
@@ -544,8 +508,10 @@ export default function Home() {
           <div className="row justify-center">
             <div className="col-md-6">
               <div className="text-center">
-                <p className='text-[#212833] font-[cd-m] font-[500] sm:text-[30px] text-[25px] leading-[28px] sm:leading-[40px]  mb-0'>Explore over 600 resources for managing small business finances</p>
-
+                <p className="text-[#212833] font-[cd-m] font-[500] sm:text-[30px] text-[25px] leading-[28px] sm:leading-[40px]  mb-0">
+                  Explore over 600 resources for managing small business
+                  finances
+                </p>
               </div>
             </div>
           </div>
@@ -563,13 +529,25 @@ export default function Home() {
                   />
                 </div>
                 <div className="pt-6 sm:pb-0 pb-4">
-                  <p className='font-[cd-m] text-[#0D0D0D] sm:text-[22px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0'>How to Deal with Inflation&apos;s Effects on Your Small Business</p>
-                  <p className='font-[cd-r] sm:text-[15px] text-[15px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3'>A year end package with everything you need to file comes standard with Cloud Inc. Upgrade your plan, and cross even more off your to-do list. With Premium, you get expert tax prep, filing, and year-round tax advisory support.</p>
+                  <p className="font-[cd-m] text-[#0D0D0D] sm:text-[22px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0">
+                    How to Deal with Inflation&apos;s Effects on Your Small
+                    Business
+                  </p>
+                  <p className="font-[cd-r] sm:text-[15px] text-[15px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3">
+                    A year end package with everything you need to file comes
+                    standard with Cloud Inc. Upgrade your plan, and cross even
+                    more off your to-do list. With Premium, you get expert tax
+                    prep, filing, and year-round tax advisory support.
+                  </p>
 
                   <div className="sm:py-6">
-                    <button className="font-[cd-r] bg-[#fff] text-[15px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]" type="button">Learn More</button>
+                    <button
+                      className="font-[cd-r] bg-[#fff] text-[15px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]"
+                      type="button"
+                    >
+                      Learn More
+                    </button>
                   </div>
-
                 </div>
               </div>
             </div>
@@ -585,13 +563,25 @@ export default function Home() {
                   />
                 </div>
                 <div className="pt-6 sm:pb-0 pb-4">
-                  <p className='font-[cd-m] text-[#0D0D0D] sm:text-[22px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0'>How to Deal with Inflation&apos;s Effects on Your Small Business</p>
-                  <p className='font-[cd-r] sm:text-[15px] text-[15px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3'>A year end package with everything you need to file comes standard with Cloud Inc. Upgrade your plan, and cross even more off your to-do list. With Premium, you get expert tax prep, filing, and year-round tax advisory support.</p>
+                  <p className="font-[cd-m] text-[#0D0D0D] sm:text-[22px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0">
+                    How to Deal with Inflation&apos;s Effects on Your Small
+                    Business
+                  </p>
+                  <p className="font-[cd-r] sm:text-[15px] text-[15px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3">
+                    A year end package with everything you need to file comes
+                    standard with Cloud Inc. Upgrade your plan, and cross even
+                    more off your to-do list. With Premium, you get expert tax
+                    prep, filing, and year-round tax advisory support.
+                  </p>
 
                   <div className="sm:py-6 py-3">
-                    <button className="font-[cd-r] bg-[#fff] text-[15px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]" type="button">Learn More</button>
+                    <button
+                      className="font-[cd-r] bg-[#fff] text-[15px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]"
+                      type="button"
+                    >
+                      Learn More
+                    </button>
                   </div>
-
                 </div>
               </div>
             </div>
@@ -607,63 +597,34 @@ export default function Home() {
                   />
                 </div>
                 <div className="pt-6 sm:pb-0 pb-4">
-                  <p className='font-[cd-m] text-[#0D0D0D] sm:text-[22px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0'>How to Deal with Inflation&apos;s Effects on Your Small Business</p>
-                  <p className='font-[cd-r] sm:text-[15px] text-[15px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3'>A year end package with everything you need to file comes standard with Cloud Inc. Upgrade your plan, and cross even more off your to-do list. With Premium, you get expert tax prep, filing, and year-round tax advisory support.</p>
+                  <p className="font-[cd-m] text-[#0D0D0D] sm:text-[22px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0">
+                    How to Deal with Inflation&apos;s Effects on Your Small
+                    Business
+                  </p>
+                  <p className="font-[cd-r] sm:text-[15px] text-[15px] text-[#4F4F4F]  sm:leading-[25px] leading-[20px] sm:pt-6 pt-3">
+                    A year end package with everything you need to file comes
+                    standard with Cloud Inc. Upgrade your plan, and cross even
+                    more off your to-do list. With Premium, you get expert tax
+                    prep, filing, and year-round tax advisory support.
+                  </p>
 
                   <div className="sm:py-6 py-3">
-                    <button className="font-[cd-r] bg-[#fff] text-[15px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]" type="button">Learn More</button>
+                    <button
+                      className="font-[cd-r] bg-[#fff] text-[15px] text-[#000] border-[#000] border-[2px]  rounded-[5px] px-10 py-[10px]"
+                      type="button"
+                    >
+                      Learn More
+                    </button>
                   </div>
-
                 </div>
               </div>
             </div>
-
           </div>
-
-
         </div>
       </section>
       <section className="bg-[#000] overflow-hidden sm:px-20 px-6 sm:py-5 py-5">
         <div className="container-fluid p-0">
-          <div className="row align-items-center">
-            <div className="col-md-6 mb-4">
-              <div className="col-md-8">
-                <p className="font-[cd-m] text-[#fff] sm:text-[30px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0">
-                  Get tips on how to run your business smarter
-                </p>
-                <p className="font-[cd-r] text-[#ABABAB] sm:text-[16px] text-[15px] pt-4 mb-0">
-                  Learn crucial tips on how to save money and build a
-                  flourishing business, with real entrepreneurs sharing their
-                  own experiences.
-                </p>
-                <div className="sm:flex justify-center items-center gap-4 max-w-lg mx-auto pt-4">
-                  <input
-                    type="email"
-                    placeholder="Email address"
-                    className="w-full px-4 py-2 rounded-full text-black border font-[400] border-gray-400 mb-4"
-                  />
-                  <button className="bg-white text-black font-[400] px-6 py-2 rounded-full hover:bg-gray-100 mb-4 ">
-                    SUBSCRIBE
-                  </button>
-                </div>
-                <p className="text-[#fff] font-[400] text-[15px]">
-                  <a className="no-underline font-[400] text-[#ABABAB] " href="#">
-                    By clicking, you agree to our
-                  </a>{" "}
-                  Terms & Conditions, Privacy and Data Protection Policy
-                </p>
-              </div>
-            </div>
-            <div className="col-md-6 ">
-              <Image
-                src="/assets/images/original-4703d0ba72b72f87fa49a618a24a1f6d 3.png"
-                className="w-full"
-                width={1080}
-                height={1080}
-                alt="no-img"
-              />
-            </div>
-          </div>
+          <BusinessStarterText />
         </div>
       </section>
 
