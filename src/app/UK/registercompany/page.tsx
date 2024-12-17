@@ -3,6 +3,7 @@ import Image from "next/image";
 import HeaderUK from "@/app/components/headerUk";
 import FAQ from "../../components/faq";
 import Footer from "../../components/footer";
+// import Carousal from "@/app/components/Slider";
 import DownloadText from "@/app/components/downloadtext";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -24,9 +25,9 @@ export default function Home() {
                     Register a Limited Company in the UK
                   </p>
                   <p className="sm:text-[20px] sm:leading-[30px] leading-[22px] font-[400] pe-4">
-                    Company registration in the UK doesn't have to be a hassle.
+                    Company registration in the UK doesn&apos;t have to be a hassle.
                     Let us handle the formation process for you online so you
-                    can focus on your business. Let's start by checking if your
+                    can focus on your business. Let&apos;s start by checking if your
                     Ltd company name is available.
                   </p>
                   <div className="col-12 flex gap-3 mb-4">
@@ -112,7 +113,7 @@ export default function Home() {
                       </p>
                     </div>
                     <p className="text-[15px] font-[400] text-[#656565] leading-[22px]">
-                      Simply send us your documents via live chat. We'll fill
+                      Simply send us your documents via live chat. We&apos;ll fill
                       out your Companies House application and send it to you
                       for your digital signature.
                     </p>
