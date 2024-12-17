@@ -3,15 +3,17 @@ import Image from "next/image";
 import HeaderUK from "@/app/components/headerUk";
 import FAQ from "../../components/faq";
 import Footer from "../../components/footer";
+import RecFaqPart from "@/app/components/RecFaqPart";
 // import Carousal from "@/app/components/Slider";
 import DownloadText from "@/app/components/downloadtext";
+import BusinessStarterText from "@/app/components/businesstartertext";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 export default function Home() {
   return (
     <>
       <section>
-        <div className="bg-[#f3efe7]">
+        <div className="bg-[#F7F3EB]">
           <HeaderUK />
         </div>
       </section>
@@ -25,10 +27,10 @@ export default function Home() {
                     Register a Limited Company in the UK
                   </p>
                   <p className="sm:text-[20px] sm:leading-[30px] leading-[22px] font-[400] pe-4">
-                    Company registration in the UK doesn&apos;t have to be a hassle.
-                    Let us handle the formation process for you online so you
-                    can focus on your business. Let&apos;s start by checking if your
-                    Ltd company name is available.
+                    Company registration in the UK doesn&apos;t have to be a
+                    hassle. Let us handle the formation process for you online
+                    so you can focus on your business. Let&apos;s start by
+                    checking if your Ltd company name is available.
                   </p>
                   <div className="col-12 flex gap-3 mb-4">
                     <div>
@@ -59,7 +61,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="overflow-hidden px-6 sm:px-20 pb-18 pt-0 pb-10 bg-[#f3efe7]">
+      <section className="overflow-hidden px-6 sm:px-20 pb-18 pt-0 pb-10 bg-[#F7F3EB]">
         <div className="overflow-hidden">
           <div className="container-fluid">
             {/* Final Heading Section */}
@@ -113,9 +115,9 @@ export default function Home() {
                       </p>
                     </div>
                     <p className="text-[15px] font-[400] text-[#656565] leading-[22px]">
-                      Simply send us your documents via live chat. We&apos;ll fill
-                      out your Companies House application and send it to you
-                      for your digital signature.
+                      Simply send us your documents via live chat. We&apos;ll
+                      fill out your Companies House application and send it to
+                      you for your digital signature.
                     </p>
                   </div>
                 </div>
@@ -195,7 +197,7 @@ export default function Home() {
             </div>
             <div className="col-12 flex justify-center">
               <div className="col-md-9 flex gap-2 p-2">
-                <div className="col-md-6 bg-[#f3efe7] rounded-[30px] p-[8px]">
+                <div className="col-md-6 bg-[#F7F3EB] rounded-[30px] p-[8px]">
                   <div className="col-md-12 flex justify-center">
                     <div className="rounded-[15px] bg-[#FFFDFA] rounded-[30px] py-4 px-4 mb-5">
                       <p className="text-[28px] font-[600] leading-[20px]">
@@ -212,7 +214,7 @@ export default function Home() {
                         + VAT
                       </p>
                       <div className="flex justify-center">
-                      <button className="bg-[#fff] rounded-[50px] border border-dark text-[#000] hover:bg-[#212833] hover:text-[#fff] w-[430px] font-[400] h-[45px]">
+                        <button className="bg-[#fff] rounded-[50px] border border-dark text-[#000] hover:bg-[#212833] hover:text-[#fff] w-[430px] font-[400] h-[45px]">
                           Get this Plan
                         </button>
                       </div>
@@ -306,7 +308,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="col-md-6 bg-[#f3efe7] rounded-[30px] p-[8px]">
+                <div className="col-md-6 bg-[#F7F3EB] rounded-[30px] p-[8px]">
                   <div className="col-md-12 flex justify-center">
                     <div className="rounded-[15px] bg-[#FFFDFA] rounded-[30px] py-4 px-4 mb-5">
                       <p className="text-[28px] font-[600] leading-[20px]">
@@ -317,7 +319,8 @@ export default function Home() {
                         paperwork
                       </p>
                       <p className="text-[40px] font-[400] leading-[50px]">
-                        £<span className="text-[50px] font-[500] pl-1">289</span>
+                        £
+                        <span className="text-[50px] font-[500] pl-1">289</span>
                       </p>
                       <p className="text-[23px] font-[500] leading-[20px] text-[#767676]">
                         + VAT
@@ -413,7 +416,7 @@ export default function Home() {
       <section className="overflow-hidden sm:px-20 px-6 pt-14 sm:pb-10 bg-[#ccdfff]">
         <div className="overflow-hidden">
           <div className="container-fluid">
-           <DownloadText/>
+            <DownloadText />
           </div>
         </div>
       </section>
@@ -423,8 +426,12 @@ export default function Home() {
           <div className="row justify-center">
             <div className="col-md-6 sm:pb-4">
               <div className="text-center ">
-                <p className="text-[#353535] font-[400] text-[16px]">HOW IT WORKS</p>
-                <p className="font-[cd-se]  sm:text-[35px] text-[30px]  text-[#000] text-center sm:leading-[38px] leading-[35px]">The company registration process in the United Kingdom</p>
+                <p className="text-[#353535] font-[400] text-[16px]">
+                  HOW IT WORKS
+                </p>
+                <p className="font-[cd-se]  sm:text-[35px] text-[30px]  text-[#000] text-center sm:leading-[38px] leading-[35px]">
+                  The company registration process in the United Kingdom
+                </p>
               </div>
             </div>
           </div>
@@ -440,75 +447,155 @@ export default function Home() {
                     height={1080}
                     alt="no-img"
                   />
-
                 </div>
                 <div className="col-md-5 mb-4">
-                  <div className="col-md-10" >
-                    <p className="text-[38px] font-[600] leading-[40px]">Choose a new company name</p>
-                    <p className="text-[16px] text-[#000] font-[400]  leading-[25px] ">
-                      Your name must be unique and meet government standards. To prevent your name from being rejected by Companies House, here are a few general rules to follow.
+                  <div className="col-md-10">
+                    <p className="text-[38px] font-[600] leading-[40px]">
+                      Choose a new company name
                     </p>
-
+                    <p className="text-[16px] text-[#000] font-[400]  leading-[25px] ">
+                      Your name must be unique and meet government standards. To
+                      prevent your name from being rejected by Companies House,
+                      here are a few general rules to follow.
+                    </p>
                   </div>
-                  <button className="text-[14px] font-[400] rounded-[50px] h-[40px] w-[350px] border-black border bg-[#fff] text-[#000] hover:">Check your company name</button>
+                  <button className="text-[14px] font-[400] rounded-[50px] h-[40px] w-[350px] border-black border bg-[#fff] text-[#000] hover:bg-[#000] hover:text-[#fff] transition">
+                    Check your company name
+                  </button>
                 </div>
-
               </div>
               <div className="row align-items-center justify-between">
                 <div className="col-md-5 order-md-2 order-1 mb-4">
-                  <Image src="/assets/images/Rectangle 4631.svg" className="w-full" width={1080} height={1080} alt="no-img"
+                  <Image
+                    src="/assets/images/Rectangle 4631.svg"
+                    className="w-full"
+                    width={1080}
+                    height={1080}
+                    alt="no-img"
                   />
                 </div>
-                <div className="col-md-5 mb-4 order-md-1 order-2">
-                  <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Solopreneurs who want their weekends back from financial admin</p>
+                <div className="col-md-5 mb-4">
+                  <div className="col-md-10">
+                    <p className="text-[38px] font-[600] leading-[40px]">
+                      Choose the SIC code
+                    </p>
+                    <p className="text-[16px] text-[#000] font-[400]  leading-[25px] ">
+                      Your Standard Industrial Classification (SIC) Code defines
+                      your industry and the rules and regulations applied to
+                      your business. Make sure you pick the right code when
+                      registering your company.
+                    </p>
+                  </div>
+                  <button className="text-[14px] font-[400] rounded-[50px] h-[40px] w-[350px] border-black border bg-[#fff] text-[#000] hover:bg-[#000] hover:text-[#fff] transition">
+                    Check your company name
+                  </button>
                 </div>
               </div>
               <div className="row align-items-center justify-between">
                 <div className="col-md-5 mb-4 ">
-                  <Image src="/assets/images/Rectangle 4639.svg" className="w-full" width={1080} height={1080} alt="no-img"
+                  <Image
+                    src="/assets/images/Rectangle 4639.svg"
+                    className="w-full"
+                    width={1080}
+                    height={1080}
+                    alt="no-img"
                   />
                 </div>
-                <div className="col-md-5 ">
-                  <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Ecommerce sellers seeking accountants that understand their business</p>
+                <div className="col-md-5 mb-4">
+                  <div className="col-md-11">
+                    <p className="text-[38px] font-[600] leading-[40px]">
+                      Prepare your documents
+                    </p>
+                    <p className="text-[16px] text-[#000] font-[400]  leading-[25px]">
+                      All you need to do before you get started is:
+                      <ul className="space-y-4 text-gray-800 text-base mt-3">
+                        <li className="text-[16px] font-[400] leading-[24px]">
+                          • Prepare passport copies and proof of address for
+                          yourself and any other directors or shareholders
+                        </li>
+                        <li className="text-[16px] font-[400]">
+                          • Choose your company address. Use your home address
+                          if you're comfortable with this info being public, or
+                          register an address through us
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
                 </div>
-
               </div>
               <div className="row align-items-center justify-between">
                 <div className="col-md-5 order-md-2 order-1 mb-4">
-                  <Image src="/assets/images/Rectangle 4631 (1).svg" className="w-full" width={1080} height={1080} alt="no-img"
+                  <Image
+                    src="/assets/images/Rectangle 4631 (1).svg"
+                    className="w-full"
+                    width={1080}
+                    height={1080}
+                    alt="no-img"
                   />
                 </div>
-                <div className="col-md-5 mb-4 order-md-1 order-2">
-                  <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Solopreneurs who want their weekends back from financial admin</p>
+                <div className="col-md-5 mb-4">
+                  <div className="col-md-10">
+                    <p className="text-[38px] font-[600] leading-[40px]">
+                      Open a business bank account
+                    </p>
+                    <p className="text-[16px] text-[#000] font-[400]  leading-[25px] ">
+                      You'll need a business bank account to open your company,
+                      receive money and pay invoices. We partner with local
+                      banks that can set up your account online in just a few
+                      days.
+                    </p>
+                  </div>
+                  <button className="text-[14px] font-[400] rounded-[50px] h-[40px] w-[350px] border-black border bg-[#fff] text-[#000] hover:bg-[#000] hover:text-[#fff] transition">
+                    Check your company name
+                  </button>
                 </div>
               </div>
               <div className="row align-items-center justify-between">
                 <div className="col-md-5 mb-4 ">
-                  <Image src="/assets/images/Rectangle 4655.svg" className="w-full" width={1080} height={1080} alt="no-img"
+                  <Image
+                    src="/assets/images/Rectangle 4655.svg"
+                    className="w-full"
+                    width={1080}
+                    height={1080}
+                    alt="no-img"
                   />
                 </div>
-                <div className="col-md-5 ">
-                  <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Ecommerce sellers seeking accountants that understand their business</p>
+                <div className="col-md-5 mb-4">
+                  <div className="col-md-11">
+                    <p className="text-[38px] font-[600] leading-[40px]">
+                      Submit everything to Companies House
+                    </p>
+                    <p className="text-[16px] text-[#000] font-[400]  leading-[25px]">
+                      From there we'll register your company for you by
+                      preparing the following information
+                      <ul className="space-y-4 text-gray-800 text-base mt-3">
+                        <li className="text-[16px] font-[400] leading-[1px]">
+                          • Company formation
+                        </li>
+                        <li className="text-[16px] font-[400]">
+                          • Digital incorporation certificates
+                        </li>
+                      </ul>
+                      You can leave it all to us. We'll share your documents
+                      with Companies House.
+                    </p>
+                  </div>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
       </section>
 
-
-
-
-      <section className="overflow-hidden sm:px-20 px-6 py-14 pb-10  bg-[#F3EFE7]">
+      <section className="overflow-hidden sm:px-20 px-6 py-14 pb-10  bg-[#F7F3EB]">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
               {/* Card 1 */}
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full">
                   <div>
-                    <div className="col-12 py-3">
+                    <div className="col-12 h-[115px]">
                       <Image
                         src="/assets/images/image 30.svg"
                         width={112}
@@ -517,24 +604,22 @@ export default function Home() {
                       />
                     </div>
                     <div>
-                      <p className="text-[28px] font-[500]">Choose your package</p>
+                      <p className="text-[28px] font-[500]">
+                        Choose your package
+                      </p>
 
-                      <p className="text-[13px] font-[200] font-[400] text-[#656565]">
-                        A Limited Liability Company merges partnership
-                        flexibility with corporate liability protection. It
-                        shields your personal assets from business debts,
-                        simplifies management, and allows for pass-through
-                        taxation, making it a popular choice for small
-                        businesses.
+                      <p className="text-[15px] font-[200] font-[400] text-[#656565]">
+                        Start with what you need right now and add specialist
+                        services later as you grow.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full ">
                   <div>
-                    <div className="col-12 py-3">
+                    <div className="col-12 h-[115px]">
                       <Image
                         src="/assets/images/image 30.svg"
                         width={128}
@@ -543,25 +628,22 @@ export default function Home() {
                       />
                     </div>
                     <div>
-                      <p className="text-[28px] font-[500]">C-Corp</p>
-                      <p className="text-[18px] font-[500] leading-[22px]">
-                        Establish a C-Corp for global growth.
+                      <p className="text-[28px] font-[500]">
+                        Submit your details
                       </p>
-                      <p className="text-[13px] font-[200] font-[400] text-[#656565]">
-                        Empower your startup with a C-Corporation—crafted for
-                        growth and attracting investors. Offering liability
-                        protection and diverse funding options, it’s ideal for
-                        entrepreneurs aiming at significant expansion and
-                        actively seeking external investments.
+
+                      <p className="text-[15px] font-[200] font-[400] text-[#656565]">
+                        We'll tell you what information and documents you need
+                        to provide for registration, and offer our advice.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full ">
                   <div>
-                    <div className="col-12 py-3">
+                    <div className="col-12 h-[115px]">
                       <Image
                         src="/assets/images/image 38.svg"
                         width={112}
@@ -570,16 +652,13 @@ export default function Home() {
                       />
                     </div>
                     <div>
-                      <p className="text-[28px] font-[500]">DAO LLC</p>
-                      <p className="text-[18px] font-[500] leading-[22px]">
-                        Forge the future with a DAO LLC.
+                      <p className="text-[28px] font-[500] leading-[32px]">
+                        Get confirmation and paperwork
                       </p>
-                      <p className="text-[13px] font-[200] font-[400] text-[#656565]">
-                        Step into the future with a DAO LLC, merging LLC
-                        flexibility with blockchain tech. Transform governance
-                        for transparency, autonomy, and innovation—an ideal
-                        option for shaping decentralized structures and
-                        revolutionizing decision-making processes.
+
+                      <p className="text-[15px] font-[200] font-[400] text-[#656565]">
+                        Receive your certificate of incorporation and key
+                        company documents. It’s that simple!
                       </p>
                     </div>
                   </div>
@@ -590,19 +669,31 @@ export default function Home() {
         </div>
       </section>
 
-
-
-
-      <section className="overflow-hidden sm:px-20 px-6  pt-10 pb-10  bg-[#f3efe7]">
+      <section className="overflow-hidden sm:px-20 px-6  pt-10 pb-10  bg-[#CCDFFF]">
         <div className="overflow-hidden">
           <div className="container-fluid">
-            <div className="row">
-              <FAQ />
-            </div>
+            <DownloadText />
           </div>
         </div>
       </section>
-      <section className="bg-[#fff] overflow-hidden sm:px-20 px-6 sm:py-5 py-5">
+
+      <section className="overflow-hidden sm:px-20 px-6 bg-[#F7F3EB]  pt-10 pb-10">
+        <div className="overflow-hidden">
+          <div className="container-fluid">
+            <RecFaqPart />
+          </div>
+        </div>
+      </section>
+
+      <section className="overflow-hidden sm:px-20 px-6 bg-[#F7F3EB] pt-10 pb-10">
+        <div className="overflow-hidden">
+          <div className="container-fluid">
+            <FAQ />
+          </div>
+        </div>
+      </section>
+
+      <section className="overflow-hidden sm:px-20 px-6 sm:py-5 py-5 bg-[#F7F3EB]">
         <div className="container-fluid p-0">
           <div className="row justify-center">
             <div className="col-md-6">
@@ -616,8 +707,8 @@ export default function Home() {
           </div>
 
           <div className="row justify-between pt-14">
-            <div className="col-md-4 ">
-              <div className="mb-4 sm:bg-[#fff] bg-[#f3efe7] sm:border-none border-none border-black sm:px-0 px-3 sm:py-0 py-2  rounded-[10px]">
+            <div className="col-md-4 bg-[#F7F3EB]">
+              <div className="mb-4 sm:bg-[#F7F3EB] bg-[#F7F3EB] sm:border-none border-none border-black sm:px-0 px-3 sm:py-0 py-2  rounded-[10px]">
                 <div className="">
                   <Image
                     src="/assets/images/image 57 (1).png"
@@ -651,7 +742,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="mb-4 sm:bg-[#fff] bg-[#f3efe7] sm:border-none border-none border-black sm:px-0 px-3 sm:py-0 py-2 rounded-[10px]">
+              <div className="mb-4 sm:bg-[#F7F3EB] bg-[#F7F3EB] sm:border-none border-none border-black sm:px-0 px-3 sm:py-0 py-2 rounded-[10px]">
                 <div className="">
                   <Image
                     src="/assets/images/image 47.png"
@@ -685,7 +776,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="mb-4 sm:bg-[#fff] bg-[#f3efe7] sm:border-none border-none border-black sm:px-0 px-3 sm:py-0 py-2 rounded-[10px]">
+              <div className="mb-4 sm:bg-[#F7F3EB] bg-[#F7F3EB] sm:border-none border-none border-black sm:px-0 px-3 sm:py-0 py-2 rounded-[10px]">
                 <div className="">
                   <Image
                     src="/assets/images/image 48.png"
@@ -723,48 +814,7 @@ export default function Home() {
       </section>
       <section className="bg-[#000] overflow-hidden sm:px-20 px-6 sm:py-5 py-5">
         <div className="container-fluid p-0">
-          <div className="row align-items-center">
-            <div className="col-md-6 mb-4">
-              <div className="col-md-8">
-                <p className="font-[cd-m] text-[#fff] sm:text-[30px] text-[18px] leading-[20px] sm:leading-[30px]  mb-0">
-                  Get tips on how to run your business smarter
-                </p>
-                <p className="font-[cd-r] text-[#ABABAB] sm:text-[16px] text-[15px] pt-4 mb-0">
-                  Learn crucial tips on how to save money and build a
-                  flourishing business, with real entrepreneurs sharing their
-                  own experiences.
-                </p>
-                <div className="sm:flex justify-center items-center gap-4 max-w-lg mx-auto pt-4">
-                  <input
-                    type="email"
-                    placeholder="Email address"
-                    className="w-full text-[18px] px-4 py-2 rounded-full text-black font-[400] border-gray-400 mb-4"
-                  />
-                  <button className="bg-white text-black font-[400] px-6 py-2 rounded-full hover:bg-gray-100 mb-4 ">
-                    SUBSCRIBE
-                  </button>
-                </div>
-                <p className="text-[#fff] font-[400] text-[15px]">
-                  <a
-                    className="no-underline font-[400] text-[#ABABAB] "
-                    href="#"
-                  >
-                    By clicking, you agree to our
-                  </a>{" "}
-                  Terms & Conditions, Privacy and Data Protection Policy
-                </p>
-              </div>
-            </div>
-            <div className="col-md-6 ">
-              <Image
-                src="/assets/images/original-4703d0ba72b72f87fa49a618a24a1f6d 3.png"
-                className="w-full"
-                width={1080}
-                height={1080}
-                alt="no-img"
-              />
-            </div>
-          </div>
+          <BusinessStarterText />
         </div>
       </section>
 

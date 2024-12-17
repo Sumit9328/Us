@@ -105,9 +105,11 @@ const HeaderUK = () => {
                     <span className="text-[#868686] text-[16px]">
                       GET STARTED
                     </span>
+                    <Link href="/UK/accountingservices" className="no-underline">
                     <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px] mt-2 text-[15px]">
                       Accounting Services
                     </li>
+                    </Link>
                     <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">
                       Ecommerce Accounting
                     </li>
