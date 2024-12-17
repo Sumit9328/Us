@@ -6,12 +6,12 @@ const HeaderUK = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState<string | null>(null); // Type annotation for openMenu
 
-  // Handle mouse enter for desktop (with type annotation for 'menu' as string)
+  // Handle mouse enter for desktop (with type annotation for &apos;menu&apos; as string)
   const handleMouseEnter = (menu: string) => {
     setOpenMenu(menu);
   };
 
-  // Handle menu click (with type annotation for 'menu' as string)
+  // Handle menu click (with type annotation for &apos;menu&apos; as string)
   const handleMenuClick = (menu: string) => {
     setOpenMenu(openMenu === menu ? null : menu);
   };
@@ -79,11 +79,11 @@ const HeaderUK = () => {
                 </div>
               </div>
 
-<Link href="/UK/registercompany" className="no-underline">
-              <span className="hover:text-gray-900 text-[16px] text-black no-underline">
-                Register a Company
-              </span>
-</Link>
+              <Link href="/UK/registercompany" className="no-underline">
+                <span className="hover:text-gray-900 text-[16px] text-black no-underline">
+                  Register a Company
+                </span>
+              </Link>
 
               {/* Business Setup Services Dropdown */}
               <div className="relative flex space-x-8">
@@ -106,9 +106,9 @@ const HeaderUK = () => {
                       GET STARTED
                     </span>
                     <Link href="/UK/accountingservices" className="no-underline">
-                    <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px] mt-2 text-[15px]">
-                      Accounting Services
-                    </li>
+                      <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px] mt-2 text-[15px]">
+                        Accounting Services
+                      </li>
                     </Link>
                     <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">
                       Ecommerce Accounting
@@ -267,9 +267,8 @@ const HeaderUK = () => {
 
         {/* Mobile Half-Screen Menu */}
         <div
-          className={`fixed top-0 left-0 min-h-[50%] w-full bg-white z-50 transform ${
-            isMenuOpen ? "translate-y-0" : "-translate-y-full"
-          } transition-transform duration-300 ease-in-out overflow-y-auto`}
+          className={`fixed top-0 left-0 min-h-[50%] w-full bg-white z-50 transform ${isMenuOpen ? "translate-y-0" : "-translate-y-full"
+            } transition-transform duration-300 ease-in-out overflow-y-auto`}
           style={{ height: isMenuOpen ? "auto" : "50%" }} // Allow height to grow with content
         >
           <button

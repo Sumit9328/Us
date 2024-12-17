@@ -515,7 +515,7 @@ export default function Home() {
                         </li>
                         <li className="text-[16px] font-[400]">
                           • Choose your company address. Use your home address
-                          if you're comfortable with this info being public, or
+                          if you&apos;re comfortable with this info being public, or
                           register an address through us
                         </li>
                       </ul>
@@ -539,7 +539,7 @@ export default function Home() {
                       Open a business bank account
                     </p>
                     <p className="text-[16px] text-[#000] font-[400]  leading-[25px] ">
-                      You'll need a business bank account to open your company,
+                      You&apos;ll need a business bank account to open your company,
                       receive money and pay invoices. We partner with local
                       banks that can set up your account online in just a few
                       days.
@@ -566,7 +566,7 @@ export default function Home() {
                       Submit everything to Companies House
                     </p>
                     <p className="text-[16px] text-[#000] font-[400]  leading-[25px]">
-                      From there we'll register your company for you by
+                      From there we&apos;ll register your company for you by
                       preparing the following information
                       <ul className="space-y-4 text-gray-800 text-base mt-3">
                         <li className="text-[16px] font-[400] leading-[1px]">
@@ -576,7 +576,7 @@ export default function Home() {
                           • Digital incorporation certificates
                         </li>
                       </ul>
-                      You can leave it all to us. We'll share your documents
+                      You can leave it all to us. We&apos;ll share your documents
                       with Companies House.
                     </p>
                   </div>
@@ -633,7 +633,7 @@ export default function Home() {
                       </p>
 
                       <p className="text-[15px] font-[200] font-[400] text-[#656565]">
-                        We'll tell you what information and documents you need
+                        We&apos;ll tell you what information and documents you need
                         to provide for registration, and offer our advice.
                       </p>
                     </div>
