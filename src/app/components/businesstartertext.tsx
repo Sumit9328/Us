@@ -21,14 +21,14 @@ const BusinessStarterText = () => {
                             placeholder="Email address"
                             className="w-full outline-none px-4 font-[400] py-2 rounded-full text-black border border-gray-400 mb-4"
                           />
-                          <button className="bg-[#fff] border-[#000] border text-[#000] font-medium px-6 py-2 rounded-full mb-4 hover:bg-[#000] hover:text-[#fff]">
+                          <button className="bg-[#fff] border-[#000] border text-[#000] font-medium px-6 py-2 rounded-full mb-4 hover:bg-[#000] hover:text-[#fff] transition">
                             SUBSCRIBE
                           </button>
                         </div>
                         <p className="text-[#fff] font-[400] text-[15px]">
                           <a className="no-underline font-[400] text-[#ABABAB] " href="#">
                             By clicking, you agree to our
-                          </a>{" "}
+                          </a>{""}
                           Terms & Conditions, Privacy and Data Protection Policy
                         </p>
                       </div>

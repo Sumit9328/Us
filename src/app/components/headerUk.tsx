@@ -110,15 +110,21 @@ const HeaderUK = () => {
                         Accounting Services
                       </li>
                     </Link>
+                    <Link href="/UK/bookkeeepingpage" className="no-underline">
                     <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">
-                      Ecommerce Accounting
+                      BookKeeping
                     </li>
+                    </Link>
+                    <Link href="/UK/propertyaccountant" className="no-underline">
                     <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">
-                      Bookkeeping
+                      Property Accountant
                     </li>
-                    <li className="text-[#000] hover:text-[#0462f2] mb-4 text-[15px]">
-                      Property Accountants
+                    </Link>
+                    <Link href="/UK/" className="no-underline">
+                    <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">
+                      Invoicing
                     </li>
+                    </Link>
 
                     <span className="text-[#868686] text-[16px] ">
                       Explore More
