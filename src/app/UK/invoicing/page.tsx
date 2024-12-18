@@ -2,10 +2,9 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import Footer from '../components/footer'
-import HeaderUK from "../components/headerUk";
+import Footer from '../../components/footer'
+import HeaderUK from "../../components/headerUk";
 
-import "../globals.css";
 
 import "bootstrap/dist/css/bootstrap.min.css"
 export default function Home() {
@@ -340,8 +339,17 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+
             </section>
+
+
             <Footer />
+
+
+
+
+
+
         </>
     );
 }
