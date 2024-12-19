@@ -40,7 +40,7 @@ export default function Home() {
                             <div className="row justify-center ">
                                 <div className="col-md-8">
                                     <div className="text-center">
-                                        <p className="font-[cd-se]  no-underline sm:text-[42px] text-[28px] text-[#000] text-center sm:leading-[46px] leading-[30px]">Online invoicing?It's a breeze</p>
+                                        <p className="font-[cd-se]  no-underline sm:text-[42px] text-[28px] text-[#000] text-center sm:leading-[46px] leading-[30px]">Online invoicing?It&apos;s a breeze</p>
                                         
                                         <p className="no-underline sm:text-[20px] text-[28px] text-[#000] text-center sm:leading-[26px] font-[400] leading-[30px]">Understand how much money is coming into your business cash flow, create and send invoices, and get paid faster.</p>
 
@@ -118,7 +118,7 @@ export default function Home() {
                                 </div>
                                 <div className="col-md-5 mb-4 order-md-1 order-2">
                                     <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Keep on top of your finances</p>
-                                    <p className="text-[16px] text-[#000] font-[400] leading-[25px]">Your dashboard gives you a quick and confident overview of all your invoices, what's due, what's overdue and what's been paid.</p>
+                                    <p className="text-[16px] text-[#000] font-[400] leading-[25px]">Your dashboard gives you a quick and confident overview of all your invoices, what&apos;s due, what&apos;s overdue and what&apos;s been paid.</p>
                                 </div>
                             </div>
                             <div className="row align-items-center justify-between">
@@ -140,7 +140,7 @@ export default function Home() {
                                 </div>
                                 <div className="col-md-5 mb-4 order-md-1 order-2">
                                     <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Automatic tax reporting</p>
-                                    <p className="text-[16px] text-[#000] font-[400] leading-[25px]">Our app pulls your transactions, automatically applies tax codes, prepares tax records and makes sure you're fully tax compliant – giving you the time to focus on the important stuff.</p>
+                                    <p className="text-[16px] text-[#000] font-[400] leading-[25px]">Our app pulls your transactions, automatically applies tax codes, prepares tax records and makes sure you&apos;re fully tax compliant – giving you the time to focus on the important stuff.</p>
                                 </div>
                             </div>
                         </div>

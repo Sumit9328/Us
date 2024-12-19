@@ -222,7 +222,7 @@ export default function Home() {
                   Books done in minutes
                   </p>
                   <p className="font-[cd-r] font-[500] text-[#7C7C7C] text-[16px] mb-0">
-                  Send us your documents the minute you receive them. We reconcile every 24 hours and show what's missing, meaning you don't have to spend hours retracing old invoices.
+                  Send us your documents the minute you receive them. We reconcile every 24 hours and show what&apos;s missing, meaning you don&apos;t have to spend hours retracing old invoices.
                   </p>
                   
                 </div>

@@ -351,7 +351,7 @@ export default function Home() {
                   Property flippers and developers
                   </p>
                   <p className="text-center text-[15px] font-[500] text-[#9D9D9D] leading-[20px]">
-                  Join the world of property moguls quicker by streamlining your bookkeeping. You handle your projects, we'll do the financial admin.
+                  Join the world of property moguls quicker by streamlining your bookkeeping. You handle your projects, we&apos;ll do the financial admin.
                   </p>
                 </div>
               </div>
