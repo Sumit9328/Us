@@ -20,7 +20,7 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-6 flex justify-center items-center">
+              <div className="col-md-6 sm:flex  justify-center items-center">
                 <div className="col-md-12">
                   <p className="sm:text-[50px] text-[30px] sm:leading-[60px] leading-[35px]  font-[600] ">
                     The ultimate bookkeeping solution for busy founders
@@ -30,7 +30,7 @@ export default function Home() {
                     spend more time focusing on what really matters – your core
                     business.
                   </p>
-                  <div className="col-12 flex gap-3 mb-4">
+                  <div className="col-12 sm:flex  gap-3 mb-4">
                     <div>
                       <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                         Get Started
@@ -44,8 +44,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 flex justify-center items-center">
-                <div className="col-md-12 flex justify-end items-center">
+              <div className="col-md-6 sm:flex  justify-center items-center">
+                <div className="col-md-12 sm:flex  justify-end items-center">
                   <Image
                     src="/assets/images/Picture ⏵ comp-secreyary-vanessa-sg@1x.webp (5).png"
                     width={450}
@@ -62,10 +62,10 @@ export default function Home() {
       <section className="overflow-hidden sm:px-20 px-6 py-14 pb-10  bg-[#F3EFE7]">
         <div className="overflow-hidden">
           <div className="container-fluid">
-            <div className="col-12 sm:flex justify-center">
-              <div className="col-md-10 gap-3 sm:flex justify-center">
+            <div className="col-12 sm:flex   justify-center">
+              <div className="col-md-10 gap-3 sm:flex   justify-center">
                 <div className="col-md-5 mb-4">
-                  <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff]">
+                  <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff]">
                     <div>
                       <div className="col-12 py-3  h-[150px]">
                         <Image
@@ -95,7 +95,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="col-md-5 mb-4">
-                  <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff]">
+                  <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff]">
                     <div>
                       <div className="col-12 py-3  h-[150px]">
                         <Image
@@ -139,8 +139,8 @@ export default function Home() {
                 Designed for global founders
               </p>
             </div>
-            <div className="col-12 sm:flex justify-center mt-14">
-              <div className="col-12 sm:flex justify-center gap-2">
+            <div className="col-12 sm:flex   justify-center mt-14">
+              <div className="col-12 sm:flex   justify-center gap-2">
                 <div className="col-md-3 rounded-[10px] sm:mb-0 mb-4 px-4 py-2 bg-[#f3efe7]">
                   <div className="py-4">
                     <Image
@@ -236,8 +236,8 @@ export default function Home() {
                   Your taxes, compliance, and finances made simple.
                 </p>
 
-                <div className="col-12 sm:flex justify-center pt-8 sm:mb-8">
-                  <div className="col-md-12 sm:flex  mt-3 gap-3 sm:h-full ">
+                <div className="col-12 sm:flex   justify-center pt-8 sm:mb-8">
+                  <div className="col-md-12 sm:flex    mt-3 gap-3 sm:h-full ">
                     <div className="grid grid-cols-3 gap-4">
                       <div className="rounded-[30px] border-8 border-[#f3efe7] bg-[#fffdfa] sm:mb-0 mb-4">
                         <div>
@@ -274,7 +274,7 @@ export default function Home() {
                               ].map((item, index) => (
                                 <li
                                   key={index}
-                                  className="flex items-start space-x-3"
+                                  className="sm:flex  items-start space-x-3"
                                 >
                                   {item.status === "tick" ? (
                                     // Green tick icon with fixed size
@@ -329,7 +329,7 @@ export default function Home() {
                               </span>{" "}
                               50/y
                             </p>
-                            <div className="col-12 sm:mt-4 flex justify-center mb-4">
+                            <div className="col-12 sm:mt-4 sm:flex  justify-center mb-4">
                               <button className="border rounded-[50px] text-[15px] sm:text-[16px] font-[400] text-[#000] bg-[#fff] sm:w-[280px] w-[260px] h-[40px] hover:bg-[#212833] hover:text-[#fff]">
                                 Get Invoicing
                               </button>
@@ -374,7 +374,7 @@ export default function Home() {
                               ].map((item, index) => (
                                 <li
                                   key={index}
-                                  className="flex items-start space-x-3"
+                                  className="sm:flex  items-start space-x-3"
                                 >
                                   {item.status === "tick" ? (
                                     // Green tick icon with fixed size
@@ -429,7 +429,7 @@ export default function Home() {
                               </span>{" "}
                               300/y
                             </p>
-                            <div className="col-12 sm:mt-4 flex justify-center mb-4">
+                            <div className="col-12 sm:mt-4 sm:flex  justify-center mb-4">
                               <button className="border rounded-[50px] text-[15px] sm:text-[16px] font-[400] text-[#000] bg-[#fff] sm:w-[280px] w-[260px] h-[40px] hover:bg-[#212833] hover:text-[#fff]">
                                 Get Software
                               </button>
@@ -473,7 +473,7 @@ export default function Home() {
                               ].map((item, index) => (
                                 <li
                                   key={index}
-                                  className="flex items-start space-x-3"
+                                  className="sm:flex  items-start space-x-3"
                                 >
                                   {item.status === "tick" ? (
                                     // Green tick icon with fixed size
@@ -528,7 +528,7 @@ export default function Home() {
                               </span>{" "}
                               1500/y
                             </p>
-                            <div className="col-12 sm:mt-4 flex justify-center mb-4">
+                            <div className="col-12 sm:mt-4 sm:flex  justify-center mb-4">
                               <button className="border rounded-[50px] text-[15px] sm:text-[16px] font-[400] text-[#000] bg-[#fff] sm:w-[280px] w-[260px] h-[40px] hover:bg-[#212833] hover:text-[#fff]">
                                 Get a Human
                               </button>
@@ -539,7 +539,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-12 flex justify-center sm:mb-10">
+                <div className="col-12 sm:flex  justify-center sm:mb-10">
                   <div className="col-md-6">
                     <p className="text-center text-[18px] font-[500]">
                       * Includes up to 5000 transactions per year, depending on

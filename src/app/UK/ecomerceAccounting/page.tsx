@@ -20,7 +20,7 @@ export default function Home() {
                 <div className="overflow-hidden">
                     <div className="container-fluid">
                         <div className="row">
-                            <div className="col-md-6 flex justify-start items-center">
+                            <div className="col-md-6 sm:flex  justify-start items-center">
                                 <div className="col-md-10">
                                     <p className="sm:text-[53px] text-[25px] sm:leading-[60px] leading-[35px] font-[600]">
                                         Ecommerce accountants for effortless growth
@@ -28,7 +28,7 @@ export default function Home() {
                                     <p className="sm:text-[18px] sm:leading-[25px] leading-[22px] font-[400] pe-4">
                                         Move on from traditional accounting. From returns to discounts, gift cards and global VAT needs, we know ecommerce.
                                     </p>
-                                    <div className="col-12 flex gap-3 mb-4">
+                                    <div className="col-12 sm:flex  gap-3 mb-4">
                                         <div>
                                             <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                                                 Get Started
@@ -42,8 +42,8 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 flex justify-center items-center sm:pt-12 sm:pb-12">
-                                <div className="col-md-12 flex justify-end items-center">
+                            <div className="col-md-6 sm:flex  justify-center items-center sm:pt-12 sm:pb-12">
+                                <div className="col-md-12 sm:flex  justify-end items-center">
                                     <Image
                                         src="/assets/images/Picture ⏵ comp-secreyary-vanessa-sg@1x.webp (10).png"
                                         width={500}
@@ -59,11 +59,11 @@ export default function Home() {
 
             <section className="overflow-hidden sm:px-20 px-6 sm:py-10 py-10 pt-14 bg-[#f3efe7]">
                 <div className="container-fluid  pt-14">
-                    <div className="d-flex justify-center">
+                    <div className="sm:d-sm:flex   justify-center">
                         <div className="col-md-11">
-                            <div className="col-12 flex gap-4 align-items-center justify-between">
+                            <div className="col-12 sm:flex  gap-4 align-items-center justify-between">
                                 <div className="col-md-6 mb-4">
-                                    <div className="d-flex justify-start">
+                                    <div className="sm:d-sm:flex   justify-start">
                                         <Image
                                             src="/assets/images/Group 17834.png"
                                             alt=".."
@@ -79,7 +79,7 @@ export default function Home() {
                                         must-have services are included, for foreigners and India
                                         locals.
                                     </p>
-                                    <div className="d-flex pt-4 justify-content-sm-start justify-content-between gap-2 ">
+                                    <div className="sm:d-sm:flex   pt-4 justify-content-sm-start justify-content-between gap-2 ">
                                         <button className="bg-[#fff] text-[#000] py-2 font-[500] text-[14px] text-[#212833] border border-dark rounded-full sm:w-[160px] w-[150px] hover:bg-[#212833] hover:text-[#fff]">
                                             LET’S START IT
                                         </button>
@@ -91,10 +91,10 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="d-flex justify-center">
+                    <div className="sm:d-sm:flex   justify-center">
                         <div className="col-md-11">
-                            <div className="col-12 flex align-items-center justify-content-between">
-                                <div className="col-md-6 flex justify-end order-md-2 order-1 mb-4">
+                            <div className="col-12 sm:flex  align-items-center justify-content-between">
+                                <div className="col-md-6 sm:flex  justify-end order-md-2 order-1 mb-4">
                                     <Image
                                         src="/assets/images/Group 17835.png"
                                         alt=".."
@@ -112,7 +112,7 @@ export default function Home() {
                                         documents, and answer questions daily. All standard
                                         resolutions and routine filings are included in the plan.
                                     </p>
-                                    <div className="d-flex pt-4 gap-2">
+                                    <div className="sm:d-sm:flex   pt-4 gap-2">
                                         <button className="bg-[#fff] text-[#000] px-2 py-2 font-[500] text-[14px] font-[500] text-[#212833] border border-dark rounded-[30px] sm:w-[170px] w-full hover:bg-[#212833] hover:text-[#fff]">
                                             READY TO START
                                         </button>
@@ -124,11 +124,11 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="d-flex justify-center">
+                    <div className="sm:d-sm:flex   justify-center">
                         <div className="col-md-11">
-                            <div className="col-12 flex gap-4 align-items-center justify-between">
+                            <div className="col-12 sm:flex  gap-4 align-items-center justify-between">
                                 <div className="col-md-6 mb-4">
-                                    <div className="d-flex justify-start">
+                                    <div className="sm:d-sm:flex   justify-start">
                                         <Image
                                             src="/assets/images/Rectangle 4670.png"
                                             alt=".."
@@ -144,7 +144,7 @@ export default function Home() {
                                         must-have services are included, for foreigners and India
                                         locals.
                                     </p>
-                                    <div className="d-flex pt-4 justify-content-sm-start justify-content-between gap-2 ">
+                                    <div className="sm:d-sm:flex   pt-4 justify-content-sm-start justify-content-between gap-2 ">
                                         <button className="bg-[#fff] text-[#000] py-2 font-[500] text-[14px] text-[#212833] border border-dark rounded-full sm:w-[160px] w-[150px] hover:bg-[#212833] hover:text-[#fff]">
                                             LET’S START IT
                                         </button>
@@ -164,9 +164,9 @@ export default function Home() {
             <section className="overflow-hidden sm:px-0 pt-0 pb-0">
                 <div className="overflow-hidden">
                     <div className="">
-                        <div className="col-12 flex bg-[#000]">
+                        <div className="col-12 sm:flex  bg-[#000]">
 
-                            <div className="col-md-6 py-16 border-[#fff] flex justify-end items-center">
+                            <div className="col-md-6 py-16 border-[#fff] sm:flex  justify-end items-center">
                                 <div className="col-md-10">
 
                                     <div className="col-md-10">
@@ -182,7 +182,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 border-[#fff] flex justify-end items-end px-4 pt-14">
+                            <div className="col-md-6 border-[#fff] sm:flex  justify-end items-end px-4 pt-14">
                                 <div className="col-md-8">
                                     <Image
                                         src="/assets/images/image 45.png"
@@ -203,7 +203,7 @@ export default function Home() {
             <section className="overflow-hidden sm:px-20 px-6 py-14 pb-0 bg-[#F7F3EB]">
                 <div className="overflow-hidden">
                     <div className="container-fluid">
-                        <div className="col-12 mb-14 flex justify-center">
+                        <div className="col-12 mb-14 sm:flex  justify-center">
                             <div className="col-md-5">
 
                                 <p className="text-[18px] font-[400] text-center">WHAT YOU GET</p>
@@ -214,7 +214,7 @@ export default function Home() {
                         <div className="row">
                             {/* Card 1 */}
                             <div className="col-md-4 mb-4">
-                                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full">
+                                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full">
                                     <div>
                                         <div className="col-12 h-[115px]">
                                             <Image
@@ -238,7 +238,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="col-md-4 mb-4">
-                                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full ">
+                                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full ">
                                     <div>
                                         <div className="col-12 h-[115px]">
                                             <Image
@@ -263,7 +263,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="col-md-4 mb-4">
-                                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full ">
+                                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full ">
                                     <div>
                                         <div className="col-12 h-[115px]">
                                             <Image
@@ -296,10 +296,10 @@ export default function Home() {
                 <div className="overflow-hidden">
                     <div className="container-fluid">
                         <div className="col-12 pb-4">
-                            <div className="col-12 flex justify-center pt-12">
+                            <div className="col-12 sm:flex  justify-center pt-12">
                                 <button className="font-[400] text-[17px] pb-2">PRICING</button>
                             </div>
-                            <div className="flex justify-center pb-2">
+                            <div className="sm:flex  justify-center pb-2">
                                 <div className="w-[730px]">
                                     <p className="text-[46px] text-center leading-[50px] font-[600]">
                                         For new founders and seasoned entrepreneurs
@@ -307,9 +307,9 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 flex justify-center gap-2">
+                        <div className="col-12 sm:flex  justify-center gap-2">
                             <div className="col-md-4">
-                                <div className="flex justify-center py-4">
+                                <div className="sm:flex  justify-center py-4">
                                     <Image
                                         src="/assets/images/Rectangle 4644.png"
                                         width={450}
@@ -330,7 +330,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="flex justify-center py-4">
+                                <div className="sm:flex  justify-center py-4">
                                     <Image
                                         src="/assets/images/Rectangle 4645.png"
                                         width={450}
@@ -350,7 +350,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="flex justify-center py-4">
+                                <div className="sm:flex  justify-center py-4">
                                     <Image
                                         src="/assets/images/Rectangle 4646.svg"
                                         width={450}
@@ -375,7 +375,7 @@ export default function Home() {
             </section>
 
 
-<PricingPlans/>
+            <PricingPlans />
 
             <section className="overflow-hidden sm:px-20 px-6 pt-14 sm:pb-10 bg-[#ccdfff]">
                 <div className="overflow-hidden">

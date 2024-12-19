@@ -14,9 +14,9 @@ export default function Home() {
             <div className="bg-[#f3efe7]">
                 <HeaderUK />
                 <section className="overflow-hidden sm:px-20 px-6  sm:pt-20 pb-4">
-                    <div className="flex items-center justify-center">
-                        <div className="flex items-center px-4 py-2 border rounded-full border-black">
-                            <div className="flex-space-x-2">
+                    <div className="sm:flex  items-center justify-center">
+                        <div className="sm:flex  items-center px-4 py-2 border rounded-full border-black">
+                            <div className="sm:flex space-x-2">
                                 <Image
                                     src="/assets/images/Group 17583.png"
                                     alt="Person 1"
@@ -28,7 +28,7 @@ export default function Home() {
 
                             </div>
 
-                            <div className="ml-3 font-[500] font-[500] no-underline sm:text-[13px] text-[#000]">
+                            <div className="sm:ml-3 font-[500] no-underline sm:text-[13px] text-[#000]">
                                 Trusted by 200k+ Companies
                             </div>
                         </div>
@@ -45,14 +45,13 @@ export default function Home() {
 
                                     </div>
                                 </div>
-                                <div className="col-md-8  pb-5 pt-2">
+                                <div className="col-md-8 pb-5 pt-2">
                                     <div className="text-center" >
-                                      
-                                            <button className="font-[500] font-[400] text-[14px] text-[#000] bg-[#fff] hover:bg-[#000] hover:text-[#fff] border opacity-100 px-5 py-[10px] rounded-[30px] text-center">Login</button>
-                                     
-                                      
-                                            <button className="font-[500] font-[400] ms-[15px] text-[14px] text-[#000] bg-[#fff] hover:bg-[#000] hover:text-[#fff] border px-5 py-[10px] rounded-[30px] text-center ">Schedule a call</button>
-                                     
+
+                                        <button className="font-[500] font-[400] text-[14px] text-[#000] bg-[#fff] hover:bg-[#000] hover:text-[#fff] border opacity-100 mb-2 px-5 py-[10px] rounded-[30px] text-center">Login</button>
+
+                                        <button className="font-[500] font-[400] ms-[15px] text-[14px] text-[#000] bg-[#fff] hover:bg-[#000] hover:text-[#fff] border px-5 py-[10px] rounded-[30px] text-center ">Schedule a call</button>
+
 
 
                                     </div>
@@ -76,8 +75,8 @@ export default function Home() {
             <section className="bg-[#f3efe7] overflow-hidden sm:px-20 px-6 sm:py-10 py-10">
                 <div className="container-fluid p-0">
                     <div className="row justify-center">
-                        <div className="col-md-6 pb-4 flex justify-center">
-                            <div className="text-center w-[450px]">
+                        <div className="col-md-6 pb-4 sm:flex  justify-center">
+                            <div className="text-center sm:w-[450px]">
                                 <p className="text-[#353535] font-[400] text-[16px]">WHAT WE DO</p>
                                 <p className="font-[cd-se]  sm:text-[35px] text-[30px]  text-[#000] text-center sm:leading-[38px] leading-[35px]">Services that give you peace of mind</p>
                             </div>
@@ -85,7 +84,7 @@ export default function Home() {
                     </div>
                     <div className="row">
                         <div className="col-md-4 mb-4">
-                            <div className="bg-white p-4 rounded-[20px] h-full flex flex-col">
+                            <div className="bg-white p-4 rounded-[20px] h-full sm:flex  sm:flex -col">
                                 <p className="text-[#000] font-[500] text-[22px] leading-[25px] m-0 p-0">
                                     Accounting<p className="text-[#0073FD] font-[500]"> from  £65 </p>
                                 </p>
@@ -97,8 +96,8 @@ export default function Home() {
                                 </div>
 
 
-                                <Link href="#" className="w-full no-underline">
-                                    <button className="w-full py-[8px] px-6 rounded-full font-[500] text-[16px] border-2 border-[#0073FD] text-blue-500 hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                                <Link href="#" className="sm:w-full no-underline">
+                                    <button className="w-full sm:py-[8px] px-6 rounded-full font-[500] text-[16px] border-2 border-[#0073FD] text-blue-500 hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
                                         Go to Incorporation
                                         <svg
                                             width="22"
@@ -122,7 +121,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="col-md-4 mb-4">
-                            <div className="bg-white p-4 rounded-[20px] h-full flex flex-col">
+                            <div className="bg-white p-4 rounded-[20px] h-full sm:flex  sm:flex -col">
                                 <p className="text-[#000] font-[500] text-[22px] leading-[25px] m-0 p-0">
                                     Accounting for  <p className="text-[#0073FD] font-[500]">Ecommerce from £65</p>
                                 </p>
@@ -135,7 +134,7 @@ export default function Home() {
 
 
                                 <Link href="#" className="w-full no-underline">
-                                    <button className="w-full py-[8px] px-6 rounded-full font-[500] text-[16px] border-2 border-[#0073FD] text-blue-500 hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                                    <button className="w-full py-[8px] px-6 rounded-full font-[500] text-[16px] border-2 border-[#0073FD] text-blue-500 hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
                                         Go to Accounting
                                         <svg
                                             width="22"
@@ -159,7 +158,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="col-md-4 mb-4">
-                            <div className="bg-white p-4 rounded-[20px] h-full flex flex-col">
+                            <div className="bg-white p-4 rounded-[20px] h-full sm:flex  sm:flex -col">
                                 <p className="text-[#000] font-[500] text-[22px] leading-[25px] m-0 p-0">
                                     Company formation<p className="text-[#0073FD]"> from £50 </p>
                                 </p>
@@ -172,7 +171,7 @@ export default function Home() {
 
 
                                 <Link href="#" className="w-full no-underline">
-                                    <button className="w-full py-[8px] px-6 rounded-full font-[500] text-[16px] border-2 border-[#0073FD] text-blue-500 hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                                    <button className="w-full py-[8px] px-6 rounded-full font-[500] text-[16px] border-2 border-[#0073FD] text-blue-500 hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
                                         Go to Secretary
                                         <svg
                                             width="22"
@@ -210,7 +209,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="flex justify-center">
+                    <div className="sm:flex  justify-center">
                         <div className="col-md-10 pt-4">
                             <div className="row align-items-center justify-between">
                                 <div className="col-md-5 mb-4">
@@ -268,7 +267,7 @@ export default function Home() {
                             </div>
 
                         </div>
-                        <div className="d-flex justify-center sm:pb-5">
+                        <div className="sm:d-sm:flex   justify-center sm:pb-5">
                             <div className="col-md-10">
                                 <div className="row justify-between">
                                     <div className="col-md-6">
@@ -282,17 +281,17 @@ export default function Home() {
 
                                         />
                                         <div className="pt-4 pb-4">
-                                        <div className="">
+                                            <div className="">
                                                 <div className="h-[80px]  w-[350px]">
-                                                    <p className="font-[cd-se] sm:text-[32px] text-[#000] sm:leading-[35px]">Accountants that know your business</p>
+                                                    <p className="sm:text-[32px] text-[30px]  text-[#000] sm:leading-[35px] font-[500] leading-[30px]">Accountants that know your business</p>
                                                 </div>
                                                 <div className="h-[200px] w-[400px]">
 
-                                                <p className="font-[400] text-[16px]">Your personal accountant is a small business specialist. We take a proactive approach to help you make informed financial decisions to grow revenue.
+                                                    <p className="font-[400] text-[16px]">Your personal accountant is a small business specialist. We take a proactive approach to help you make informed financial decisions to grow revenue.
 
-                                                </p>
-                                                <p className="font-[400] text-[16px]">
-                                                Our team helps you stay on top of tax payments, track deadlines, and manage filing with HMRC and Companies House.</p>
+                                                    </p>
+                                                    <p className="font-[400] text-[16px]">
+                                                        Our team helps you stay on top of tax payments, track deadlines, and manage filing with HMRC and Companies House.</p>
 
                                                 </div>
 
@@ -316,15 +315,15 @@ export default function Home() {
                                         <div className="pt-4 pb-4 ">
                                             <div className="">
                                                 <div className="h-[80px]  w-[350px]">
-                                                    <p className="font-[cd-se] sm:text-[32px] text-[#000] sm:leading-[35px]">Smart software made for business owners</p>
+                                                    <p className="sm:text-[32px] text-[30px]  text-[#000] sm:leading-[35px] font-[500] leading-[30px]">Smart software made for business owners</p>
                                                 </div>
                                                 <div className="h-[200px] w-[400px]">
 
-                                                <p className="font-[400] text-[16px]">Our formula for success: expert accountants plus easy-to-use tools. Together, they give you cash flow clarity to make informed business decisions.
+                                                    <p className="font-[400] text-[16px]">Our formula for success: expert accountants plus easy-to-use tools. Together, they give you cash flow clarity to make informed business decisions.
 
-                                                </p>
-                                                <p className="font-[400] text-[16px]">
-                                                    Our in-house software helps manage bookkeeping, invoicing, payments and much more. It&apos;s your financial data, in real-time, all in one place.</p>
+                                                    </p>
+                                                    <p className="font-[400] text-[16px]">
+                                                        Our in-house software helps manage bookkeeping, invoicing, payments and much more. It&apos;s your financial data, in real-time, all in one place.</p>
 
                                                 </div>
 

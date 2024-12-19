@@ -20,7 +20,7 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-6 flex justify-center items-center">
+              <div className="col-md-6 sm:flex  justify-center items-center">
                 <div className="col-md-12">
                   <p className="sm:text-[55px] text-[35px] sm:leading-[55px] mb-0 leading-[35px] sm:pe-8 font-[600]">
                     We file your taxes.
@@ -34,7 +34,7 @@ export default function Home() {
                     so you save stress and avoid $25,000+ in IRS penalties and
                     state fees.
                   </p>
-                  <div className="col-12 flex gap-3 mb-4">
+                  <div className="col-12 sm:flex  gap-3 mb-4">
                     <div>
                       <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                         Get Started
@@ -48,8 +48,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 flex justify-center items-center">
-                <div className="col-md-12 flex justify-end items-center">
+              <div className="col-md-6 sm:flex  justify-center items-center">
+                <div className="col-md-12 sm:flex  justify-end items-center">
                   <Image
                     src="/assets/images/Picture ⏵ comp-secreyary-vanessa-sg@1x.webp (1).png"
                     width={450}
@@ -67,7 +67,7 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-12 flex justify-center items-center mb-4">
+              <div className="col-12 sm:flex  justify-center items-center mb-4">
                 <div className="col-md-6">
                   <p className="text-center text-[#898989] font-[400] text-[18px] leading-[20px]">
                     Total Compliance
@@ -80,7 +80,7 @@ export default function Home() {
               </div>
               {/* Card 1 */}
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -105,7 +105,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
                       Learn More
                       <svg
                         width="22"
@@ -122,7 +122,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -149,7 +149,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
                       Learn More
                       <svg
                         width="22"
@@ -166,7 +166,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -190,7 +190,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
                       Learn More
                       <svg
                         width="22"
@@ -207,7 +207,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -237,7 +237,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -262,7 +262,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12 mb-4 mt-4">
-                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
                       Learn More
                       <svg
                         width="22"
@@ -279,7 +279,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -324,7 +324,7 @@ export default function Home() {
             </div>
 
             {/* Pricing Section */}
-            <div className="col-12 sm:mb-2 sm:pt-4 flex flex-wrap justify-center items-center gap-4">
+            <div className="col-12 sm:mb-2 sm:pt-4 sm:flex  sm:flex -wrap justify-center items-center gap-4">
               <div className="w-full sm:w-[30%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[20px] px-6 py-6">
                 <p className="text-[20px] sm:text-[25px] font-[600] leading-[20px]">
                   Starter

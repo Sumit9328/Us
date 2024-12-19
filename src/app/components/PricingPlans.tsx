@@ -9,19 +9,19 @@ const PricingPlans = () => {
     <section className="overflow-hidden px-6 sm:px-20 pt-0 pb-10">
       <div className="overflow-hidden">
         <div className="container-fluid">
-          <div className="col-12 pb-4">
-            <div className="col-12 flex justify-center pt-12">
+          <div className="col-12 pb-4 mb-2">
+            <div className="col-12 sm:flex mb-2 justify-center pt-12">
               <button className="font-[400] text-[17px] pb-2">PRICING</button>
             </div>
-            <div className="flex justify-center pb-2">
-              <div className="w-[590px]">
+            <div className="sm:flex  justify-center pb-2">
+              <div className="sm:w-[590px]">
                 <p className="text-[46px] text-center leading-[50px] font-[600]">
                   Simple and fast company formation
                 </p>
               </div>
             </div>
-            <div className="flex justify-center">
-              <div className="w-[770px]">
+            <div className="sm:flex  justify-center">
+              <div className="sm:w-[770px]">
                 <p className="text-[20px] font-[400] text-center leading-[35px]">
                   The cost to register a company with Cloud Bss depends on
                   what you need. We can simply handle the registration for
@@ -31,8 +31,8 @@ const PricingPlans = () => {
               </div>
             </div>
 
-            <div className="flex items-center justify-center my-8">
-              <div className="flex bg-[#F5EFE7] rounded-full w-[300px] p-1 relative">
+            <div className="sm:flex  items-center justify-center my-8">
+              <div className="sm:flex  bg-[#F5EFE7] rounded-full w-[300px] p-1 relative">
                 {/* Pay Monthly Button */}
                 <button
                   className={`w-1/2 py-2 rounded-full text-center text-[16px] font-[500] ${!isAnnually
@@ -63,13 +63,14 @@ const PricingPlans = () => {
             </div>
 
           </div>
-          <div className="col-12 flex justify-center">
-            <div className="col-12 flex gap-3 p-2">
+
+          <div className="col-12 sm:flex mb-2 justify-center">
+            <div className="col-12 sm:flex  gap-3 p-2">
               <div>
-                <div className="col-md-12 bg-[#F7F3EB] rounded-[30px] p-[8px]">
-                  <div className="col-md-12 flex justify-center">
-                    <div className="rounded-[15px] bg-[#FFFDFA] rounded-[30px]  py-4 mb-5">
-                      <div className="w-[420px] px-4">
+                <div className="col-md-12 bg-[#F7F3EB] mb-2 rounded-[30px] p-[8px]">
+                  <div className="col-md-12 sm:flex  justify-center">
+                    <div className="rounded-[15px] bg-[#FFFDFA] rounded-[30px] py-4 mb-5">
+                      <div className="sm:w-[420px] px-4">
                         <p className="text-[28px] font-[600] leading-[20px]">
                           Operate
                         </p>
@@ -87,8 +88,8 @@ const PricingPlans = () => {
                         <p className="text-[23px] font-[500] leading-[20px] text-[#767676]">
                           + VAT
                         </p>
-                        <div className="flex justify-center">
-                          <button className="bg-[#fff] rounded-[50px] border border-dark text-[#000] hover:bg-[#212833] hover:text-[#fff] w-[430px] font-[400] h-[45px]">
+                        <div className="sm:flex  justify-center">
+                          <button className="bg-[#fff] rounded-[50px] border border-dark text-[#000] hover:bg-[#212833] hover:text-[#fff] sm:w-[430px] w-full font-[400] h-[45px]">
                             Get this Plan
                           </button>
                         </div>
@@ -211,7 +212,7 @@ const PricingPlans = () => {
                   <div className="">
                     <div className="p-6">
                       {/* Header */}
-                      <div className="flex justify-between items-center pb-2 mb-2">
+                      <div className="sm:flex  justify-between items-center pb-2 mb-2">
                         <h2 className="text-lg font-bold text-black">
                           Historical work
                         </h2>
@@ -222,7 +223,7 @@ const PricingPlans = () => {
 
                       {/* Add-ons List */}
                       <div className="space-y-4">
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             Catch-Up Bookkeeping
                           </span>
@@ -231,7 +232,7 @@ const PricingPlans = () => {
                           </span>
                         </div>
 
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             Urgency Filing
                           </span>
@@ -240,7 +241,7 @@ const PricingPlans = () => {
                           </span>
                         </div>
 
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             Historical annual filing and bookkeeping
                           </span>
@@ -253,12 +254,12 @@ const PricingPlans = () => {
                   </div>
                 </div>
               </div>
-
               <div>
+
                 <div className="col-md-12 bg-[#F7F3EB] rounded-[30px] p-[8px]">
-                  <div className="col-md-12 flex justify-center">
+                  <div className="col-md-12 sm:flex  justify-center">
                     <div className="rounded-[15px] bg-[#FFFDFA] rounded-[30px]  py-4 mb-5">
-                      <div className="w-[420px] px-4">
+                      <div className="sm:w-[420px] px-4">
                         <p className="text-[28px] font-[600] leading-[20px]">
                           Operate
                         </p>
@@ -276,8 +277,8 @@ const PricingPlans = () => {
                         <p className="text-[23px] font-[500] leading-[20px] text-[#767676]">
                           + VAT
                         </p>
-                        <div className="flex justify-center">
-                          <button className="bg-[#fff] rounded-[50px] border border-dark text-[#000] hover:bg-[#212833] hover:text-[#fff] w-[430px] font-[400] h-[45px]">
+                        <div className="sm:flex  justify-center">
+                          <button className="bg-[#fff] rounded-[50px] border border-dark text-[#000] hover:bg-[#212833] hover:text-[#fff] sm:w-[430px] w-full font-[400] h-[45px]">
                             Get this Plan
                           </button>
                         </div>
@@ -366,7 +367,7 @@ const PricingPlans = () => {
                   <div className="border-t border-dark">
                     <div className="p-6">
                       {/* Header */}
-                      <div className="flex justify-between items-center pb-2 mb-2">
+                      <div className="sm:flex  justify-between items-center pb-2 mb-2">
                         <h2 className="text-lg font-bold text-black">
                           Historical work
                         </h2>
@@ -377,7 +378,7 @@ const PricingPlans = () => {
 
                       {/* Add-ons List */}
                       <div className="space-y-4">
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             Catch-Up Bookkeeping
                           </span>
@@ -386,7 +387,7 @@ const PricingPlans = () => {
                           </span>
                         </div>
 
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             Urgency Filing
                           </span>
@@ -395,7 +396,7 @@ const PricingPlans = () => {
                           </span>
                         </div>
 
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             Historical annual filing and bookkeeping
                           </span>
@@ -408,12 +409,12 @@ const PricingPlans = () => {
                   </div>
                 </div>
               </div>
-
               <div>
-                <div className="col-md-12 bg-[#F7F3EB] rounded-[30px] p-[8px]">
-                  <div className="col-md-12 flex justify-center">
+
+                <div className="col-md-12 bg-[#F7F3EB] rounded-[30px] p-[8px] mt-2">
+                  <div className="col-md-12 sm:flex  justify-center">
                     <div className="rounded-[15px] bg-[#FFFDFA] rounded-[30px]  py-4 mb-5">
-                      <div className="w-[420px] px-4">
+                      <div className="sm:w-[420px] px-4">
                         <p className="text-[28px] font-[600] leading-[20px]">
                           Operate
                         </p>
@@ -431,8 +432,8 @@ const PricingPlans = () => {
                         <p className="text-[23px] font-[500] leading-[20px] text-[#767676]">
                           + VAT
                         </p>
-                        <div className="flex justify-center">
-                          <button className="bg-[#fff] rounded-[50px] border border-dark text-[#000] hover:bg-[#212833] hover:text-[#fff] w-[430px] font-[400] h-[45px]">
+                        <div className="sm:flex  justify-center">
+                          <button className="bg-[#fff] rounded-[50px] border border-dark text-[#000] hover:bg-[#212833] hover:text-[#fff] sm:w-[430px] w-full font-[400] h-[45px]">
                             Get this Plan
                           </button>
                         </div>
@@ -485,7 +486,7 @@ const PricingPlans = () => {
                   <div className="border-t border-dark">
                     <div className="p-6">
                       {/* Header */}
-                      <div className="flex justify-between items-center pb-2 mb-2">
+                      <div className="sm:flex  justify-between items-center pb-2 mb-2">
                         <h2 className="text-lg font-bold text-black">
                           Historical work
                         </h2>
@@ -496,7 +497,7 @@ const PricingPlans = () => {
 
                       {/* Add-ons List */}
                       <div className="space-y-4">
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             Catch-Up Bookkeeping
                           </span>
@@ -505,7 +506,7 @@ const PricingPlans = () => {
                           </span>
                         </div>
 
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             Urgency Filing
                           </span>
@@ -514,7 +515,7 @@ const PricingPlans = () => {
                           </span>
                         </div>
 
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             Historical annual filing and bookkeeping
                           </span>
@@ -530,8 +531,8 @@ const PricingPlans = () => {
             </div>
           </div>
           <div className="col-12 pb-4">
-            <div className="col-12 flex justify-center pt-12">
-              <button className="font-[400] border-dark flex justify-center items-center gap-2 border w-[240px] h-[40px] text-[17px] border-[#000] rounded-[50px] text-[#000] bg-[#fff] hover:text-[#fff] hover:bg-[#000] transition">
+            <div className="col-12 sm:flex justify-center pt-12">
+              <button className="font-[400] border-dark sm:flex  justify-center items-center gap-2 border sm:w-[240px] w-full h-[40px] text-[17px] border-[#000] rounded-[50px] text-[#000] bg-[#fff] hover:text-[#fff] hover:bg-[#000] transition">
                 Compare Pricing <span className="text-[25px]">→</span>
               </button>
             </div>

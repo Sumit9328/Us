@@ -17,11 +17,12 @@ export default function Home() {
           <HeaderUK />
         </div>
       </section>
+
       <section className="overflow-hidden sm:px-20 px-6 sm:pt-22 pt-0 pb-0">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-6 flex justify-start items-center">
+              <div className="col-md-6 sm:flex  justify-start items-center">
                 <div className="col-md-11">
                   <p className="sm:text-[53px] text-[25px] sm:leading-[60px] leading-[35px] font-[600]">
                     Register a Limited Company in the UK
@@ -32,22 +33,22 @@ export default function Home() {
                     so you can focus on your business. Let&apos;s start by
                     checking if your Ltd company name is available.
                   </p>
-                  <div className="col-12 flex gap-3 mb-4">
+                  <div className="col-12 sm:flex  gap-3 mb-4">
                     <div>
-                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] sm:w-[150px] w-full mb-2 h-[40px] rounded-[50px] text-[15px]">
                         Get Started
                       </button>
                     </div>
                     <div>
-                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] sm:w-[150px] w-full h-[40px] rounded-[50px] text-[15px]">
                         Schedule a call
                       </button>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 flex justify-center items-center sm:pt-12 sm:pb-12">
-                <div className="col-md-12 flex justify-end items-center">
+              <div className="col-md-6 sm:flex  justify-center items-center sm:pt-12 sm:pb-12">
+                <div className="col-md-12 sm:flex  justify-end items-center">
                   <Image
                     src="/assets/images/Picture ⏵ comp-secreyary-vanessa-sg@1x.webp (9).png"
                     width={500}
@@ -61,12 +62,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="overflow-hidden px-6 sm:px-20 pb-18 pt-0 pb-10 bg-[#F7F3EB]">
+      <section className="overflow-hidden px-6 sm:px-20 pt-0 pb-10 bg-[#F7F3EB]">
         <div className="overflow-hidden">
           <div className="container-fluid">
             {/* Final Heading Section */}
-            <div className="col-12 sm:mb-5 flex justify-center pt-5">
-              <div className="w-[440px]">
+            <div className="col-12 sm:mb-5 sm:flex  justify-center pt-5">
+              <div className="sm:w-[440px]">
                 <p className="text-[18px] font-[400] text-center sm:leading-[18px]">
                   WHAT YOU GET
                 </p>
@@ -75,8 +76,8 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="col-12 sm:flex justify-center mt-14 ">
-              <div className="col-12 sm:flex justify-center gap-2 ">
+            <div className="col-12 sm:flex   justify-center mt-14 ">
+              <div className="col-12 sm:flex   justify-center gap-2 ">
                 <div className="col-md-3 rounded-[10px] sm:mb-0 mb-4 px-4 py-2 bg-[#fff]">
                   <div className="py-4">
                     <Image
@@ -174,18 +175,18 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="col-12 pb-4">
-              <div className="col-12 flex justify-center pt-12">
-                <button className="font-[400] text-[17px] pb-2">PRICING</button>
+              <div className="col-12 sm:flex justify-center pt-12">
+                <button className="font-[400] text-[17px] text-center pb-2">PRICING</button>
               </div>
-              <div className="flex justify-center pb-2">
-                <div className="w-[590px]">
+              <div className="sm:flex justify-center pb-2">
+                <div className="sm:w-[590px]">
                   <p className="text-[46px] text-center leading-[50px] font-[600]">
                     Simple and fast company formation
                   </p>
                 </div>
               </div>
-              <div className="flex justify-center">
-                <div className="w-[770px]">
+              <div className="sm:flex  justify-center">
+                <div className="sm:w-[770px]">
                   <p className="text-[20px] font-[400] text-center leading-[35px]">
                     The cost to register a company with Cloud Bss depends on
                     what you need. We can simply handle the registration for
@@ -195,10 +196,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-12 flex justify-center">
-              <div className="col-md-9 flex gap-2 p-2">
-                <div className="col-md-6 bg-[#F7F3EB] rounded-[30px] p-[8px]">
-                  <div className="col-md-12 flex justify-center">
+            <div className="col-12 sm:flex  justify-center">
+              <div className="sm:col-md-9 sm:flex  gap-2 p-2">
+                <div className="col-md-6 bg-[#F7F3EB] rounded-[30px] mb-3 p-[8px]">
+                  <div className="col-md-12 sm:flex  justify-center">
                     <div className="rounded-[15px] bg-[#FFFDFA] rounded-[30px] py-4 px-4 mb-5">
                       <p className="text-[28px] font-[600] leading-[20px]">
                         Basic
@@ -213,8 +214,8 @@ export default function Home() {
                       <p className="text-[23px] font-[500] leading-[20px] text-[#767676]">
                         + VAT
                       </p>
-                      <div className="flex justify-center">
-                        <button className="bg-[#fff] rounded-[50px] border border-dark text-[#000] hover:bg-[#212833] hover:text-[#fff] w-[430px] font-[400] h-[45px]">
+                      <div className="sm:flex  justify-center">
+                        <button className="bg-[#fff] rounded-[50px] border border-dark text-[#000] hover:bg-[#212833] hover:text-[#fff] sm:w-[430px] w-full font-[400] h-[45px]">
                           Get this Plan
                         </button>
                       </div>
@@ -247,7 +248,7 @@ export default function Home() {
                   <div className="">
                     <div className="p-6">
                       {/* Header */}
-                      <div className="flex justify-between items-center pb-2 mb-2">
+                      <div className="sm:flex  justify-between items-center pb-2 mb-2">
                         <h2 className="text-lg font-bold text-black">
                           Optional add-ons
                         </h2>
@@ -256,7 +257,7 @@ export default function Home() {
 
                       {/* Add-ons List */}
                       <div className="space-y-4">
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             Registered London office address
                           </span>
@@ -265,14 +266,14 @@ export default function Home() {
                           </span>
                         </div>
 
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             Manual document review
                           </span>
                           <span className="text-[#767676] font-[500]">£49</span>
                         </div>
 
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             Confirmation Statement
                           </span>
@@ -281,21 +282,21 @@ export default function Home() {
                           </span>
                         </div>
 
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             PAYE registration
                           </span>
                           <span className="text-[#767676] font-[500]">£50</span>
                         </div>
 
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             VAT registration
                           </span>
                           <span className="text-[#767676] font-[500]">£50</span>
                         </div>
 
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             Accounting services
                           </span>
@@ -308,8 +309,8 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="col-md-6 bg-[#F7F3EB] rounded-[30px] p-[8px]">
-                  <div className="col-md-12 flex justify-center">
+                <div className="col-md-6 bg-[#F7F3EB] rounded-[30px] p-[8px] mb-3">
+                  <div className="col-md-12 sm:flex  justify-center">
                     <div className="rounded-[15px] bg-[#FFFDFA] rounded-[30px] py-4 px-4 mb-5">
                       <p className="text-[28px] font-[600] leading-[20px]">
                         Basic
@@ -325,8 +326,8 @@ export default function Home() {
                       <p className="text-[23px] font-[500] leading-[20px] text-[#767676]">
                         + VAT
                       </p>
-                      <div className="flex justify-center">
-                        <button className="bg-[#fff] rounded-[50px] border border-dark text-[#000] hover:bg-[#212833] hover:text-[#fff] w-[430px] font-[400] h-[45px]">
+                      <div className="sm:flex  justify-center">
+                        <button className="bg-[#fff] rounded-[50px] border border-dark text-[#000] hover:bg-[#212833] hover:text-[#fff] sm:w-[430px] w-full font-[400] h-[45px]">
                           Get this Plan
                         </button>
                       </div>
@@ -372,7 +373,7 @@ export default function Home() {
                   <div className="m">
                     <div className="p-6">
                       {/* Header */}
-                      <div className="flex justify-between items-center pb-2 mb-2">
+                      <div className="sm:flex  justify-between items-center pb-2 mb-2">
                         <h2 className="text-lg font-bold text-black">
                           Optional add-ons
                         </h2>
@@ -381,21 +382,21 @@ export default function Home() {
 
                       {/* Add-ons List */}
                       <div className="space-y-4">
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             PAYE registration
                           </span>
                           <span className="text-[#767676] font-[500]">£50</span>
                         </div>
 
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             VAT registration
                           </span>
                           <span className="text-[#767676] font-[500]">£49</span>
                         </div>
 
-                        <div className="flex justify-between">
+                        <div className="sm:flex  justify-between">
                           <span className="text-[#000] font-[400]">
                             Accounting services
                           </span>
@@ -436,7 +437,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex justify-center">
+          <div className="sm:flex  justify-center">
             <div className="col-md-10 pt-4">
               <div className="row align-items-center justify-between">
                 <div className="col-md-5 mb-4">
@@ -593,7 +594,7 @@ export default function Home() {
             <div className="row">
               {/* Card 1 */}
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full">
                   <div>
                     <div className="col-12 h-[115px]">
                       <Image
@@ -617,7 +618,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full ">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full ">
                   <div>
                     <div className="col-12 h-[115px]">
                       <Image
@@ -642,7 +643,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full ">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full ">
                   <div>
                     <div className="col-12 h-[115px]">
                       <Image
@@ -678,7 +679,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="overflow-hidden sm:px-20 px-6 bg-[#F7F3EB]  pt-10 pb-10">
+      <section className="overflow-hidden sm:px-20 px-6 bg-[#F7F3EB] pt-10 sm:pb-10">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <RecFaqPart />
@@ -686,7 +687,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="overflow-hidden sm:px-20 px-6 bg-[#F7F3EB] pt-10 pb-10">
+      <section className="overflow-hidden sm:px-20 px-6 bg-[#F7F3EB] sm:pt-10 pb-10">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <FAQ />

@@ -19,13 +19,13 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-6 flex justify-start items-center">
+              <div className="col-md-6 sm:flex  justify-start items-center">
                 <div className="col-md-10">
                   <p className="sm:text-[50px] text-[30px] sm:leading-[60px] leading-[35px]  font-[600] ">
                     Embrace worry-free tax filings
                   </p>
 
-                  <div className="col-12 flex gap-3 mb-4">
+                  <div className="col-12 sm:flex  gap-3 mb-4">
                     <div>
                       <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                         Get Started
@@ -39,8 +39,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 flex justify-center items-center">
-                <div className="col-md-12 flex justify-end items-center">
+              <div className="col-md-6 sm:flex  justify-center items-center">
+                <div className="col-md-12 sm:flex  justify-end items-center">
                   <Image
                     src="/assets/images/Picture ⏵ comp-secreyary-vanessa-sg@1x.webp (4).png"
                     width={450}
@@ -65,9 +65,9 @@ export default function Home() {
                 <p className="text-center sm:text-[16px] text-[16px] font-[400] sm:leading-[1px]">
                   Your taxes, compliance, and finances made simple.
                 </p>
-                <div className="col-12 sm:flex justify-center sm:pt-8">
-                  <div className="col-9 bg-[#f3efe7] flex rounded-[20px] mt-3">
-                    <div className="sm:col-md-7 p-5 sm:h-[300px] flex items-center">
+                <div className="col-12 sm:flex   justify-center sm:pt-8">
+                  <div className="col-9 bg-[#f3efe7] sm:flex  rounded-[20px] mt-3">
+                    <div className="sm:col-md-7 p-5 sm:h-[300px] sm:flex  items-center">
                       <div className="mt-2">
                         <p className="text-[33px] font-[600]">
                           All your forms filed in one place
@@ -77,21 +77,21 @@ export default function Home() {
                           contractors, freelancers, startups, e-commerce owners,
                           and service vendors, ensuring a worry-free experience.
                         </p>
-                  <div className="col-12 flex gap-3 mb-4">
-                    <div>
-                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
-                        Get Started
-                      </button>
-                    </div>
-                    <div>
-                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
-                        Schedule a call
-                      </button>
-                    </div>
-                  </div>
+                        <div className="col-12 sm:flex  gap-3 mb-4">
+                          <div>
+                            <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                              Get Started
+                            </button>
+                          </div>
+                          <div>
+                            <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                              Schedule a call
+                            </button>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div className="col-md-5 sm:flex justify-end">
+                    <div className="col-md-5 sm:flex   justify-end">
                       <Image
                         src="/assets/images/Figure → percentage.png.png"
                         width={350}
@@ -102,9 +102,9 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="col-12 sm:flex justify-center">
-                  <div className="col-9 sm:flex rounded-[20px] mt-3 gap-2 sm:h-[300px] mr-3">
-                    <div className="col-md-6 rounded-[20px] bg-[#fbf9f3] flex justify-center items-center">
+                <div className="col-12 sm:flex   justify-center">
+                  <div className="col-9 sm:flex   rounded-[20px] mt-3 gap-2 sm:h-[300px] mr-3">
+                    <div className="col-md-6 rounded-[20px] bg-[#fbf9f3] sm:flex  justify-center items-center">
                       <div className="col-10">
                         <div className="sm:h-[100px]">
                           <p className="text-[32px] font-[600] leading-[40px]">
@@ -122,7 +122,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6 rounded-[20px] bg-[#fbf9f3]  flex justify-center items-center">
+                    <div className="col-md-6 rounded-[20px] bg-[#fbf9f3]  sm:flex  justify-center items-center">
                       <div className="col-10">
                         <div className="sm:h-[100px]">
                           <p className="text-[34px] font-[600] leading-[40px]">
@@ -142,29 +142,29 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="col-12 sm:flex justify-center pt-8">
-                  <div className="col-md-9 sm:flex  mt-3 gap-2 sm:h-[400px] ">
-                    <div className="col-md-7 bg-[#fff] flex items-center">
+                <div className="col-12 sm:flex   justify-center pt-8">
+                  <div className="col-md-9 sm:flex    mt-3 gap-2 sm:h-[400px] ">
+                    <div className="col-md-7 bg-[#fff] sm:flex  items-center">
                       <div className="col-md-10">
                         <p className="sm:text-[26px] text-[26px] font-[600] sm:leading-[30px] leading-[34px] mb-4">
                           Seamless tax filings unlocking simplicity with a
                           single price
                         </p>
-                        <button className="w-[350px] h-[40px] rounded-full font-[500] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
-                        Incl, in Total Compliance
-                                        <svg
-                                            width="22"
-                                            height="16"
-                                            viewBox="0 0 22 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            className="fill-black group-hover:fill-white"
-                                        >
-                                            <path
-                                                d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
-                                            />
-                                        </svg>
-                                    </button>
+                        <button className="w-[350px] h-[40px] rounded-full font-[500] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
+                          Incl, in Total Compliance
+                          <svg
+                            width="22"
+                            height="16"
+                            viewBox="0 0 22 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="fill-black group-hover:fill-white"
+                          >
+                            <path
+                              d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
+                            />
+                          </svg>
+                        </button>
                       </div>
                     </div>
                     <div className="col-md-5 rounded-[30px] border-8 border-[#f3efe7] bg-[#fffdfa] ">
@@ -196,7 +196,7 @@ export default function Home() {
                             ].map((item, index) => (
                               <li
                                 key={index}
-                                className="flex items-start space-x-3"
+                                className="sm:flex  items-start space-x-3"
                               >
                                 {item.status === "tick" ? (
                                   // Green tick icon with fixed size
@@ -249,7 +249,7 @@ export default function Home() {
                             </span>{" "}
                             297/y
                           </p>
-                          <div className="col-12 sm:mt-4 flex justify-center mb-4">
+                          <div className="col-12 sm:mt-4 sm:flex  justify-center mb-4">
                             <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-[#000] bg-[#fff] sm:w-[350px] font-[400] w-[260px] h-[40px] hover:bg-[#000] hover:text-[#fff]">
                               Total Compliance
                             </button>
@@ -260,7 +260,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-12 flex justify-center items-end sm:pb-8">
+              <div className="col-12 sm:flex  justify-center items-end sm:pb-8">
                 <div>
                   {/* Final Heading Section */}
                   <div className="col-12 sm:mb-5 pt-14">
@@ -277,7 +277,7 @@ export default function Home() {
                   </div>
 
                   {/* Pricing Section */}
-                  <div className="col-12 mb-4 sm:pt-10 pt-4 flex flex-wrap justify-center items-center gap-4">
+                  <div className="col-12 mb-4 sm:pt-10 pt-4 sm:flex  sm:flex -wrap justify-center items-center gap-4">
                     <div className="w-full sm:w-[30%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[20px] px-6 py-6">
                       <p className="text-[20px] sm:text-[25px] font-[600] leading-[20px]">
                         Starter
@@ -297,9 +297,9 @@ export default function Home() {
                         State fee not included.
                       </p>
                       <div className="col-12 mt-4">
-                      <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-[#000] bg-[#fff] sm:w-[335px] font-[400] w-[260px] h-[40px] hover:bg-[#000] hover:text-[#fff]">
-                              Formation
-                            </button>
+                        <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-[#000] bg-[#fff] sm:w-[335px] font-[400] w-[260px] h-[40px] hover:bg-[#000] hover:text-[#fff]">
+                          Formation
+                        </button>
                       </div>
                     </div>
                     <div className="w-full sm:w-[30%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[20px] px-6 py-6">
@@ -321,11 +321,11 @@ export default function Home() {
                         State fee not included.
                       </p>
                       <div className="col-12 mt-4">
-                      
-                        <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-[#000] bg-[#fff] sm:w-[335px] font-[400] w-[260px] h-[40px] hover:bg-[#000] hover:text-[#fff]">
-                        Total Compliance
 
-                            </button>
+                        <button className="border border-black rounded-[50px] text-[15px] sm:text-[16px] text-[#000] bg-[#fff] sm:w-[335px] font-[400] w-[260px] h-[40px] hover:bg-[#000] hover:text-[#fff]">
+                          Total Compliance
+
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -466,7 +466,7 @@ export default function Home() {
       </section>
       <section className="bg-[#000] overflow-hidden sm:px-20 px-6 sm:py-5 py-5">
         <div className="container-fluid p-0">
-          <BusinessStarterText/>
+          <BusinessStarterText />
         </div>
       </section>
 

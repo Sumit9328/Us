@@ -21,7 +21,7 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             {/* Final Heading Section */}
-            <div className="col-12 sm:mb-0 flex justify-center">
+            <div className="col-12 sm:mb-0 sm:flex  justify-center">
               <div className="w-[400px]">
                 <p className="text-center text-[38px] font-bold mb-0 leading-[45px]">
                   Simplified pricing for all your need
@@ -33,7 +33,7 @@ export default function Home() {
             </div>
 
             {/* Pricing Section */}
-            <div className="col-12 mb-5 pt-10 flex flex-wrap justify-center items-center gap-4">
+            <div className="col-12 mb-5 pt-10 sm:flex  sm:flex -wrap justify-center items-center gap-4">
               <div className="w-full sm:w-[40%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[35px] px-6 py-6">
                 <div className="h-[120px]">
                   <p className="text-[20px] sm:text-[25px] font-[600] leading-[20px]">
@@ -103,7 +103,7 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-12 flex justify-center items-center mb-4">
+              <div className="col-12 sm:flex  justify-center items-center mb-4">
                 <div className="col-md-6">
                   <p className="text-center text-[#898989] font-[400] text-[18px] leading-[20px]">
                     TOTAL COMPLIANCE
@@ -116,7 +116,7 @@ export default function Home() {
               </div>
               {/* Card 1 */}
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -143,7 +143,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                    <button className="w-full mt-2 w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                    <button className="w-full mt-2 w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
                       Learn More
                       <svg
                         width="22"
@@ -160,7 +160,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -187,7 +187,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                    <button className="w-full mt-2 w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                    <button className="w-full mt-2 w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
                       Learn More
                       <svg
                         width="22"
@@ -204,7 +204,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -230,7 +230,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                    <button className="w-full mt-2 w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                    <button className="w-full mt-2 w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
                       Learn More
                       <svg
                         width="22"
@@ -247,7 +247,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -277,7 +277,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -302,7 +302,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12 mb-4 mt-4">
-                    <button className="w-full mt-2 w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
+                    <button className="w-full mt-2 w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
                       Learn More
                       <svg
                         width="22"
@@ -319,7 +319,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image

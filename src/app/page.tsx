@@ -20,7 +20,7 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-6 flex justify-center items-center">
+              <div className="col-md-6 sm:flex  justify-center items-center">
                 <div className="col-md-12">
                   <p className="sm:text-[53px] text-[30px] sm:leading-[60px] leading-[35px]  font-[600] ">
                     Start your US business from anywhere and keep it 100%
@@ -32,23 +32,23 @@ export default function Home() {
                     your business and let doola handle your business compliance
                     needs.
                   </p>
-                  <div className="col-12 flex gap-3 mb-4">
+                  <div className="col-12 sm:flex  gap-3 mb-4">
                     <div>
                       <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                         Get Started
                       </button>
                     </div>
                     <div>
-                     
+
                       <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
-                      Schedule a call
+                        Schedule a call
                       </button>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 flex justify-center items-center">
-                <div className="col-md-12 flex justify-end items-center">
+              <div className="col-md-6 sm:flex  justify-center items-center">
+                <div className="col-md-12 sm:flex  justify-end items-center">
                   <Image
                     src="/assets/images/Picture ⏵ comp-secreyary-vanessa-sg@1x.webp.png"
                     width={450}
@@ -68,7 +68,7 @@ export default function Home() {
             <div className="row">
               {/* Card 1 */}
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -93,44 +93,44 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                   
-                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
-                    Incl, in Total Compliance
-                                        <svg
-                                            width="22"
-                                            height="16"
-                                            viewBox="0 0 22 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            className="fill-black group-hover:fill-white "
-                                        >
-                                            <path
-                                                d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
-                                            />
-                                        </svg>
-                                    </button>
+
+                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
+                      Incl, in Total Compliance
+                      <svg
+                        width="22"
+                        height="16"
+                        viewBox="0 0 22 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="fill-black group-hover:fill-white "
+                      >
+                        <path
+                          d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
+                        />
+                      </svg>
+                    </button>
 
 
-                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
-                    Learn more
-                                        <svg
-                                            width="22"
-                                            height="16"
-                                            viewBox="0 0 22 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            className="fill-black group-hover:fill-white "
-                                        >
-                                            <path
-                                                d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
-                                            />
-                                        </svg>
-                                    </button>
+                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
+                      Learn more
+                      <svg
+                        width="22"
+                        height="16"
+                        viewBox="0 0 22 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="fill-black group-hover:fill-white "
+                      >
+                        <path
+                          d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
+                        />
+                      </svg>
+                    </button>
                   </div>
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -157,26 +157,26 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                  <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
-                    Learn more
-                                        <svg
-                                            width="22"
-                                            height="16"
-                                            viewBox="0 0 22 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            className="fill-black group-hover:fill-white "
-                                        >
-                                            <path
-                                                d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
-                                            />
-                                        </svg>
-                                    </button>
+                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
+                      Learn more
+                      <svg
+                        width="22"
+                        height="16"
+                        viewBox="0 0 22 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="fill-black group-hover:fill-white "
+                      >
+                        <path
+                          d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
+                        />
+                      </svg>
+                    </button>
                   </div>
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -200,38 +200,38 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="col-12">
-                  <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
-                    Incl, in Total Compliance
-                                        <svg
-                                            width="22"
-                                            height="16"
-                                            viewBox="0 0 22 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            className="fill-black group-hover:fill-white "
-                                        >
-                                            <path
-                                                d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
-                                            />
-                                        </svg>
-                                    </button>
+                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
+                      Incl, in Total Compliance
+                      <svg
+                        width="22"
+                        height="16"
+                        viewBox="0 0 22 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="fill-black group-hover:fill-white "
+                      >
+                        <path
+                          d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
+                        />
+                      </svg>
+                    </button>
 
 
-                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none flex items-center justify-center gap-2 group">
-                    Learn more
-                                        <svg
-                                            width="22"
-                                            height="16"
-                                            viewBox="0 0 22 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            className="fill-black group-hover:fill-white "
-                                        >
-                                            <path
-                                                d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
-                                            />
-                                        </svg>
-                                    </button>
+                    <button className="w-full  w-full h-[45px] mb-2 rounded-full font-[400] text-[16px] border-1 border-[#000] text-[#000] hover:bg-[#0073FD] hover:text-white hover:border-[#0073FD] focus:outline-none sm:flex  items-center justify-center gap-2 group">
+                      Learn more
+                      <svg
+                        width="22"
+                        height="16"
+                        viewBox="0 0 22 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="fill-black group-hover:fill-white "
+                      >
+                        <path
+                          d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM0 9H21V7H0V9Z"
+                        />
+                      </svg>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -254,8 +254,8 @@ export default function Home() {
             </div>
 
             {/* First Content Section */}
-            <div className="col-12 flex flex-wrap sm:flex-nowrap mb-5">
-              <div className="w-full sm:w-1/2 flex items-center mb-5 sm:mb-0">
+            <div className="col-12 sm:flex  sm:flex -wrap sm:flex  -nowrap mb-5">
+              <div className="w-full sm:w-1/2 sm:flex  items-center mb-5 sm:mb-0">
                 <div className="w-full px-4">
                   <Image
                     src="/assets/images/image 57.png"
@@ -266,7 +266,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="w-full sm:w-1/2 flex justify-start items-center">
+              <div className="w-full sm:w-1/2 sm:flex  justify-start items-center">
                 <div className="w-full px-4">
                   <p className="text-[20px] sm:text-[26px] font-[600]">
                     Kickstart your business
@@ -286,8 +286,8 @@ export default function Home() {
             </div>
 
             {/* Second Content Section */}
-            <div className="col-12 flex flex-wrap sm:flex-nowrap">
-              <div className="w-full sm:w-1/2 flex justify-start items-center mb-5 sm:mb-0">
+            <div className="col-12 sm:flex  sm:flex -wrap sm:flex  -nowrap">
+              <div className="w-full sm:w-1/2 sm:flex  justify-start items-center mb-5 sm:mb-0">
                 <div className="w-full px-4">
                   <p className="text-[20px] sm:text-[26px] font-[600]">
                     Kickstart your business
@@ -298,13 +298,13 @@ export default function Home() {
                     compliant.
                   </p>
                   <div className="mt-4">
-                  <button className="w-[150px] h-[40px] font-[400] rounded-[50px] border border-black bg-[#fff] text-[#000] hover:bg-[#000] hover:text-[#fff]">
+                    <button className="w-[150px] h-[40px] font-[400] rounded-[50px] border border-black bg-[#fff] text-[#000] hover:bg-[#000] hover:text-[#fff]">
                       Get Started
                     </button>
                   </div>
                 </div>
               </div>
-              <div className="w-full sm:w-1/2 flex items-center">
+              <div className="w-full sm:w-1/2 sm:flex  items-center">
                 <div className="w-full px-4">
                   <Image
                     src="/assets/images/image 58.png"
@@ -333,7 +333,7 @@ export default function Home() {
             </div>
 
             {/* Pricing Section */}
-            <div className="col-12 mb-5 pt-10 flex flex-wrap justify-center items-center gap-4">
+            <div className="col-12 mb-5 pt-10 sm:flex  sm:flex -wrap justify-center items-center gap-4">
               <div className="w-full sm:w-[30%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[20px] px-6 py-6">
                 <p className="text-[20px] sm:text-[25px] font-[600] leading-[20px]">
                   Starter
@@ -375,9 +375,9 @@ export default function Home() {
                   State fee not included.
                 </p>
                 <div className="col-12 mt-4">
-                  
+
                   <button className="border font-[400] border-black rounded-[50px] text-[15px] sm:text-[16px] text-[#000] bg-[#fff] w-full h-[45px] hover:text-[#fff] hover:bg-[#000]">
-                  Total Compliance
+                    Total Compliance
                   </button>
                 </div>
               </div>
@@ -389,7 +389,7 @@ export default function Home() {
       <section className="overflow-hidden sm:px-20 px-6 pt-14 sm:pb-10 bg-[#ccdfff]">
         <div className="overflow-hidden">
           <div className="container-fluid">
-         <DownloadText/>
+            <DownloadText />
           </div>
         </div>
       </section>
@@ -406,7 +406,7 @@ export default function Home() {
 
       <section className="bg-[#000] overflow-hidden sm:px-20 px-6 sm:py-5 py-5">
         <div className="container-fluid p-0">
-        <BusinessStarterText/>
+          <BusinessStarterText />
         </div>
       </section>
 

@@ -19,7 +19,7 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-6 flex justify-center items-center">
+              <div className="col-md-6 sm:flex  justify-center items-center">
                 <div className="col-md-12">
                   <p className="sm:text-[50px] text-[30px] sm:leading-[60px] leading-[35px] font-[600]">
                     Unlock borderless banking with a U.S.-based account
@@ -30,7 +30,7 @@ export default function Home() {
                       See if you qualify for early access.
                     </span>
                   </p>
-                  <div className="col-12 flex gap-3 mb-4">
+                  <div className="col-12 sm:flex  gap-3 mb-4">
                     <div>
                       <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                         Get Started
@@ -44,8 +44,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 flex justify-center items-center">
-                <div className="col-md-12 flex justify-end items-center">
+              <div className="col-md-6 sm:flex  justify-center items-center">
+                <div className="col-md-12 sm:flex  justify-end items-center">
                   <Image
                     src="/assets/images/Picture ⏵ comp-secreyary-vanessa-sg@1x.webp (3).png"
                     width={450}
@@ -75,8 +75,8 @@ export default function Home() {
                   account, making it the ideal solution for founders around the
                   globe.
                 </p>
-                <div className="col-12 sm:flex justify-center items-center py-2 sm:mb-0">
-                  <div className="col-md-5 sm:flex sm:justify-between justify-center">
+                <div className="col-12 sm:flex   justify-center items-center py-2 sm:mb-0">
+                  <div className="col-md-5 sm:flex   sm:justify-between justify-center">
                     <button className="rounded-[50px] font-[400] sm:w-[170px] w-[320px] sm:h-[40px] h-[50px] bg-[#fff] border text-[#000] text-[15px] sm:mb-0 mb-4 hover:bg-[#000] hover:text-[#fff]">
                       Overview
                     </button>
@@ -89,7 +89,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-12 flex justify-center items-end">
+              <div className="col-12 sm:flex  justify-center items-end">
                 <div>
                   <Image
                     src="/assets/images/Figure → Frame-1000003299-1.png.png"
@@ -113,8 +113,8 @@ export default function Home() {
                 Designed for global founders
               </p>
             </div>
-            <div className="col-12 sm:flex justify-center mt-14">
-              <div className="col-12 sm:flex justify-center gap-2">
+            <div className="col-12 sm:flex   justify-center mt-14">
+              <div className="col-12 sm:flex   justify-center gap-2">
                 <div className="col-md-3 rounded-[10px] sm:mb-0 mb-4 px-4 py-2 bg-[#f3efe7]">
                   <div className="py-4">
                     <Image
@@ -197,14 +197,14 @@ export default function Home() {
       <section className="overflow-hidden px-6 sm:px-20 pt-0 pb-10">
         <div className="overflow-hidden">
           <div className="container-fluid">
-            <div className="col-12 sm:flex">
-              <div className="col-md-6 flex items-center">
+            <div className="col-12 sm:flex  ">
+              <div className="col-md-6 sm:flex  items-center">
                 <div className="col-md-9">
                   <p className="text-[32px] font-[600] leading-[35px]">
                     Easily move between local currencies in over 100 countries
                   </p>
-                  <div className="flex sm:mb-0 mb-4 mt-4">
-                    <button className="border border-black gap-1 flex justify-center items-center bg-[#fff] text-[#000] hover:bg-[#000] hover:text-[#fff] rounded-[50px] sm:w-[155px] w-[320px] sm:h-[40px] h-[55px] text-[15px] font-[500]">
+                  <div className="sm:flex  sm:mb-0 mb-4 mt-4">
+                    <button className="border border-black gap-1 sm:flex  justify-center items-center bg-[#fff] text-[#000] hover:bg-[#000] hover:text-[#fff] rounded-[50px] sm:w-[155px] w-[320px] sm:h-[40px] h-[55px] text-[15px] font-[500]">
                       See where
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -227,7 +227,7 @@ export default function Home() {
 
                 <p></p>
               </div>
-              <div className="col-md-6 flex justify-end">
+              <div className="col-md-6 sm:flex  justify-end">
                 <Image
                   src="/assets/images/Background.png"
                   width={450}

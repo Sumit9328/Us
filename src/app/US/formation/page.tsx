@@ -20,7 +20,7 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-6 flex justify-center items-center">
+              <div className="col-md-6 sm:flex  justify-center items-center">
                 <div className="col-md-12">
                   <p className="sm:text-[53px] text-[25px] sm:leading-[60px] leading-[35px] font-[600]">
                     Start your US business from anywhere and keep it 100%
@@ -32,7 +32,7 @@ export default function Home() {
                     your business and let doola handle your business compliance
                     needs.
                   </p>
-                  <div className="col-12 flex gap-3 mb-4">
+                  <div className="col-12 sm:flex  gap-3 mb-4">
                     <div>
                       <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                         Get Started
@@ -46,8 +46,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 flex justify-center items-center">
-                <div className="col-md-12 flex justify-end items-center">
+              <div className="col-md-6 sm:flex  justify-center items-center">
+                <div className="col-md-12 sm:flex  justify-end items-center">
                   <Image
                     src="/assets/images/Picture ⏵ comp-secreyary-vanessa-sg@1x.webp (2).png"
                     width={450}
@@ -67,7 +67,7 @@ export default function Home() {
             <div className="row">
               {/* Card 1 */}
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -84,7 +84,7 @@ export default function Home() {
                       </p>
                       <p className="text-[13px] font-[200] font-[400] text-[#656565]">
                         A Limited Liability Company merges partnership
-                        flexibility with corporate liability protection. It
+                        sm:flex ibility with corporate liability protection. It
                         shields your personal assets from business debts,
                         simplifies management, and allows for pass-through
                         taxation, making it a popular choice for small
@@ -95,7 +95,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -122,7 +122,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full min-h-[450px]">
                   <div>
                     <div className="col-12 py-3">
                       <Image
@@ -139,7 +139,7 @@ export default function Home() {
                       </p>
                       <p className="text-[13px] font-[200] font-[400] text-[#656565]">
                         Step into the future with a DAO LLC, merging LLC
-                        flexibility with blockchain tech. Transform governance
+                        sm:flex ibility with blockchain tech. Transform governance
                         for transparency, autonomy, and innovation—an ideal
                         option for shaping decentralized structures and
                         revolutionizing decision-making processes.
@@ -168,7 +168,7 @@ export default function Home() {
             </div>
 
             {/* Pricing Section */}
-            <div className="col-12 sm:mb-5 pt-10 sm:flex  justify-center items-center gap-2">
+            <div className="col-12 sm:mb-5 pt-10 sm:flex    justify-center items-center gap-2">
               <div className="sm:mb-0 col-md-4 mb-4 w-full bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[30px] px-6 py-6">
                 <div>
                   <div className="mb-4">
@@ -181,7 +181,7 @@ export default function Home() {
                       {[
                         {
                           content:
-                            "Great for small businesses due to more flexibility",
+                            "Great for small businesses due to more sm:flex ibility",
                           status: "tick",
                         },
                         {
@@ -200,7 +200,7 @@ export default function Home() {
                           status: "cross",
                         },
                       ].map((item, index) => (
-                        <li key={index} className="flex items-start space-x-3">
+                        <li key={index} className="sm:flex  items-start space-x-3">
                           {item.status === "tick" ? (
                             // Green tick icon with fixed size
                             <svg
@@ -274,7 +274,7 @@ export default function Home() {
                           status: "cross",
                         },
                       ].map((item, index) => (
-                        <li key={index} className="flex items-start space-x-3">
+                        <li key={index} className="sm:flex  items-start space-x-3">
                           {item.status === "tick" ? (
                             // Green tick icon with fixed size
                             <svg
@@ -348,7 +348,7 @@ export default function Home() {
                           status: "cross",
                         },
                       ].map((item, index) => (
-                        <li key={index} className="flex items-start space-x-3">
+                        <li key={index} className="sm:flex  items-start space-x-3">
                           {item.status === "tick" ? (
                             // Green tick icon with fixed size
                             <svg
@@ -438,7 +438,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="col-12 mb-5 pt-4 flex flex-wrap justify-center items-center gap-4">
+            <div className="col-12 mb-5 pt-4 sm:flex  sm:flex -wrap justify-center items-center gap-4">
               <div className="w-full sm:w-[30%] bg-[#fffdfa] border-8 border-[#f3efe7] rounded-[20px] px-6 py-6">
                 <div className="h-[135px]">
                   <p className="text-[20px] sm:text-[25px] font-[600] leading-[20px]">

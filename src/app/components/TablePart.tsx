@@ -83,7 +83,7 @@
 //         <h4 className="text-lg font-semibold mb-4">{title}</h4>
 //         <ul className="space-y-3 text-sm text-gray-700">
 //           {features.map((feature, index) => (
-//             <li key={index} className="flex items-center">
+//             <li key={index} className="sm:flex  items-center">
 //               <span className="inline-block w-4 h-4 mr-2 bg-green-500 rounded-full"></span>
 //               {feature}
 //             </li>
@@ -93,3 +93,4 @@
 //     );
 //   }
   
+

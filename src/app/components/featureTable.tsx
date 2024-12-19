@@ -2,7 +2,7 @@
 export default function FeaturesTable() {
   return (
     <div className="col-10 mx-auto p-6 ">
-      <div className="flex mb-3">
+      <div className="sm:flex  mb-3">
         <div className="col-md-6">
           <h2 className="text-[26px] font-bold">What&apos;s included?</h2>
         </div>
@@ -29,15 +29,15 @@ export default function FeaturesTable() {
           <div className="col-md-6 py-2">
             <h3 className="fw-semibold leading-[40px] text-[18px]">Formation Filings</h3>
             <p className="text-[15px] text-[#666666] font-[400] mt-2">
-              Cloud BSS navigates the complexities of business formation with the state. A step by step wizard guides you through organizing member information, picking a company name, and more. doola’s experts handle all the paperwork to ensure compliance with state regulations. 
+              Cloud BSS navigates the complexities of business formation with the state. A step by step wizard guides you through organizing member information, picking a company name, and more. doola’s experts handle all the paperwork to ensure compliance with state regulations.
             </p>
           </div>
 
-          <div className="col-md-3 d-flex align-items-center justify-content-center">
+          <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
             <span className="text-[16px] font-[400] text-black">✔</span>
           </div>
 
-          <div className="col-md-3 d-flex align-items-center justify-content-center">
+          <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
             <span className="text-[16px] font-[400] text-black">✔</span>
           </div>
         </div>
@@ -55,11 +55,11 @@ export default function FeaturesTable() {
             </p>
           </div>
 
-          <div className="col-md-3 d-flex align-items-center justify-content-center">
+          <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
             <span className="text-[16px] font-[400] text-black">✔</span>
           </div>
 
-          <div className="col-md-3 d-flex align-items-center justify-content-center">
+          <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
             <span className="text-[16px] font-[400] text-black">✔</span>
           </div>
         </div>
@@ -79,11 +79,11 @@ export default function FeaturesTable() {
             </p>
           </div>
 
-          <div className="col-md-3 d-flex align-items-center justify-content-center">
+          <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
             <span className="text-[16px] font-[400] text-black">✔</span>
           </div>
 
-          <div className="col-md-3 d-flex align-items-center justify-content-center">
+          <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
             <span className="text-[16px] font-[400] text-black">✔</span>
           </div>
         </div>
@@ -101,11 +101,11 @@ export default function FeaturesTable() {
             </p>
           </div>
 
-          <div className="col-md-3 d-flex align-items-center justify-content-center">
+          <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
             <span className="text-[16px] font-[400] text-black">✔</span>
           </div>
 
-          <div className="col-md-3 d-flex align-items-center justify-content-center">
+          <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
             <span className="text-[16px] font-[400] text-black">✔</span>
           </div>
         </div>
@@ -117,11 +117,11 @@ export default function FeaturesTable() {
             </p>
           </div>
 
-          <div className="col-md-3 d-flex align-items-center justify-content-center">
+          <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
             <span className="text-[16px] font-[400] text-black">+$199 /yr</span>
           </div>
 
-          <div className="col-md-3 d-flex align-items-center justify-content-center">
+          <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
             <span className="text-[16px] font-[400] text-black">✔</span>
           </div>
         </div>
@@ -140,11 +140,11 @@ export default function FeaturesTable() {
               </p>
             </div>
 
-            <div className="col-md-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
               <span className="text-[16px] font-[400] text-black">+$300 /hr</span>
             </div>
 
-            <div className="col-md-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
               <span className="text-[16px] font-[400] text-black">1 Free Consultation</span>
             </div>
           </div>
@@ -158,11 +158,11 @@ export default function FeaturesTable() {
               </p>
             </div>
 
-            <div className="col-md-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
               <span className="text-[16px] font-[400] text-black">+$1,200 /yr</span>
             </div>
 
-            <div className="col-md-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
               <span className="text-[16px] font-[400] text-black">✔</span>
             </div>
           </div>
@@ -183,11 +183,11 @@ export default function FeaturesTable() {
               </p>
             </div>
 
-            <div className="col-md-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
               <span className="text-[16px] font-[400] text-black">+$300 /hr</span>
             </div>
 
-            <div className="col-md-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
               <span className="text-[16px] font-[400] text-black">✔</span>
             </div>
           </div>
@@ -210,11 +210,11 @@ export default function FeaturesTable() {
               </p>
             </div>
 
-            <div className="col-md-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
               <span className="text-[16px] font-[400] text-black">+$600 /yr</span>
             </div>
 
-            <div className="col-md-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-3 sm:d-sm:flex   align-items-center justify-content-center">
               <span className="text-[16px] font-[400] text-black">✔</span>
             </div>
           </div>

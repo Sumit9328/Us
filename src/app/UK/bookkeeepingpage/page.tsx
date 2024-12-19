@@ -21,7 +21,7 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-6 flex justify-start items-center">
+              <div className="col-md-6 sm:flex  justify-start items-center">
                 <div className="col-md-10">
                   <p className="sm:text-[53px] text-[25px] sm:leading-[60px] leading-[35px] font-[600]">
                     Bookkeeping services in the UK
@@ -29,22 +29,22 @@ export default function Home() {
                   <p className="sm:text-[18px] sm:leading-[25px] leading-[22px] font-[400] pe-4">
                     We handle your bookkeeping for you so you can focus on doing business. Pay the right tax, reconcile transactions, and prepare invoices, all in one online platform.
                   </p>
-                  <div className="col-12 flex gap-3 mb-4">
+                  <div className="col-12 sm:flex  gap-3 mb-4">
                     <div>
-                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] sm:w-[150px] w-full mb-2 h-[40px] rounded-[50px] text-[15px]">
                         Get Started
                       </button>
                     </div>
                     <div>
-                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] sm:w-[150px] w-full h-[40px] rounded-[50px] text-[15px]">
                         Schedule a call
                       </button>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 flex justify-center items-center sm:pt-12 sm:pb-12">
-                <div className="col-md-12 flex justify-end items-center">
+              <div className="col-md-6 sm:flex  justify-center items-center sm:pt-12 sm:pb-12">
+                <div className="col-md-12 sm:flex  justify-end items-center">
                   <Image
                     src="/assets/images/Picture ⏵ comp-secreyary-vanessa-sg@1x.webp (10).png"
                     width={500}
@@ -63,8 +63,8 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             {/* Final Heading Section */}
-            <div className="col-12 sm:mb-5 flex justify-center pt-5">
-              <div className="w-[550px]">
+            <div className="col-12 sm:mb-5 sm:flex  justify-center pt-5">
+              <div className="sm:w-[550px]">
                 <p className="text-[18px] font-[400] text-center sm:leading-[18px]">
                   WHAT YOU GET
                 </p>
@@ -73,8 +73,8 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="col-12 sm:flex justify-center mt-14 ">
-              <div className="col-12 sm:flex justify-center gap-2 ">
+            <div className="col-12 sm:flex   justify-center mt-14 ">
+              <div className="col-12 sm:flex   justify-center gap-2 ">
                 <div className="col-md-3 rounded-[10px] sm:mb-0 mb-4 px-4 py-2 bg-[#fff]">
                   <div className="py-4">
                     <Image
@@ -84,8 +84,8 @@ export default function Home() {
                       alt="no-img"
                     />
                   </div>
-                  <div className="h-[180px] px-2 w-[250px]">
-                    <div className="w-[150px]">
+                  <div className="sm:h-[180px] px-2 w-[250px]">
+                    <div className="sm:w-[150px]">
                       <p className="text-[25px] font-[500] leading-[30px]">
                         Dedicated accountant
                       </p>
@@ -171,18 +171,18 @@ export default function Home() {
 
       <section className="overflow-hidden sm:px-20 px-6 sm:py-10 py-10 pt-14 bg-[#f3efe7]">
         <div className="container-fluid  pt-2">
-          <div className="col-12 flex justify-center mb-5">
+          <div className="col-12 sm:flex  justify-center mb-5">
             <div className="col-md-6">
               <p className="text-center text-[18px] font-[400]">WHY CLOUD BSS</p>
               <p className="text-center text-[48px] font-[600] leading-[45px]">Benefits of Cloud Bss services</p>
 
             </div>
           </div>
-          <div className="d-flex justify-center">
+          <div className="sm:d-sm:flex   justify-center">
             <div className="col-md-11">
-              <div className="col-12 flex gap-4 align-items-center justify-between">
+              <div className="col-12 sm:flex  gap-4 align-items-center justify-between">
                 <div className="col-md-6 mb-4">
-                  <div className="d-flex justify-start">
+                  <div className="sm:d-sm:flex justify-start">
                     <Image
                       src="/assets/images/Group 17834.png"
                       alt=".."
@@ -192,23 +192,23 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="col-md-6 order-md-1 order-2 mb-4">
-                  <p className="leading-[45px] font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3">
-                  Bringing order to your documents chaos
+                  <p className="sm:leading-[45px] leading-[25px] font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3">
+                    Bringing order to your documents chaos
                   </p>
                   <p className="font-[cd-r] font-[500] text-[#7C7C7C] text-[16px] mb-0">
                     Your compliance in check. We track deadlines, file
                     documents, and answer questions daily. All standard
                     resolutions and routine filings are included in the plan.
                   </p>
-                
+
                 </div>
               </div>
             </div>
           </div>
-          <div className="d-flex justify-center">
+          <div className="sm:d-sm:flex   justify-center">
             <div className="col-md-11">
-              <div className="col-12 flex align-items-center justify-content-between">
-                <div className="col-md-6 flex justify-end order-md-2 order-1 mb-4">
+              <div className="col-12 sm:flex  align-items-center justify-content-between">
+                <div className="col-md-6 sm:flex  justify-end order-md-2 order-1 mb-4">
                   <Image
                     src="/assets/images/Group 17835.png"
                     alt=".."
@@ -219,21 +219,21 @@ export default function Home() {
 
                 <div className="col-md-6 order-md-1 order-2 mb-4">
                   <p className=" font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3">
-                  Books done in minutes
+                    Books done in minutes
                   </p>
                   <p className="font-[cd-r] font-[500] text-[#7C7C7C] text-[16px] mb-0">
-                  Send us your documents the minute you receive them. We reconcile every 24 hours and show what&apos;s missing, meaning you don&apos;t have to spend hours retracing old invoices.
+                    Send us your documents the minute you receive them. We reconcile every 24 hours and show what&apos;s missing, meaning you don&apos;t have to spend hours retracing old invoices.
                   </p>
-                  
+
                 </div>
               </div>
             </div>
           </div>
-          <div className="d-flex justify-center">
+          <div className="sm:d-sm:flex   justify-center">
             <div className="col-md-11">
-              <div className="col-12 flex gap-4 align-items-center justify-between">
+              <div className="col-12 sm:flex  gap-4 align-items-center justify-between">
                 <div className="col-md-6 mb-4">
-                  <div className="d-flex justify-start">
+                  <div className="sm:d-sm:flex   justify-start">
                     <Image
                       src="/assets/images/Rectangle 4670.png"
                       alt=".."
@@ -244,12 +244,12 @@ export default function Home() {
                 </div>
                 <div className="col-md-6 order-md-1 order-2 mb-4">
                   <p className=" font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3">
-                  A dedicated bookkeeper
+                    A dedicated bookkeeper
                   </p>
                   <p className="font-[cd-r] font-[500] text-[#7C7C7C] text-[16px] mb-0">
-                  We respond quickly to any live chat queries, even late at night or over the weekend.
+                    We respond quickly to any live chat queries, even late at night or over the weekend.
                   </p>
-                  
+
                 </div>
               </div>
             </div>
@@ -260,11 +260,11 @@ export default function Home() {
       <section className="overflow-hidden sm:px-0 pt-0 pb-0">
         <div className="overflow-hidden">
           <div className="">
-            <div className="col-12 flex bg-[#000]">
-              <div className="col-md-6 py-16 border-[#fff] flex justify-end items-center">
+            <div className="sm:col-12 sm:flex  bg-[#000]">
+              <div className="col-md-6 py-16 px-4 border-[#fff] sm:flex  justify-end items-center">
                 <div className="col-md-10">
-                  <div className="col-md-10">
-                    <p className="text-[#fff] text-[48px] font-[600] leading-[53px]">
+                  <div className="sm:col-md-10">
+                    <p className="text-[#fff] sm:text-[48px] text-[35px] font-[600] sm:leading-[53px] leading-[40px]">
                       Got questions? Chat with our local experts
                     </p>
                   </div>
@@ -282,7 +282,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 border-[#fff] flex justify-end items-end px-4 pt-14">
+              <div className="col-md-6 border-[#fff] sm:flex  justify-end items-end sm:px-4 sm:pt-14">
                 <div className="col-md-8">
                   <Image
                     src="/assets/images/image 45.png"

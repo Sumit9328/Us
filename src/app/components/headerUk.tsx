@@ -40,12 +40,12 @@ const HeaderUK = () => {
   };
 
   return (
-    <section className="bg-white">
-      <header className="sm:px-24 px-6 flex justify-between items-center py-4 px-6 ">
+    <section >
+      <header className="sm:px-24 px-6 sm:flex  justify-between items-center py-4 px-6 ">
         {/* Logo Section */}
-        <div className="col-12 flex justify-between">
+        <div className="col-12 sm:flex  justify-between">
           <div className="col-md-3">
-            <div className="flex items-center space-x-2">
+            <div className="sm:flex  items-center space-x-2">
               <svg
                 width="142"
                 height="54"
@@ -66,13 +66,13 @@ const HeaderUK = () => {
               {/* <span className="text-xl font-semibold">Cloud</span> */}
             </div>
           </div>
-          <div className="col-md-6 flex justify-center items-center">
+          <div className="col-md-6 sm:flex  justify-center items-center">
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex gap-3 space-x-6  text-black font-medium">
-              <div className="relative flex space-x-8">
+            <nav className="hidden md:sm:flex  gap-3 space-x-6  text-black font-medium">
+              <div className="relative sm:flex  space-x-8">
                 {/* Dropdown 1 */}
                 <div className="menuValue">
-                  <button className="flex items-center text-[16px] text-black group">
+                  <button className="sm:flex  items-center text-[16px] text-black group">
                     About
                     <span className="ml-1 text-sm icon icon-tabler icons-tabler-filled icon-tabler-caret-down transform transition-transform duration-300 group-hover:rotate-180"></span>
                   </button>
@@ -86,10 +86,10 @@ const HeaderUK = () => {
               </Link>
 
               {/* Business Setup Services Dropdown */}
-              <div className="relative flex space-x-8">
+              <div className="relative sm:flex  space-x-8">
                 {/* Dropdown 1 */}
                 <div className="menuValue">
-                  <button className="flex items-center text-[16px] text-black group">
+                  <button className="sm:flex  items-center text-[16px] text-black group">
                     Accounting
                     <span className="ml-1 text-sm icon icon-tabler icons-tabler-filled icon-tabler-caret-down transform transition-transform duration-300 group-hover:rotate-180">
                       <Image
@@ -111,19 +111,19 @@ const HeaderUK = () => {
                       </li>
                     </Link>
                     <Link href="/UK/bookkeeepingpage" className="no-underline">
-                    <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">
-                      BookKeeping
-                    </li>
+                      <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">
+                        BookKeeping
+                      </li>
                     </Link>
                     <Link href="/UK/propertyaccountant" className="no-underline">
-                    <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">
-                      Property Accountant
-                    </li>
+                      <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">
+                        Property Accountant
+                      </li>
                     </Link>
                     <Link href="/UK/invoicing" className="no-underline">
-                    <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">
-                      Invoicing
-                    </li>
+                      <li className="text-[#000] hover:text-[#0462f2] mb-2 text-[15px]">
+                        Invoicing
+                      </li>
                     </Link>
 
                     <span className="text-[#868686] text-[16px] ">
@@ -154,7 +154,7 @@ const HeaderUK = () => {
 
                 <span className="hover:text-gray-900 no-underline text-black text-[16px]">
                   <div className="menuValue">
-                    <button className="flex items-center text-[16px] text-black group">
+                    <button className="sm:flex  items-center text-[16px] text-black group">
                       Pricing
                       <span className="ml-1 text-sm icon icon-tabler icons-tabler-filled icon-tabler-caret-down transform transition-transform duration-300 group-hover:rotate-180">
                         <Image
@@ -182,15 +182,15 @@ const HeaderUK = () => {
               </span>
             </nav>
           </div>
-          <div className="col-md-3 flex justify-end">
+          <div className="col-md-3 sm:flex  justify-end">
             {/* Action Buttons */}
-            <div className="hidden md:flex items-center space-x-4">
+            <div className="hidden md:sm:flex  items-center space-x-4">
               <div
                 className="relative"
                 onMouseEnter={() => handleMouseEnter("countryDropdown")}
                 onMouseLeave={handleMouseLeave}
               >
-                <div className="flex items-center text-gray-600 cursor-pointer">
+                <div className="sm:flex  items-center text-gray-600 cursor-pointer">
                   <span className="text-[16px]">
                     <Image
                       src="/assets/images/united-kingdom.png"
@@ -209,7 +209,7 @@ const HeaderUK = () => {
                         href="/UAE"
                         className="no-underline hover:text-black"
                       >
-                        <span className="text-inherit flex gap-3  text-[16px] font-[400]">
+                        <span className="text-inherit sm:flex  gap-3  text-[16px] font-[400]">
                           <Image
                             src="/assets/images/UAE.svg"
                             width={25}
@@ -223,7 +223,7 @@ const HeaderUK = () => {
                     </li>
                     <li className="px-1 py-2 hover:text-[#0073fd] cursor-pointer">
                       <Link href="/" className="no-underline hover:text-black">
-                        <span className="text-inherit flex gap-3 ">
+                        <span className="text-inherit sm:flex  gap-3 ">
                           <Image
                             src="/assets/images/United States (US).svg"
                             width={25}
@@ -240,7 +240,7 @@ const HeaderUK = () => {
                         href="/UK"
                         className="no-underline hover:text-black"
                       >
-                        <span className="text-inherit flex gap-3">
+                        <span className="text-inherit sm:flex  gap-3">
                           <Image
                             src="/assets/images/United Kingdom (UK).svg"
                             width={25}
@@ -283,7 +283,7 @@ const HeaderUK = () => {
           >
             ✕
           </button>
-          <nav className="flex flex-col items-start justify-start pl-6 pt-12 space-y-4 text-gray-600 font-medium">
+          <nav className="sm:flex  sm:flex -col items-start justify-start pl-6 pt-12 space-y-4 text-gray-600 font-medium">
             <a
               href="#about"
               className="hover:text-gray-900 text-[16px] text-black no-underline"
@@ -298,11 +298,11 @@ const HeaderUK = () => {
             </Link>
 
             {/* Mobile Dropdown for Business Setup Services */}
-            <div className="relative flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
+            <div className="relative sm:flex  sm:flex -col md:sm:flex -row space-y-4 md:space-y-0 md:space-x-8">
               {/* Dropdown 1 */}
               <div className="relative">
                 <button
-                  className="flex items-center text-[16px] text-black"
+                  className="sm:flex  items-center text-[16px] text-black"
                   onClick={() => handleMenuClick("products")} // Mobile: Toggle dropdown
                 >
                   Products
@@ -374,7 +374,7 @@ const HeaderUK = () => {
               onMouseLeave={handleMouseLeave}
               onClick={handleToggleDropdown} // For mobile devices
             >
-              <div className="flex items-center text-gray-600 cursor-pointer">
+              <div className="sm:flex  items-center text-gray-600 cursor-pointer">
                 <span className="text-lg">🌐</span>
                 <span className="ml-2 font-[400]">{selectedCountry}</span>
               </div>

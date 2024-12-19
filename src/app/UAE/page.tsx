@@ -20,7 +20,7 @@ export default function Home() {
                 <div className="overflow-hidden">
                     <div className="container-fluid">
                         <div className="row">
-                            <div className="col-md-6 flex justify-start items-center">
+                            <div className="col-md-6 sm:flex  justify-start items-center">
                                 <div className="col-md-10">
                                     <p className="sm:text-[50px] text-[30px] sm:leading-[60px] leading-[35px]  font-[600] ">
                                         Business Setup in Dubai, UAE
@@ -29,7 +29,7 @@ export default function Home() {
                                         23+ Years of bringing dreams to Life | Over 50,000
                                         Companies Setup
                                     </p>
-                                    <div className="col-12 flex gap-3 mb-4">
+                                    <div className="col-12 sm:flex  gap-3 mb-4">
                                         <div>
                                             <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
                                                 Get Started
@@ -43,8 +43,8 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 flex justify-center items-center">
-                                <div className="col-md-12 flex justify-end items-center">
+                            <div className="col-md-6 sm:flex  justify-center items-center">
+                                <div className="col-md-12 sm:flex  justify-end items-center">
                                     <Image
                                         src="/assets/images/Picture ⏵ comp-secreyary-vanessa-sg@1x.webp (6).png"
                                         width={450}
@@ -69,10 +69,10 @@ export default function Home() {
                                 Business Setup Services
                             </p>
                         </div>
-                        <div className="col-12 sm:flex justify-center mb-0">
-                            <div className="col-md-11 sm:flex sm:justify-around sm:gap-3 sm:me-4">
+                        <div className="col-12 sm:flex   justify-center mb-0">
+                            <div className="col-md-11 sm:flex   sm:justify-around sm:gap-3 sm:me-4">
                                 <div className="col-md-4 sm:mb-0 mb-4">
-                                    <div className="sm:flex sm:flex-col sm:justify-between rounded-[10px] px-4 py-4 bg-[#FFFDFA]">
+                                    <div className="sm:flex   sm:flex  -col sm:justify-between rounded-[10px] px-4 py-4 bg-[#FFFDFA]">
                                         <div>
                                             <div className="col-12 py-3 sm:h-[150px]">
                                                 <Image
@@ -106,7 +106,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="col-md-4 sm:mb-0 mb-4">
-                                    <div className="sm:flex flex-col justify-between rounded-[10px] px-4 py-4 bg-[#FFFDFA]">
+                                    <div className="sm:flex   sm:flex -col justify-between rounded-[10px] px-4 py-4 bg-[#FFFDFA]">
                                         <div>
                                             <div className="col-12 py-3  sm:h-[150px]">
                                                 <Image
@@ -139,7 +139,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="col-md-4 sm:mb-0 mb-4">
-                                    <div className="flex flex-col justify-between rounded-[10px] px-4 py-4 bg-[#FFFDFA]">
+                                    <div className="sm:flex  sm:flex -col justify-between rounded-[10px] px-4 py-4 bg-[#FFFDFA]">
                                         <div>
                                             <div className="col-12 py-3 sm:h-[150px]">
                                                 <Image
@@ -174,10 +174,10 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 sm:flex justify-center mb-14">
-                            <div className="col-md-11 sm:flex sm:justify-around sm:gap-3 sm:me-4">
+                        <div className="col-12 sm:flex   justify-center mb-14">
+                            <div className="col-md-11 sm:flex   sm:justify-around sm:gap-3 sm:me-4">
                                 <div className="col-md-4 sm:mb-0 mb-4">
-                                    <div className="sm:flex sm:flex-col sm:justify-between rounded-[10px] px-4 py-4 bg-[#FFFDFA]">
+                                    <div className="sm:flex   sm:flex  -col sm:justify-between rounded-[10px] px-4 py-4 bg-[#FFFDFA]">
                                         <div>
                                             <div className="col-12 py-3  sm:h-[150px]">
                                                 <Image
@@ -210,7 +210,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="col-md-4 sm:mb-0 mb-4">
-                                    <div className="flex flex-col justify-between rounded-[10px] px-4 py-4 bg-[#FFFDFA]">
+                                    <div className="sm:flex  sm:flex -col justify-between rounded-[10px] px-4 py-4 bg-[#FFFDFA]">
                                         <div>
                                             <div className="col-12 py-3  h-[150px]">
                                                 <Image
@@ -242,7 +242,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="col-md-4 sm:mb-0 mb-4">
-                                    <div className="flex flex-col justify-between rounded-[10px] px-4 py-4 bg-[#FFFDFA]">
+                                    <div className="sm:flex  sm:flex -col justify-between rounded-[10px] px-4 py-4 bg-[#FFFDFA]">
                                         <div>
                                             <div className="col-12 py-3  h-[150px]">
                                                 <Image
@@ -291,8 +291,8 @@ export default function Home() {
                                 Business Setup In Dubai
                             </p>
                         </div>
-                        <div className="col-12 sm:flex justify-center mt-14">
-                            <div className="col-md-11 sm:flex justify-center gap-4">
+                        <div className="col-12 sm:flex   justify-center mt-14">
+                            <div className="col-md-11 sm:flex   justify-center gap-4">
                                 <div className="col-md-3 rounded-[10px] sm:mb-0 mb-4 sm:pb-0 pb-14 px-4 py-0 bg-[#f3efe7]">
                                     <div className="py-4">
                                         <div className="sm:h-[100px]">
@@ -378,9 +378,9 @@ export default function Home() {
                                 UAE Business Setup Advisors!
                             </p>
                         </div>
-                        <div className="d-flex justify-start">
+                        <div className="sm:d-sm:flex   justify-start">
                             <div className="col-md-12">
-                                <div className="col-12 sm:flex align-items-center sm:justify-between sm:ml-4">
+                                <div className="col-12 sm:flex   align-items-center sm:justify-between sm:ml-4">
                                     <div className="col-md-6 sm:mb-0 mb-4">
                                         <Image
                                             src="/assets/images/group-people-working-out-business-plan-office 4.png"
@@ -392,19 +392,19 @@ export default function Home() {
                                     <div className="col-md-6">
                                         <p className="font-[400] sm:text-[17px] text-[14px] mb-8 sm:leading-[30px] leading-[22px]">Cloud BSS has been helping UAE company setup and Branch Office in Dubai. Cloud BSS offers affordable and easy ways to set up a business in Dubai. Be it a multinational company or an SME, we can help you with Business setup services in Dubai To know how to speak to our business setup experts and advisors. </p>
                                         <div className="leading-[20px]">
-                                            <div className="flex items-start gap-2 mb-2">
+                                            <div className="sm:flex  items-start gap-2 mb-2">
                                                 <div className="h-[5px] w-[5px] rounded-full bg-black mt-[7px]"></div>
                                                 <p className="text-[13px] sm:text-[16px] font-[300] mt-0 sm:mb-0 mb-2">
                                                     Streamlined Business Set Up Process in the UAE
                                                 </p>
                                             </div>
-                                            <div className="flex items-start gap-2 mb-0">
+                                            <div className="sm:flex  items-start gap-2 mb-0">
                                                 <div className="h-[5px] w-[5px] rounded-full bg-black mt-[7px]"></div>
                                                 <p className="text-[13px] sm:text-[16px] font-[300] mt-0 mb-3">
                                                     Business Setup License (0 Visa Quota ) Starting from AED 12,900*
                                                 </p>
                                             </div>
-                                            <div className="flex items-start gap-2">
+                                            <div className="sm:flex  items-start gap-2">
                                                 <div className="h-[5px] w-[5px] rounded-full bg-black mt-[7px]"></div>
                                                 <p className="text-[13px] sm:text-[16px] font-[300] mt-0 mb-2">
                                                     Business Setup License (1 Visa Quota) Starting from AED 22,500*
@@ -550,7 +550,7 @@ export default function Home() {
             </section>
             <section className="bg-[#000] overflow-hidden sm:px-20 px-6 sm:py-5 py-5">
                 <div className="container-fluid p-0">
-                <BusinessStarterText/>
+                    <BusinessStarterText />
                 </div>
             </section>
 

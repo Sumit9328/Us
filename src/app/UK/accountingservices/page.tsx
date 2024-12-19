@@ -16,11 +16,12 @@ export default function Home() {
           <HeaderUK />
         </div>
       </section>
+
       <section className="overflow-hidden sm:px-20 px-6 sm:pt-22 pt-0 pb-0">
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-6 flex justify-start items-center">
+              <div className="col-md-6 sm:flex  justify-start items-center">
                 <div className="col-md-10">
                   <p className="sm:text-[53px] text-[25px] sm:leading-[60px] leading-[35px] font-[600]">
                     Your finances sorted with all-in-one accounting services
@@ -29,22 +30,22 @@ export default function Home() {
                     Free yourself from financial admin. Our dedicated experts
                     and easy-to-use tools make managing your money easier.
                   </p>
-                  <div className="col-12 flex gap-3 mb-4">
+                  <div className="col-12 sm:flex  gap-3 mb-4">
                     <div>
-                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] sm:w-[150px] w-full mb-2 h-[40px] rounded-[50px] text-[15px]">
                         Get Started
                       </button>
                     </div>
                     <div>
-                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] sm:w-[150px] w-full h-[40px] rounded-[50px] text-[15px]">
                         Schedule a call
                       </button>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 flex justify-center items-center sm:pt-12 sm:pb-12">
-                <div className="col-md-12 flex justify-end items-center">
+              <div className="col-md-6 sm:flex  justify-center items-center sm:pt-12 sm:pb-12">
+                <div className="col-md-12 sm:flex  justify-end items-center">
                   <Image
                     src="/assets/images/header-1.png"
                     width={500}
@@ -62,7 +63,7 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             {/* Final Heading Section */}
-            <div className="col-12 sm:mb-5 flex justify-center pt-5">
+            <div className="col-12 sm:mb-5 sm:flex  justify-center pt-5">
               <div className="w-[550px]">
                 <p className="text-[18px] font-[400] text-center sm:leading-[18px]">
                   WHAT YOU GET
@@ -170,10 +171,10 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="col-12 pb-4">
-              <div className="col-12 flex justify-center pt-12">
+              <div className="col-12 sm:flex  justify-center pt-12">
                 <button className="font-[400] text-[17px] pb-2">PRICING</button>
               </div>
-              <div className="flex justify-center pb-2">
+              <div className="sm:flex  justify-center pb-2">
                 <div className="w-[730px]">
                   <p className="text-[46px] text-center leading-[50px] font-[600]">
                     For new founders and seasoned entrepreneurs
@@ -181,9 +182,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-12 flex justify-center gap-2">
+            <div className="col-12 sm:flex  justify-center gap-2">
               <div className="col-md-4">
-                <div className="flex justify-center py-4">
+                <div className="sm:flex  justify-center py-4">
                   <Image
                     src="/assets/images/Rectangle 4644.svg"
                     width={450}
@@ -204,7 +205,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="flex justify-center py-4">
+                <div className="sm:flex  justify-center py-4">
                   <Image
                     src="/assets/images/Rectangle 4645.svg"
                     width={450}
@@ -224,7 +225,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="flex justify-center py-4">
+                <div className="sm:flex  justify-center py-4">
                   <Image
                     src="/assets/images/Rectangle 4646.svg"
                     width={450}
@@ -265,7 +266,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex justify-center">
+          <div className="sm:flex  justify-center">
             <div className="col-md-10 pt-4">
               <div className="row align-items-center justify-between">
                 <div className="col-md-5 mb-4">
@@ -301,7 +302,7 @@ export default function Home() {
                     alt="no-img"
                   />
                 </div>
-                <div className="col-md-5 mb-4">
+                <div className="col-md-5 order-md-1 order-2 mb-4">
                   <div className="col-md-10">
                     <p className="text-[38px] font-[600] leading-[40px]">
                       Get clear on cash flow
@@ -342,8 +343,8 @@ export default function Home() {
           </div>
 
           <div className="row justify-center">
-            <div className="col-md-10 mt-4 flex justify-center sm:pb-4">
-              <div className="text-center flex items-center">
+            <div className="col-md-10 mt-4 sm:flex  justify-center sm:pb-4">
+              <div className="text-center sm:flex  items-center">
                 <p className="sm:text-[44px] font-[500] text-[30px]  text-[#000] text-center sm:leading-[38px] leading-[35px]">
                   Bookkeeping?
                 </p>
@@ -362,8 +363,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
-<PricingPlans/>
+
+      <PricingPlans />
 
       <section className="overflow-hidden sm:px-20 px-6 pt-14 sm:pb-10 bg-[#ccdfff]">
         <div className="overflow-hidden">

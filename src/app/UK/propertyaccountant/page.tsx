@@ -20,30 +20,30 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-6 flex justify-start items-center">
+              <div className="col-md-6 sm:flex  justify-start items-center">
                 <div className="col-md-10">
                   <p className="sm:text-[53px] text-[25px] sm:leading-[60px] leading-[35px] font-[600]">
-                  Expert property accountants for your UK portfolio
+                    Expert property accountants for your UK portfolio
                   </p>
                   <p className="sm:text-[18px] sm:leading-[25px] leading-[22px] font-[400] pe-4">
-                  Maximise your profits and pay the right tax by relying on our team of expert tax advisors. Become more efficient and stay compliant, whether you’re a buy-to-let landlord or manage a property for additional income.
+                    Maximise your profits and pay the right tax by relying on our team of expert tax advisors. Become more efficient and stay compliant, whether you’re a buy-to-let landlord or manage a property for additional income.
                   </p>
-                  <div className="col-12 flex gap-3 mb-4">
+                  <div className="col-12 sm:flex  gap-3 mb-4">
                     <div>
-                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                      <button className="border-1 mb-2 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] sm:w-[150px] w-full h-[40px] rounded-[50px] text-[15px]">
                         Get Started
                       </button>
                     </div>
                     <div>
-                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] w-[150px] h-[40px] rounded-[50px] text-[15px]">
+                      <button className="border-1 hover:text-[#fff] hover:bg-[#000] font-[400] border-[black] sm:w-[150px] w-full h-[40px] rounded-[50px] text-[15px]">
                         Schedule a call
                       </button>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 flex justify-center items-center sm:pt-12 sm:pb-12">
-                <div className="col-md-12 flex justify-end items-center">
+              <div className="col-md-6 sm:flex  justify-center items-center sm:pt-12 sm:pb-12">
+                <div className="col-md-12 sm:flex  justify-end items-center">
                   <Image
                     src="/assets/images/Picture ⏵ comp-secreyary-vanessa-sg@1x.webp (10).png"
                     width={500}
@@ -59,17 +59,17 @@ export default function Home() {
 
       <section className="overflow-hidden sm:px-20 px-6 sm:py-10 py-10 pt-14 bg-[#f3efe7]">
         <div className="container-fluid  pt-2">
-            <div className="col-12 flex justify-center mb-14">
-                <div className="col-md-6">
-                    <p className="text-[18px] font-[400] text-center">WHY CLOUD BSS</p>
-                    <p className="text-[48px] font-[600] text-center leading-[45px]">Tailored financial advice for the property sector</p>
-                </div>
+          <div className="col-12 sm:flex  justify-center mb-14">
+            <div className="col-md-6">
+              <p className="text-[18px] font-[400] text-center">WHY CLOUD BSS</p>
+              <p className="sm:text-[48px] text-[35px] font-[600] text-center sm:leading-[45px]">Tailored financial advice for the property sector</p>
             </div>
-          <div className="d-flex justify-center">
+          </div>
+          <div className="sm:d-sm:flex   justify-center">
             <div className="col-md-11">
-              <div className="col-12 flex gap-4 align-items-center justify-between">
+              <div className="col-12 sm:flex  gap-4 align-items-center justify-between">
                 <div className="col-md-6 mb-4">
-                  <div className="d-flex justify-start">
+                  <div className="sm:d-sm:flex   justify-start">
                     <Image
                       src="/assets/images/Group 17834.png"
                       alt=".."
@@ -79,21 +79,21 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="col-md-6 order-md-1 order-2 mb-4">
-                  <p className="font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3 leading-[45px]">
-                  Specialist property accountants
+                  <p className="font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3 sm:leading-[45px]">
+                    Specialist property accountants
                   </p>
                   <p className="font-[400] text-[#7C7C7C] text-[16px] mb-0">
-                  Understanding property taxes can be intricate, and the strategy you take should be personalised to your portfolio and objectives. Our UK team of property accountants help buy-to-let landlords and HMOs with this, and are always available via phone call or live chat.
+                    Understanding property taxes can be intricate, and the strategy you take should be personalised to your portfolio and objectives. Our UK team of property accountants help buy-to-let landlords and HMOs with this, and are always available via phone call or live chat.
                   </p>
-                  
+
                 </div>
               </div>
             </div>
           </div>
-          <div className="d-flex justify-center">
+          <div className="sm:d-sm:flex   justify-center">
             <div className="col-md-11">
-              <div className="col-12 flex align-items-center justify-content-between">
-                <div className="col-md-6 flex justify-end order-md-2 order-1 mb-4 leading-[45px]">
+              <div className="col-12 sm:flex  align-items-center justify-content-between">
+                <div className="col-md-6 sm:flex  justify-end order-md-2 order-1 mb-4 leading-[45px]">
                   <Image
                     src="/assets/images/Group 17835.png"
                     alt=".."
@@ -103,22 +103,22 @@ export default function Home() {
                 </div>
 
                 <div className="col-md-6 order-md-1 order-2 mb-4">
-                  <p className="font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3 leading-[45px]">
-                  Guidance on limited company structures
+                  <p className="font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3 sm:leading-[45px]">
+                    Guidance on limited company structures
                   </p>
                   <p className="font-[400] text-[#7C7C7C] text-[16px] mb-0">
-                  Pondering a limited company structure to align with your property investment ambitions? We’ll clear your doubts with our specialised tax advice for limited companies. An expert accountant will tailor advice to your specific situation, providing the surety you need to invest with confidence.
+                    Pondering a limited company structure to align with your property investment ambitions? We’ll clear your doubts with our specialised tax advice for limited companies. An expert accountant will tailor advice to your specific situation, providing the surety you need to invest with confidence.
                   </p>
-                 
+
                 </div>
               </div>
             </div>
           </div>
-          <div className="d-flex justify-center">
+          <div className="sm:d-sm:flex   justify-center">
             <div className="col-md-11">
-              <div className="col-12 flex gap-4 align-items-center justify-between">
+              <div className="col-12 sm:flex  gap-4 align-items-center justify-between">
                 <div className="col-md-6 mb-4">
-                  <div className="d-flex justify-start">
+                  <div className="sm:d-sm:flex   justify-start">
                     <Image
                       src="/assets/images/Rectangle 4670.png"
                       alt=".."
@@ -128,25 +128,25 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="col-md-6 mb-4">
-                <p className="font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3 leading-[45px] leading-[45px]">
-                Ongoing compliance
+                  <p className="font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3 leading-[45px] leading-[45px]">
+                    Ongoing compliance
                   </p>
-                  
+
                   <p className="font-[cd-r] font-[500] text-[#7C7C7C] sm:text-[16px] text-[16px] mb-0 ">
                     Get your company registered fast and online, and
                     fast-tracked to a business account. All government fees and
                     must-have services are included, for foreigners and India
                     locals.
                   </p>
-                  
+
                 </div>
               </div>
             </div>
           </div>
-          <div className="d-flex justify-center">
+          <div className="sm:d-sm:flex   justify-center">
             <div className="col-md-11">
-              <div className="col-12 flex align-items-center justify-content-between">
-                <div className="col-md-6 flex justify-end order-md-2 order-1 mb-4">
+              <div className="col-12 sm:flex  align-items-center justify-content-between">
+                <div className="col-md-6 sm:flex  justify-end order-md-2 order-1 mb-4">
                   <Image
                     src="/assets/images/Group 17835.png"
                     alt=".."
@@ -157,46 +157,47 @@ export default function Home() {
 
                 <div className="col-md-6 order-md-1 order-2 mb-4">
                   <p className="font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3 leading-[45px]">
-                  Simple accounting software
+                    Simple accounting software
                   </p>
                   <p className="font-[400] text-[#7C7C7C] text-[16px] mb-0">
-                  Pondering a limited company structure to align with your property investment ambitions? We’ll clear your doubts with our specialised tax advice for limited companies. An expert accountant will tailor advice to your specific situation, providing the surety you need to invest with confidence.
+                    Pondering a limited company structure to align with your property investment ambitions? We’ll clear your doubts with our specialised tax advice for limited companies. An expert accountant will tailor advice to your specific situation, providing the surety you need to invest with confidence.
                   </p>
-                 
+
                 </div>
               </div>
             </div>
           </div>
-                    <div className="row justify-center">
-                      <div className="col-md-10 mt-4 flex justify-center sm:pb-4">
-                        <div className="text-center flex items-center">
-                          <p className="sm:text-[44px] font-[500] text-[30px]  text-[#000] text-center sm:leading-[38px] leading-[35px]">
-                            Bookkeeping?
-                          </p>
-                          <Image
-                            src="/assets/images/image 43.svg"
-                            className=""
-                            width={80}
-                            height={40}
-                            alt="no-img"
-                          />
-                          <p className="sm:text-[px] font-[500] text-[30px]  text-[#000] text-center sm:leading-[38px] leading-[35px]">
-                            It’s included.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
+          <div className="row justify-center">
+            <div className="col-md-10 mt-4 sm:flex  justify-center sm:pb-4">
+              <div className="text-center sm:flex  items-center">
+                <p className="sm:text-[44px] font-[500] text-[30px]  text-[#000] text-center sm:leading-[38px] leading-[35px]">
+                  Bookkeeping?
+                </p>
+                <Image
+                  src="/assets/images/image 43.svg"
+                  className=""
+                  width={80}
+                  height={40}
+                  alt="no-img"
+                />
+                <p className="sm:text-[px] font-[500] text-[30px]  text-[#000] text-center sm:leading-[38px] leading-[35px]">
+                  It’s included.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+
 
       <section className="overflow-hidden sm:px-0 pt-0 pb-0">
         <div className="overflow-hidden">
           <div className="">
-            <div className="col-12 flex bg-[#000]">
-              <div className="col-md-6 py-16 border-[#fff] flex justify-end items-center">
+            <div className="sm:col-12 sm:flex  bg-[#000]">
+              <div className="col-md-6 py-16 px-4 border-[#fff] sm:flex  justify-end items-center">
                 <div className="col-md-10">
-                  <div className="col-md-10">
-                    <p className="text-[#fff] text-[48px] font-[600] leading-[53px]">
+                  <div className="sm:col-md-10">
+                    <p className="text-[#fff] sm:text-[48px] text-[35px] font-[600] sm:leading-[53px] leading-[40px]">
                       Got questions? Chat with our local experts
                     </p>
                   </div>
@@ -214,7 +215,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 border-[#fff] flex justify-end items-end px-4 pt-14">
+              <div className="col-md-6 border-[#fff] sm:flex  justify-end items-end sm:px-4 sm:pt-14">
                 <div className="col-md-8">
                   <Image
                     src="/assets/images/image 45.png"
@@ -229,10 +230,11 @@ export default function Home() {
         </div>
       </section>
 
+
       <section className="overflow-hidden sm:px-20 px-6 py-14 pb-0 bg-[#F7F3EB]">
         <div className="overflow-hidden">
           <div className="container-fluid">
-            <div className="col-12 mb-14 flex justify-center">
+            <div className="col-12 mb-14 sm:flex  justify-center">
               <div className="col-md-5">
                 <p className="text-[18px] font-[400] text-center">
                   WHAT YOU GET
@@ -245,7 +247,7 @@ export default function Home() {
             <div className="row">
               {/* Card 1 */}
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full">
                   <div>
                     <div className="col-12 h-[115px]">
                       <Image
@@ -269,7 +271,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full ">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full ">
                   <div>
                     <div className="col-12 h-[115px]">
                       <Image
@@ -293,7 +295,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full ">
+                <div className="sm:flex  sm:flex -col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full ">
                   <div>
                     <div className="col-12 h-[115px]">
                       <Image
@@ -325,20 +327,20 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="container-fluid">
             <div className="col-12 pb-4">
-              <div className="col-12 flex justify-center pt-12">
-                <button className="font-[400] text-[17px] pb-2">WHO WE HELP</button>
+              <div className="col-12 sm:flex justify-center pt-12">
+                <button className="font-[400] text-[17px] pb-2 ">WHO WE HELP</button>
               </div>
-              <div className="flex justify-center pb-0">
-                <div className="w-[730px]">
+              <div className="sm:flex  justify-center pb-0">
+                <div className="sm:w-[730px]">
                   <p className="text-[46px] text-center leading-[50px] font-[600]">
-                  For property side hustlers
+                    For property side hustlers
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-12 flex justify-center gap-2">
+            <div className="col-12 sm:flex  justify-center gap-2">
               <div className="col-md-4">
-                <div className="flex justify-center py-4">
+                <div className="sm:flex  justify-center py-4">
                   <Image
                     src="/assets/images/Rectangle 4644.png"
                     width={450}
@@ -348,15 +350,15 @@ export default function Home() {
                 </div>
                 <div className="col-md-12">
                   <p className="text-center text-[26px] font-[500] leading-[25px]">
-                  Property flippers and developers
+                    Property flippers and developers
                   </p>
                   <p className="text-center text-[15px] font-[500] text-[#9D9D9D] leading-[20px]">
-                  Join the world of property moguls quicker by streamlining your bookkeeping. You handle your projects, we&apos;ll do the financial admin.
+                    Join the world of property moguls quicker by streamlining your bookkeeping. You handle your projects, we&apos;ll do the financial admin.
                   </p>
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="flex justify-center py-4">
+                <div className="sm:flex  justify-center py-4">
                   <Image
                     src="/assets/images/Rectangle 4645.png"
                     width={450}
@@ -366,15 +368,15 @@ export default function Home() {
                 </div>
                 <div className="col-md-12">
                   <p className="text-center text-[26px] font-[500] leading-[25px]">
-                  Buy-to-let landlords
+                    Buy-to-let landlords
                   </p>
                   <p className="text-center text-[15px] font-[500] text-[#9D9D9D] leading-[20px]">
-                  Pay the right tax without missing out on tax-saving opportunities. Our experts help you maximise your rental income alongside our smart software.
+                    Pay the right tax without missing out on tax-saving opportunities. Our experts help you maximise your rental income alongside our smart software.
                   </p>
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="flex justify-center py-4">
+                <div className="sm:flex  justify-center py-4">
                   <Image
                     src="/assets/images/Rectangle 4646.svg"
                     width={450}
@@ -384,10 +386,10 @@ export default function Home() {
                 </div>
                 <div className="col-md-12">
                   <p className="text-center text-[26px] font-[500] leading-[25px]">
-                  Serviced accommodation owners
+                    Serviced accommodation owners
                   </p>
                   <p className="text-center text-[15px] font-[500] text-[#9D9D9D] leading-[20px]">
-                  Whether you own to-let accommodation or an aparthotel, you can easily manage your income streams and ensure your property’s profits are taxed appropriately.
+                    Whether you own to-let accommodation or an aparthotel, you can easily manage your income streams and ensure your property’s profits are taxed appropriately.
                   </p>
                 </div>
               </div>
