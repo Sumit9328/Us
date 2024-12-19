@@ -327,7 +327,7 @@ const Header = () => {
 
             {/* Mobile Dropdown for Business Setup Services */}
             <div className="relative flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
-              {/* Dropdown 1 */}
+   
               <div className="relative">
                 <button
                   className="flex items-center text-lg text-black"
@@ -388,10 +388,9 @@ const Header = () => {
                   </div>
                 )}
               </div>
-
-              {/* Dropdown 2 */}
-
+              
             </div>
+            
             <Link
               href="/US/comparePackages"
               className=" no-underline"

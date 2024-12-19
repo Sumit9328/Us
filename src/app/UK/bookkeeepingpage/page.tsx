@@ -24,12 +24,10 @@ export default function Home() {
               <div className="col-md-6 flex justify-start items-center">
                 <div className="col-md-10">
                   <p className="sm:text-[53px] text-[25px] sm:leading-[60px] leading-[35px] font-[600]">
-                    Ecommerce accountants for effortless growth
+                    Bookkeeping services in the UK
                   </p>
                   <p className="sm:text-[18px] sm:leading-[25px] leading-[22px] font-[400] pe-4">
-                    Move on from traditional accounting. From returns to
-                    discounts, gift cards and global VAT needs, we know
-                    ecommerce.
+                    We handle your bookkeeping for you so you can focus on doing business. Pay the right tax, reconcile transactions, and prepare invoices, all in one online platform.
                   </p>
                   <div className="col-12 flex gap-3 mb-4">
                     <div>
@@ -61,90 +59,106 @@ export default function Home() {
       </section>
 
 
-      <section className="overflow-hidden sm:px-20 px-6 py-14 pb-0 bg-[#F7F3EB]">
+      <section className="overflow-hidden px-6 sm:px-20 pb-18 pt-0 pb-10 bg-[#F7F3EB]">
         <div className="overflow-hidden">
           <div className="container-fluid">
-            <div className="col-12 mb-14 flex justify-center">
-              <div className="col-md-5">
-                <p className="text-[18px] font-[400] text-center">
+            {/* Final Heading Section */}
+            <div className="col-12 sm:mb-5 flex justify-center pt-5">
+              <div className="w-[550px]">
+                <p className="text-[18px] font-[400] text-center sm:leading-[18px]">
                   WHAT YOU GET
                 </p>
-                <p className="text-[36px] font-[600] leading-[40px] text-center">
-                  Full control and transparency of your sales
+                <p className="text-center text-[24px] sm:text-[34px] font-[600] sm:leading-[40px]">
+                  Total visibility and control over your finances
                 </p>
               </div>
             </div>
-            <div className="row">
-              {/* Card 1 */}
-              <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full">
-                  <div>
-                    <div className="col-12 h-[115px]">
-                      <Image
-                        src="/assets/images/image 30.svg"
-                        width={112}
-                        height={112}
-                        alt="no-img"
-                      />
-                    </div>
-                    <div>
-                      <p className="text-[28px] font-[500]">
-                        Choose your package
-                      </p>
-
-                      <p className="text-[15px] font-[200] font-[400] text-[#656565]">
-                        Start with what you need right now and add specialist
-                        services later as you grow.
+            <div className="col-12 sm:flex justify-center mt-14 ">
+              <div className="col-12 sm:flex justify-center gap-2 ">
+                <div className="col-md-3 rounded-[10px] sm:mb-0 mb-4 px-4 py-2 bg-[#fff]">
+                  <div className="py-4">
+                    <Image
+                      src="/assets/images/image 33.svg"
+                      width={112}
+                      height={112}
+                      alt="no-img"
+                    />
+                  </div>
+                  <div className="h-[180px] px-2 w-[250px]">
+                    <div className="w-[150px]">
+                      <p className="text-[25px] font-[500] leading-[30px]">
+                        Dedicated accountant
                       </p>
                     </div>
+                    <p className="text-[15px] font-[400] text-[#656565] leading-[22px]">
+                      Your dedicated accountant is on-call through live chat and
+                      responds within 24 hours.
+                    </p>
                   </div>
                 </div>
-              </div>
-              <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full ">
-                  <div>
-                    <div className="col-12 h-[115px]">
-                      <Image
-                        src="/assets/images/image 30.svg"
-                        width={128}
-                        height={112}
-                        alt="no-img"
-                      />
-                    </div>
-                    <div>
-                      <p className="text-[28px] font-[500]">
-                        Submit your details
-                      </p>
-
-                      <p className="text-[15px] font-[200] font-[400] text-[#656565]">
-                        We&apos;ll tell you what information and documents you
-                        need to provide for registration, and offer our advice.
+                <div className="col-md-3 rounded-[10px] sm:mb-0 mb-4 px-4 py-2 bg-[#fff]">
+                  <div className="py-4">
+                    <Image
+                      src="/assets/images/image 34 (1).svg"
+                      width={112}
+                      height={112}
+                      alt="no-img"
+                    />
+                  </div>
+                  <div className="h-[180px] px-2 w-[250px]">
+                    <div className="w-[200px]">
+                      <p className="text-[25px] font-[500] leading-[30px]">
+                        Effortless online process
                       </p>
                     </div>
+                    <p className="text-[15px] font-[400] text-[#656565] leading-[22px]">
+                      Our financial tools give you control, automating
+                      invoicing, payments, and expenses with real-time cash flow
+                      insight.
+                    </p>
                   </div>
                 </div>
-              </div>
-              <div className="col-md-4 mb-4">
-                <div className="flex flex-col justify-between rounded-[12px] px-4 py-4 bg-[#fff] h-full ">
-                  <div>
-                    <div className="col-12 h-[115px]">
-                      <Image
-                        src="/assets/images/image 38.svg"
-                        width={112}
-                        height={112}
-                        alt="no-img"
-                      />
-                    </div>
-                    <div>
-                      <p className="text-[28px] font-[500] leading-[32px]">
-                        Get confirmation and paperwork
-                      </p>
-
-                      <p className="text-[15px] font-[200] font-[400] text-[#656565]">
-                        Receive your certificate of incorporation and key
-                        company documents. It’s that simple!
+                <div className="col-md-3 rounded-[10px] sm:mb-0 mb-4 px-4 py-2 bg-[#fff]">
+                  <div className="py-4">
+                    <Image
+                      src="/assets/images/image 31 (1).svg"
+                      width={112}
+                      height={112}
+                      alt="no-img"
+                    />
+                  </div>
+                  <div className="px-2 w-[250px]">
+                    <div className="w-[200px]">
+                      <p className="text-[25px] font-[500] leading-[30px]">
+                        Unlimited bookkeeping
                       </p>
                     </div>
+                    <p className="text-[15px] font-[400] text-[#656565] leading-[22px]">
+                      Bookkeeping is part of your package. We&apos;ll take care
+                      of your financial records, taxes, transaction matching,
+                      and billing.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-3 rounded-[10px] sm:mb-0 mb-4 px-4 py-2 bg-[#fff]">
+                  <div className="py-4">
+                    <Image
+                      src="/assets/images/image 36 (1).svg"
+                      width={112}
+                      height={112}
+                      alt="no-img"
+                    />
+                  </div>
+                  <div className="px-2 w-[250px]">
+                    <div className="w-[250px]">
+                      <p className="text-[25px] font-[500] leading-[30px]">
+                        Filing and compliance
+                      </p>
+                    </div>
+                    <p className="text-[15px] font-[400] text-[#656565] leading-[22px]">
+                      Leave the tax, deadlines, and filing with HMRC to us.
+                      We’ll make sure you pay the right tax and stay compliant.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -156,7 +170,14 @@ export default function Home() {
 
 
       <section className="overflow-hidden sm:px-20 px-6 sm:py-10 py-10 pt-14 bg-[#f3efe7]">
-        <div className="container-fluid  pt-14">
+        <div className="container-fluid  pt-2">
+          <div className="col-12 flex justify-center mb-5">
+            <div className="col-md-6">
+              <p className="text-center text-[18px] font-[400]">WHY CLOUD BSS</p>
+              <p className="text-center text-[48px] font-[600] leading-[45px]">Benefits of Cloud Bss services</p>
+
+            </div>
+          </div>
           <div className="d-flex justify-center">
             <div className="col-md-11">
               <div className="col-12 flex gap-4 align-items-center justify-between">
@@ -170,21 +191,16 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <div className="col-md-6 mb-4">
-                  <p className="font-[cd-r] font-[500] text-[#7C7C7C] sm:text-[16px] text-[16px] mb-0 ">
-                    Get your company registered fast and online, and
-                    fast-tracked to a business account. All government fees and
-                    must-have services are included, for foreigners and India
-                    locals.
+                <div className="col-md-6 order-md-1 order-2 mb-4">
+                  <p className="leading-[45px] font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3">
+                  Bringing order to your documents chaos
                   </p>
-                  <div className="d-flex pt-4 justify-content-sm-start justify-content-between gap-2 ">
-                    <button className="bg-[#fff] text-[#000] py-2 font-[500] text-[14px] text-[#212833] border border-dark rounded-full sm:w-[160px] w-[150px] hover:bg-[#212833] hover:text-[#fff]">
-                      LET’S START IT
-                    </button>
-                    <button className="bg-[#fff] text-[#000] px-2 py-2 font-[500] sm:text-[14px] text-[13px] border border-dark rounded-[30px] sm:w-[230px] w-[220px] hover:bg-[#212833] hover:text-[#fff]">
-                      LET’S SEE HOW IT WORKS
-                    </button>
-                  </div>
+                  <p className="font-[cd-r] font-[500] text-[#7C7C7C] text-[16px] mb-0">
+                    Your compliance in check. We track deadlines, file
+                    documents, and answer questions daily. All standard
+                    resolutions and routine filings are included in the plan.
+                  </p>
+                
                 </div>
               </div>
             </div>
@@ -202,22 +218,13 @@ export default function Home() {
                 </div>
 
                 <div className="col-md-6 order-md-1 order-2 mb-4">
-                  <p className="font-[cd-se] font-[500] text-[#212833] sm:text-[22px] text-[22px] mb-3">
-                    Corporate Secretary
+                  <p className=" font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3">
+                  Books done in minutes
                   </p>
                   <p className="font-[cd-r] font-[500] text-[#7C7C7C] text-[16px] mb-0">
-                    Your compliance in check. We track deadlines, file
-                    documents, and answer questions daily. All standard
-                    resolutions and routine filings are included in the plan.
+                  Send us your documents the minute you receive them. We reconcile every 24 hours and show what's missing, meaning you don't have to spend hours retracing old invoices.
                   </p>
-                  <div className="d-flex pt-4 gap-2">
-                    <button className="bg-[#fff] text-[#000] px-2 py-2 font-[500] text-[14px] font-[500] text-[#212833] border border-dark rounded-[30px] sm:w-[170px] w-full hover:bg-[#212833] hover:text-[#fff]">
-                      READY TO START
-                    </button>
-                    <button className="bg-[#fff] text-[#000] px-2 py-2 font-[500] text-[14px] font-[500] border border-dark rounded-[30px] sm:w-[160px] w-full hover:bg-[#212833] hover:text-[#fff]">
-                      TELL ME MORE
-                    </button>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -235,21 +242,14 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <div className="col-md-6 mb-4">
-                  <p className="font-[cd-r] font-[500] text-[#7C7C7C] sm:text-[16px] text-[16px] mb-0 ">
-                    Get your company registered fast and online, and
-                    fast-tracked to a business account. All government fees and
-                    must-have services are included, for foreigners and India
-                    locals.
+                <div className="col-md-6 order-md-1 order-2 mb-4">
+                  <p className=" font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3">
+                  A dedicated bookkeeper
                   </p>
-                  <div className="d-flex pt-4 justify-content-sm-start justify-content-between gap-2 ">
-                    <button className="bg-[#fff] text-[#000] py-2 font-[500] text-[14px] text-[#212833] border border-dark rounded-full sm:w-[160px] w-[150px] hover:bg-[#212833] hover:text-[#fff]">
-                      LET’S START IT
-                    </button>
-                    <button className="bg-[#fff] text-[#000] px-2 py-2 font-[500] sm:text-[14px] text-[13px] border border-dark rounded-[30px] sm:w-[230px] w-[220px] hover:bg-[#212833] hover:text-[#fff]">
-                      LET’S SEE HOW IT WORKS
-                    </button>
-                  </div>
+                  <p className="font-[cd-r] font-[500] text-[#7C7C7C] text-[16px] mb-0">
+                  We respond quickly to any live chat queries, even late at night or over the weekend.
+                  </p>
+                  
                 </div>
               </div>
             </div>
@@ -290,90 +290,6 @@ export default function Home() {
                     height={350}
                     alt="no-img"
                   />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-
-      <section className="overflow-hidden px-6 sm:px-20 pt-0 pb-10 bg-[#F7F3EB]">
-        <div className="overflow-hidden">
-          <div className="container-fluid">
-            <div className="col-12 pb-4">
-              <div className="col-12 flex justify-center pt-12">
-                <button className="font-[400] text-[17px] pb-2">PRICING</button>
-              </div>
-              <div className="flex justify-center pb-2">
-                <div className="w-[730px]">
-                  <p className="text-[46px] text-center leading-[50px] font-[600]">
-                    For new founders and seasoned entrepreneurs
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 flex justify-center gap-2">
-              <div className="col-md-4">
-                <div className="flex justify-center py-4">
-                  <Image
-                    src="/assets/images/Rectangle 4644.png"
-                    width={450}
-                    height={112}
-                    alt="no-img"
-                  />
-                </div>
-                <div className="col-md-12">
-                  <p className="text-center text-[26px] font-[500] leading-[25px]">
-                    Solo founders
-                  </p>
-                  <p className="text-center text-[15px] font-[500] text-[#9D9D9D] leading-[20px]">
-                    Ambitious startups require adaptable, proactive accounting
-                    services. We prepare financial statements and manage
-                    bookkeeping to provide your business with the support
-                    necessary for growth.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="flex justify-center py-4">
-                  <Image
-                    src="/assets/images/Rectangle 4645.png"
-                    width={450}
-                    height={112}
-                    alt="no-img"
-                  />
-                </div>
-                <div className="col-md-12">
-                  <p className="text-center text-[26px] font-[500] leading-[25px]">
-                    Small Business
-                  </p>
-                  <p className="text-center text-[15px] font-[500] text-[#9D9D9D] leading-[20px]">
-                    Start small and grow with confidence. We give you the
-                    finances, and pay the right experts and tools to track your
-                    cash flow, manage your ax.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="flex justify-center py-4">
-                  <Image
-                    src="/assets/images/Rectangle 4646.svg"
-                    width={450}
-                    height={112}
-                    alt="no-img"
-                  />
-                </div>
-                <div className="col-md-12">
-                  <p className="text-center text-[26px] font-[500] leading-[25px]">
-                    Ecommerce
-                  </p>
-                  <p className="text-center text-[15px] font-[500] text-[#9D9D9D] leading-[20px]">
-                    Forget generic accounting solutions. Our accountants know
-                    ecommerce and our software supports Amazon, Shopify, and
-                    eBay integrations.
-                  </p>
                 </div>
               </div>
             </div>
@@ -518,7 +434,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+
       <section className="bg-[#000] overflow-hidden sm:px-20 px-6 sm:py-5 py-5">
         <div className="container-fluid p-0">
           <BusinessStarterText />

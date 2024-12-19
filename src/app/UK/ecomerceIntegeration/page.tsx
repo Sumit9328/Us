@@ -23,10 +23,7 @@ export default function Home() {
                                     height='20'
 
                                 />
-
-
                             </div>
-
                             <div className="ml-3 font-[500] font-[500] no-underline sm:text-[13px] text-[#000]">
                                 Trusted by 200k+ Companies
                             </div>
@@ -40,9 +37,9 @@ export default function Home() {
                             <div className="row justify-center ">
                                 <div className="col-md-8">
                                     <div className="text-center">
-                                        <p className="font-[cd-se]  no-underline sm:text-[42px] text-[28px] text-[#000] text-center sm:leading-[46px] leading-[30px]">Online invoicing?It's a breeze</p>
+                                        <p className="font-[cd-se]  no-underline sm:text-[42px] text-[28px] text-[#000] text-center sm:leading-[46px] leading-[30px]">Ecommerce insights at your fingertips</p>
                                         
-                                        <p className="no-underline sm:text-[20px] text-[28px] text-[#000] text-center sm:leading-[26px] font-[400] leading-[30px]">Understand how much money is coming into your business cash flow, create and send invoices, and get paid faster.</p>
+                                        <p className="no-underline sm:text-[20px] text-[28px] text-[#000] text-center sm:leading-[26px] font-[400] leading-[30px]">Connect your marketplaces and bank accounts to see real-time sales, returns, and fees. Make smarter business decisions with performance and profitability data driven by online retail insights.</p>
 
                                     </div>
                                 </div>
@@ -78,73 +75,49 @@ export default function Home() {
             <section className="bg-[#fff] overflow-hidden sm:px-20 px-6 sm:py-10 py-10">
                 <div className="container-fluid p-0">
                     <div className="row justify-center">
-                        <div className="col-md-8 sm:pb-4">
-                            <div className="text-center ">
-                                <p className="text-[#353535] font-[400] text-[16px]">INVOICING FEATURES</p>
-                                <p className="font-[cd-se]  sm:text-[35px] text-[30px]  text-[#000] text-center sm:leading-[38px] leading-[35px]">Get full control of your business finances</p>
+                        <div className="grid grid-cols-3 gap-3">
+
+                <div>
+                    <div className="col-12">
+                        <div className="col-12">
+                            <div>
+                            <Image
+                                    src="/assets/images/Group 17583.png"
+                                    alt="Person 1"
+                                    width='50'
+                                    height='20'
+
+                                />
                             </div>
                         </div>
-                    </div>
+                        <div className="leading-[15px]">
+                            <p className="text-[18px] font-[400] leading-[20px] mb-1">Shopify</p>
+                            <p className="text-[18px] font-[400] leading-[30px]">Integrated platform</p>
+                            <p className="text-[18px] font-[400]">
+                            Fully automated accounting
+                            </p>
+                            <p className="text-[18px] font-[400]">Bulk transaction reconciliation
+                            </p>
+                            <p className="text-[18px] font-[400]">Shopify accounting expert
+                            </p>
+                            <p className="text-[18px] font-[400]">Shopify accounting expert
+                            </p>
 
-                    <div className="flex justify-center">
-                        <div className="col-md-10 pt-4">
-                            <div className="row align-items-center justify-between">
-                                <div className="col-md-5 mb-4">
-                                    <Image
-                                        src="/assets/images/group-people-working-out-business-plan-office 2.png"
-                                        className="w-full"
-                                        width={1080}
-                                        height={1080}
-                                        alt="no-img"
-                                    />
 
-                                </div>
-                                <div className="col-md-5 mb-4">
-                                    <div className="" >
+                            
 
-                                        <p className="text-[22px] text-[#000] font-[500] leading-[25px]">
-                                            <span className="text-center sm:text-left">Get paid faster with PayPal</span>
-                                        </p>
-                                        <p className="text-[16px] text-[#000] font-[400] leading-[25px]">Create invoices and give your customers secure way to pay. Activate PayPal and accept credit and debit card payments — your customers don’t even need a PayPal account.</p>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div className="row align-items-center justify-between">
-                                <div className="col-md-5 order-md-2 order-1 mb-4">
-                                    <Image src="/assets/images/brunette-businesswoman-posing 2.png" className="w-full" width={1080} height={1080} alt="no-img"
-                                    />
-                                </div>
-                                <div className="col-md-5 mb-4 order-md-1 order-2">
-                                    <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Keep on top of your finances</p>
-                                    <p className="text-[16px] text-[#000] font-[400] leading-[25px]">Your dashboard gives you a quick and confident overview of all your invoices, what's due, what's overdue and what's been paid.</p>
-                                </div>
-                            </div>
-                            <div className="row align-items-center justify-between">
-                                <div className="col-md-5 mb-4 ">
-                                    <Image src="/assets/images/group-people-working-out-business-plan-office 3.png" className="w-full" width={1080} height={1080} alt="no-img"
-                                    />
-                                </div>
-                                <div className="col-md-5 mb-4 order-md-1 order-2">
-                                    <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Get invoicing done quicker</p>
-                                    <p className="text-[16px] text-[#000] font-[400] leading-[25px]">Set up your invoice template, save customer details and send invoices to customers quickly and easily.</p>
-                                </div>
-
-                            </div>
-
-                            <div className="row align-items-center justify-between">
-                                <div className="col-md-5 order-md-2 order-1 mb-4">
-                                    <Image src="/assets/images/brunette-businesswoman-posing 2.png" className="w-full" width={1080} height={1080} alt="no-img"
-                                    />
-                                </div>
-                                <div className="col-md-5 mb-4 order-md-1 order-2">
-                                    <p className="text-[22px] text-[#000] font-[500]  leading-[25px] ">Automatic tax reporting</p>
-                                    <p className="text-[16px] text-[#000] font-[400] leading-[25px]">Our app pulls your transactions, automatically applies tax codes, prepares tax records and makes sure you're fully tax compliant – giving you the time to focus on the important stuff.</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
+                </div>
+                <div>asds</div>
+                <div>asds</div>
+                <div>asds</div>
+                <div>asds</div>
+                <div>asds</div>
+                        </div>
+
+                    </div>
+
                 </div>
             </section>
 
@@ -412,17 +385,8 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-
             </section>
-
-
             <Footer />
-
-
-
-
-
-
         </>
     );
 }

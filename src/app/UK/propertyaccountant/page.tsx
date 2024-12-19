@@ -23,12 +23,10 @@ export default function Home() {
               <div className="col-md-6 flex justify-start items-center">
                 <div className="col-md-10">
                   <p className="sm:text-[53px] text-[25px] sm:leading-[60px] leading-[35px] font-[600]">
-                    Ecommerce accountants for effortless growth
+                  Expert property accountants for your UK portfolio
                   </p>
                   <p className="sm:text-[18px] sm:leading-[25px] leading-[22px] font-[400] pe-4">
-                    Move on from traditional accounting. From returns to
-                    discounts, gift cards and global VAT needs, we know
-                    ecommerce.
+                  Maximise your profits and pay the right tax by relying on our team of expert tax advisors. Become more efficient and stay compliant, whether you’re a buy-to-let landlord or manage a property for additional income.
                   </p>
                   <div className="col-12 flex gap-3 mb-4">
                     <div>
@@ -60,7 +58,13 @@ export default function Home() {
       </section>
 
       <section className="overflow-hidden sm:px-20 px-6 sm:py-10 py-10 pt-14 bg-[#f3efe7]">
-        <div className="container-fluid  pt-14">
+        <div className="container-fluid  pt-2">
+            <div className="col-12 flex justify-center mb-14">
+                <div className="col-md-6">
+                    <p className="text-[18px] font-[400] text-center">WHY CLOUD BSS</p>
+                    <p className="text-[48px] font-[600] text-center leading-[45px]">Tailored financial advice for the property sector</p>
+                </div>
+            </div>
           <div className="d-flex justify-center">
             <div className="col-md-11">
               <div className="col-12 flex gap-4 align-items-center justify-between">
@@ -74,21 +78,14 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <div className="col-md-6 mb-4">
-                  <p className="font-[cd-r] font-[500] text-[#7C7C7C] sm:text-[16px] text-[16px] mb-0 ">
-                    Get your company registered fast and online, and
-                    fast-tracked to a business account. All government fees and
-                    must-have services are included, for foreigners and India
-                    locals.
+                <div className="col-md-6 order-md-1 order-2 mb-4">
+                  <p className="font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3 leading-[45px]">
+                  Specialist property accountants
                   </p>
-                  <div className="d-flex pt-4 justify-content-sm-start justify-content-between gap-2 ">
-                    <button className="bg-[#fff] text-[#000] py-2 font-[500] text-[14px] text-[#212833] border border-dark rounded-full sm:w-[160px] w-[150px] hover:bg-[#212833] hover:text-[#fff]">
-                      LET’S START IT
-                    </button>
-                    <button className="bg-[#fff] text-[#000] px-2 py-2 font-[500] sm:text-[14px] text-[13px] border border-dark rounded-[30px] sm:w-[230px] w-[220px] hover:bg-[#212833] hover:text-[#fff]">
-                      LET’S SEE HOW IT WORKS
-                    </button>
-                  </div>
+                  <p className="font-[400] text-[#7C7C7C] text-[16px] mb-0">
+                  Understanding property taxes can be intricate, and the strategy you take should be personalised to your portfolio and objectives. Our UK team of property accountants help buy-to-let landlords and HMOs with this, and are always available via phone call or live chat.
+                  </p>
+                  
                 </div>
               </div>
             </div>
@@ -96,7 +93,7 @@ export default function Home() {
           <div className="d-flex justify-center">
             <div className="col-md-11">
               <div className="col-12 flex align-items-center justify-content-between">
-                <div className="col-md-6 flex justify-end order-md-2 order-1 mb-4">
+                <div className="col-md-6 flex justify-end order-md-2 order-1 mb-4 leading-[45px]">
                   <Image
                     src="/assets/images/Group 17835.png"
                     alt=".."
@@ -106,22 +103,13 @@ export default function Home() {
                 </div>
 
                 <div className="col-md-6 order-md-1 order-2 mb-4">
-                  <p className="font-[cd-se] font-[500] text-[#212833] sm:text-[22px] text-[22px] mb-3">
-                    Corporate Secretary
+                  <p className="font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3 leading-[45px]">
+                  Guidance on limited company structures
                   </p>
-                  <p className="font-[cd-r] font-[500] text-[#7C7C7C] text-[16px] mb-0">
-                    Your compliance in check. We track deadlines, file
-                    documents, and answer questions daily. All standard
-                    resolutions and routine filings are included in the plan.
+                  <p className="font-[400] text-[#7C7C7C] text-[16px] mb-0">
+                  Pondering a limited company structure to align with your property investment ambitions? We’ll clear your doubts with our specialised tax advice for limited companies. An expert accountant will tailor advice to your specific situation, providing the surety you need to invest with confidence.
                   </p>
-                  <div className="d-flex pt-4 gap-2">
-                    <button className="bg-[#fff] text-[#000] px-2 py-2 font-[500] text-[14px] font-[500] text-[#212833] border border-dark rounded-[30px] sm:w-[170px] w-full hover:bg-[#212833] hover:text-[#fff]">
-                      READY TO START
-                    </button>
-                    <button className="bg-[#fff] text-[#000] px-2 py-2 font-[500] text-[14px] font-[500] border border-dark rounded-[30px] sm:w-[160px] w-full hover:bg-[#212833] hover:text-[#fff]">
-                      TELL ME MORE
-                    </button>
-                  </div>
+                 
                 </div>
               </div>
             </div>
@@ -140,24 +128,64 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="col-md-6 mb-4">
+                <p className="font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3 leading-[45px] leading-[45px]">
+                Ongoing compliance
+                  </p>
+                  
                   <p className="font-[cd-r] font-[500] text-[#7C7C7C] sm:text-[16px] text-[16px] mb-0 ">
                     Get your company registered fast and online, and
                     fast-tracked to a business account. All government fees and
                     must-have services are included, for foreigners and India
                     locals.
                   </p>
-                  <div className="d-flex pt-4 justify-content-sm-start justify-content-between gap-2 ">
-                    <button className="bg-[#fff] text-[#000] py-2 font-[500] text-[14px] text-[#212833] border border-dark rounded-full sm:w-[160px] w-[150px] hover:bg-[#212833] hover:text-[#fff]">
-                      LET’S START IT
-                    </button>
-                    <button className="bg-[#fff] text-[#000] px-2 py-2 font-[500] sm:text-[14px] text-[13px] border border-dark rounded-[30px] sm:w-[230px] w-[220px] hover:bg-[#212833] hover:text-[#fff]">
-                      LET’S SEE HOW IT WORKS
-                    </button>
-                  </div>
+                  
                 </div>
               </div>
             </div>
           </div>
+          <div className="d-flex justify-center">
+            <div className="col-md-11">
+              <div className="col-12 flex align-items-center justify-content-between">
+                <div className="col-md-6 flex justify-end order-md-2 order-1 mb-4">
+                  <Image
+                    src="/assets/images/Group 17835.png"
+                    alt=".."
+                    width={502}
+                    height={382}
+                  />
+                </div>
+
+                <div className="col-md-6 order-md-1 order-2 mb-4">
+                  <p className="font-[600] text-[#212833] sm:text-[42px] text-[22px] mb-3 leading-[45px]">
+                  Simple accounting software
+                  </p>
+                  <p className="font-[400] text-[#7C7C7C] text-[16px] mb-0">
+                  Pondering a limited company structure to align with your property investment ambitions? We’ll clear your doubts with our specialised tax advice for limited companies. An expert accountant will tailor advice to your specific situation, providing the surety you need to invest with confidence.
+                  </p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+                    <div className="row justify-center">
+                      <div className="col-md-10 mt-4 flex justify-center sm:pb-4">
+                        <div className="text-center flex items-center">
+                          <p className="sm:text-[44px] font-[500] text-[30px]  text-[#000] text-center sm:leading-[38px] leading-[35px]">
+                            Bookkeeping?
+                          </p>
+                          <Image
+                            src="/assets/images/image 43.svg"
+                            className=""
+                            width={80}
+                            height={40}
+                            alt="no-img"
+                          />
+                          <p className="sm:text-[px] font-[500] text-[30px]  text-[#000] text-center sm:leading-[38px] leading-[35px]">
+                            It’s included.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
         </div>
       </section>
 
@@ -298,12 +326,12 @@ export default function Home() {
           <div className="container-fluid">
             <div className="col-12 pb-4">
               <div className="col-12 flex justify-center pt-12">
-                <button className="font-[400] text-[17px] pb-2">PRICING</button>
+                <button className="font-[400] text-[17px] pb-2">WHO WE HELP</button>
               </div>
-              <div className="flex justify-center pb-2">
+              <div className="flex justify-center pb-0">
                 <div className="w-[730px]">
                   <p className="text-[46px] text-center leading-[50px] font-[600]">
-                    For new founders and seasoned entrepreneurs
+                  For property side hustlers
                   </p>
                 </div>
               </div>
@@ -320,13 +348,10 @@ export default function Home() {
                 </div>
                 <div className="col-md-12">
                   <p className="text-center text-[26px] font-[500] leading-[25px]">
-                    Solo founders
+                  Property flippers and developers
                   </p>
                   <p className="text-center text-[15px] font-[500] text-[#9D9D9D] leading-[20px]">
-                    Ambitious startups require adaptable, proactive accounting
-                    services. We prepare financial statements and manage
-                    bookkeeping to provide your business with the support
-                    necessary for growth.
+                  Join the world of property moguls quicker by streamlining your bookkeeping. You handle your projects, we'll do the financial admin.
                   </p>
                 </div>
               </div>
@@ -341,12 +366,10 @@ export default function Home() {
                 </div>
                 <div className="col-md-12">
                   <p className="text-center text-[26px] font-[500] leading-[25px]">
-                    Small Business
+                  Buy-to-let landlords
                   </p>
                   <p className="text-center text-[15px] font-[500] text-[#9D9D9D] leading-[20px]">
-                    Start small and grow with confidence. We give you the
-                    finances, and pay the right experts and tools to track your
-                    cash flow, manage your ax.
+                  Pay the right tax without missing out on tax-saving opportunities. Our experts help you maximise your rental income alongside our smart software.
                   </p>
                 </div>
               </div>
@@ -361,12 +384,10 @@ export default function Home() {
                 </div>
                 <div className="col-md-12">
                   <p className="text-center text-[26px] font-[500] leading-[25px]">
-                    Ecommerce
+                  Serviced accommodation owners
                   </p>
                   <p className="text-center text-[15px] font-[500] text-[#9D9D9D] leading-[20px]">
-                    Forget generic accounting solutions. Our accountants know
-                    ecommerce and our software supports Amazon, Shopify, and
-                    eBay integrations.
+                  Whether you own to-let accommodation or an aparthotel, you can easily manage your income streams and ensure your property’s profits are taxed appropriately.
                   </p>
                 </div>
               </div>
